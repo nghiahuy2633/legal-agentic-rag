@@ -1,0 +1,34 @@
+- key: cam
+  label: Hành vi bị cấm
+  parents:
+    - 134-2025-QH15_dieu-7_khoan-1
+    - 134-2025-QH15_dieu-7_khoan-2
+    - 134-2025-QH15_dieu-7_khoan-3
+    - 134-2025-QH15_dieu-7_khoan-4
+    - 134-2025-QH15_dieu-7_khoan-5
+    - 134-2025-QH15_dieu-7_khoan-6
+- key: phan_loai
+  label: Phân loại và thông báo
+  parents:
+    - 134-2025-QH15_dieu-9_khoan-1
+    - 134-2025-QH15_dieu-10_khoan-1
+    - 134-2025-QH15_dieu-10_khoan-2
+    - 134-2025-QH15_dieu-10_khoan-3
+- key: theo_muc
+  label: Nghĩa vụ theo mức rủi ro
+  parents:
+    - 134-2025-QH15_dieu-13_khoan-1
+    - 134-2025-QH15_dieu-14_khoan-1
+    - 134-2025-QH15_dieu-14_khoan-2
+    - 134-2025-QH15_dieu-15_khoan-1
+    - 134-2025-QH15_dieu-15_khoan-2
+- key: chung
+  label: Nghĩa vụ chung
+  parents:
+    - 134-2025-QH15_dieu-11_khoan-1
+    - 134-2025-QH15_dieu-11_khoan-2
+    - 134-2025-QH15_dieu-11_khoan-3
+    - 134-2025-QH15_dieu-11_khoan-4
+    - 134-2025-QH15_dieu-11_khoan-5
+    - 134-2025-QH15_dieu-12_khoan-1
+    - 134-2025-QH15_dieu-12_khoan-2

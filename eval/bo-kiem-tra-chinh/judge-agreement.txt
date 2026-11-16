@@ -1,0 +1,4 @@
+n = 48 câu trả lời, 216 ý
+đúng nghĩa: khớp 0.750, kappa 0.423; tỷ lệ đạt A 0.271, B 0.354
+từng ý: khớp 0.931, kappa 0.854
+phủ ý trung bình: A 0.374, B 0.396; tương quan Pearson 0.907

@@ -1,0 +1,13 @@
+{"id": "v01", "kind": "sai_ma", "answer": "Hệ thống rủi ro cao phải tự đánh giá sự phù hợp [E1].", "parents": ["142-2026-ND-CP_dieu-8_khoan-2"], "expect": "bat"}
+{"id": "v02", "kind": "sai_chu_the", "answer": "Bên triển khai phải tự đánh giá sự phù hợp [E1].", "parents": ["134-2025-QH15_dieu-13_khoan-2"], "expect": "bat"}
+{"id": "v03", "kind": "sai_muc_do", "answer": "Công ty bán hàng bắt buộc phải lồng ghép cân nhắc đạo đức trong vòng đời hệ thống [E1].", "parents": ["05-2026-TT-BKHCN_phu-luc-1_muc-2"], "expect": "bat"}
+{"id": "v04", "kind": "sai_muc_do", "answer": "Bên triển khai có nghĩa vụ kế thừa kết quả phân loại của nhà cung cấp [E1].", "parents": ["134-2025-QH15_dieu-10_khoan-2"], "expect": "bat"}
+{"id": "v05", "kind": "khong_co_can_cu", "answer": "Pháp luật hiện hành không quy định mức phạt tiền cho hành vi không gắn nhãn [E1].", "parents": ["134-2025-QH15_dieu-29_khoan-1"], "expect": "bat"}
+{"id": "v06", "kind": "sai_muc_do", "answer": "Hệ thống phải thỏa mãn đồng thời hai điều kiện: gây thiệt hại đáng kể và không được loại trừ [E1].", "parents": ["33-2026-QD-TTg_dieu-2"], "expect": "bat"}
+{"id": "v07", "kind": "sai_chu_the", "answer": "Chỉ nhà cung cấp mới có trách nhiệm bảo đảm an toàn, an ninh, độ tin cậy của hệ thống [E1].", "parents": ["134-2025-QH15_dieu-12_khoan-1"], "expect": "bat"}
+{"id": "w01", "kind": "dung", "answer": "Nhà cung cấp tự đánh giá sự phù hợp hoặc thuê tổ chức đánh giá [E1.b].", "parents": ["134-2025-QH15_dieu-13_khoan-2"], "expect": "dat"}
+{"id": "w02", "kind": "dung", "answer": "Bên triển khai được kế thừa kết quả phân loại của nhà cung cấp [E1].", "parents": ["134-2025-QH15_dieu-10_khoan-2"], "expect": "dat"}
+{"id": "w03", "kind": "dung", "answer": "Bằng chứng được cung cấp nêu tổ chức, cá nhân vi phạm có thể bị xử phạt vi phạm hành chính hoặc truy cứu trách nhiệm hình sự, nhưng không nêu mức phạt cụ thể [E1].", "parents": ["134-2025-QH15_dieu-29_khoan-1"], "expect": "dat"}
+{"id": "w04", "kind": "dung", "answer": "Nhà phát triển, nhà cung cấp, bên triển khai và người sử dụng có trách nhiệm bảo đảm an toàn, an ninh, độ tin cậy [E1].", "parents": ["134-2025-QH15_dieu-12_khoan-1"], "expect": "dat"}
+{"id": "w05", "kind": "dung", "answer": "Giả định bạn là nhà cung cấp, bạn có trách nhiệm bảo đảm an toàn, an ninh, độ tin cậy của hệ thống [E1].", "parents": ["134-2025-QH15_dieu-12_khoan-1"], "expect": "dat"}
+{"id": "w06", "kind": "dung", "answer": "Hoàn thành trước ngày 01 tháng 9 năm 2027 đối với hệ thống đã đưa vào hoạt động trước ngày Quyết định có hiệu lực [E1].", "parents": ["33-2026-QD-TTg_dieu-4_khoan-1"], "expect": "dat"}

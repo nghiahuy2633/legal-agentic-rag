@@ -1,0 +1,10 @@
+{"id":"h01","description":"Hệ thống AI tích hợp vào rô bốt phẫu thuật, trực tiếp thực thi tác động điều trị theo y lệnh lên cơ thể người bệnh, không cần lệnh xác nhận từ nhân viên y tế cho mỗi bước thay đổi thông số","expect_status":["khop"],"expect_items":["III_stt-2"],"status":"ai_draft"}
+{"id":"h02","description":"Robot phẫu thuật dùng AI","expect_status":["co_the_khop"],"expect_items":["III_stt-1","III_stt-2"],"status":"ai_draft"}
+{"id":"h03","description":"App AI tự động chấm bài tự luận cho học sinh trường phổ thông công lập, điểm do hệ thống tạo ra được dùng làm căn cứ chính thức đánh giá kết quả học tập","expect_status":["khop"],"expect_items":["I_stt-2"],"status":"ai_draft"}
+{"id":"h04","description":"App luyện viết cho học sinh tự học ở nhà, AI gợi ý điểm tham khảo, điểm này không dùng để đánh giá chính thức","expect_status":["co_the_khop","khong_thay"],"expect_items":[],"status":"ai_draft"}
+{"id":"h05","description":"Chatbot trả lời khách trên website bán hàng","expect_status":["khong_thay"],"expect_items":[],"status":"ai_draft"}
+{"id":"h06","description":"App tạo ảnh avatar phong cách anime từ ảnh selfie","expect_status":["khong_thay"],"expect_items":[],"status":"ai_draft"}
+{"id":"h07","description":"Mô hình AI tự động quyết định cấp tín dụng tiêu dùng, không qua cán bộ duyệt","expect_status":["khop","co_the_khop"],"expect_items":["IV_stt-2"],"status":"ai_draft"}
+{"id":"h08","description":"Hệ thống AI điều khiển xe tự lái cấp độ cao chạy trên đường bộ","expect_status":["khop","co_the_khop"],"expect_items":["VI_stt-1"],"status":"ai_draft"}
+{"id":"h09","description":"Công cụ AI tự động loại ứng viên tuyển dụng theo điểm số, không có người xem lại","expect_status":["khong_thay"],"expect_items":[],"status":"ai_draft"}
+{"id":"h10","description":"Phần mềm AI hỗ trợ viết email nội bộ cho nhân viên văn phòng","expect_status":["khong_thay"],"expect_items":[],"status":"ai_draft"}

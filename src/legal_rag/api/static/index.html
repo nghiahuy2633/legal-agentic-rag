@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Tra cứu pháp lý AI</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/static/style.css?v=model-20261114">
+  <script src="/static/app.js?v=model-20261114" defer></script>
+  <script src="/static/connection.js?v=model-20261114" defer></script>
+  <script src="/static/assessment.js?v=model-20261114" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#message">Đến ô nhập câu hỏi</a>
+  <header class="app-header">
+    <a class="brand" href="/" aria-label="Tra cứu pháp lý AI, trang chính"><span class="brand-mark" aria-hidden="true">§</span><span>Pháp lý AI<small>Tra cứu có căn cứ</small></span></a>
+    <div class="header-actions"><button id="new-session" class="quiet" type="button"><span aria-hidden="true">＋</span> Phiên mới</button><button id="open-connection" class="connection-button" type="button"><span class="connection-dot" aria-hidden="true"></span><span id="connection-label">Kết nối AI</span><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m14 7 3-3a3 3 0 0 1 4 4l-5 5a3 3 0 0 1-4 0M10 17l-3 3a3 3 0 0 1-4-4l5-5a3 3 0 0 1 4 0M8 16l8-8"/></svg></button></div>
+  </header>
+  <main id="workspace" class="workspace">
+    <section id="chat-panel" class="chat-panel" aria-label="Hội thoại tra cứu">
+      <div id="chat-toolbar" class="chat-toolbar"><details class="profile-details"><summary>Hồ sơ đang hiểu</summary><dl id="profile"></dl></details><button id="open-assessment" class="quiet" type="button" aria-expanded="false" aria-controls="assessment-panel">Rà soát sản phẩm</button></div>
+      <div class="conversation" id="conversation">
+        <section id="welcome" class="welcome">
+          <p class="welcome-note">Pháp luật Việt Nam dành cho sản phẩm AI</p>
+          <h1>Bạn đang xây dựng<br>sản phẩm gì?</h1>
+          <p>Cùng làm rõ nghĩa vụ pháp lý, từ câu hỏi đầu tiên đến những việc cần làm.</p>
+          <div class="suggestions" aria-label="Gợi ý bắt đầu"><button type="button" data-prompt="Tôi đang xây dựng chatbot hỗ trợ khách hàng. Tôi cần cung cấp thông tin gì để xác định nghĩa vụ pháp lý?">Tôi đang xây dựng chatbot <span aria-hidden="true">↗</span></button><button type="button" data-prompt="Tôi muốn tìm hiểu cách xác định mức rủi ro của sản phẩm AI.">Tìm hiểu mức rủi ro AI <span aria-hidden="true">↗</span></button></div>
+        </section>
+        <div id="chat" role="log" aria-live="polite" aria-label="Tin nhắn"></div>
+      </div>
+      <div class="composer-area">
+        <p id="assessment-hint" class="assessment-hint" hidden>Đã có mô tả sản phẩm. Bạn có thể bắt đầu rà soát khi sẵn sàng.</p>
+        <form id="chat-form" class="composer">
+          <div id="chat-context" class="chat-context" hidden><span id="chat-context-label"></span><button id="clear-context" type="button" class="quiet" aria-label="Bỏ ngữ cảnh nghĩa vụ">Bỏ ngữ cảnh</button></div>
+          <label class="sr-only" for="message">Tin nhắn của bạn</label>
+          <textarea id="message" rows="2" maxlength="20000" required placeholder="Mô tả sản phẩm hoặc đặt câu hỏi…"></textarea>
+          <div class="actions"><p id="waiting" role="status"></p><button id="send" type="submit">Gửi câu hỏi <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6"/></svg></button></div>
+        </form>
+        <p class="composer-note">Thông tin hỗ trợ rà soát, không thay thế ý kiến pháp lý.</p>
+      </div>
+    </section>
+    <section id="assessment-panel" class="assessment-panel" aria-labelledby="assessment-title" hidden>
+      <div class="assessment-topline"><button id="close-assessment" type="button" class="text-button">‹ Quay lại hội thoại</button><span class="session-caption">Cùng hồ sơ, cùng hội thoại</span></div>
+      <div class="assessment-heading"><div><p class="welcome-note">Rà soát sản phẩm</p><h1 id="assessment-title">Đi từ thông tin đến hành động.</h1></div><button id="view-report" class="quiet" type="button" hidden>Xem kết quả tạm thời</button></div>
+      <nav class="stepper" aria-label="Các bước rà soát"><button type="button" data-step="facts" aria-current="step"><span class="step-number">1</span><span>Xác nhận sản phẩm</span></button><span class="step-line" aria-hidden="true"></span><button type="button" data-step="groups"><span class="step-number">2</span><span>Hiện trạng</span></button><span class="step-line" aria-hidden="true"></span><button type="button" data-step="report"><span class="step-number">3</span><span>Kết quả & việc cần làm</span></button></nav>
+      <p id="assessment-status" role="status" aria-live="polite"></p><p id="assessment-error" role="alert"></p><button id="retry-assessment" class="quiet" type="button" hidden>Thử lại thao tác</button>
+      <div id="stale-notice" class="stale-notice" hidden><div><strong>Sản phẩm đã có thông tin mới</strong><p>Kết quả hiện tại dùng dữ kiện trước đó. Hãy kiểm tra lại trước khi tiếp tục.</p></div><button id="refresh-assessment" class="quiet" type="button">Kiểm tra lại dữ kiện</button></div>
+      <section id="facts-stage" class="assessment-stage" aria-labelledby="facts-title"><div class="stage-heading"><h2 id="facts-title">Đây có đúng là sản phẩm của bạn?</h2><p>Thông tin được tổng hợp từ hội thoại. Bạn có thể sửa những điểm chưa đúng.</p></div><dl id="product-summary" class="product-summary"></dl><p id="facts-ready" class="readiness"></p><div id="fact-questions"></div><details id="facts-editor" class="facts-editor"><summary>Chỉnh sửa thông tin sản phẩm</summary><div id="facts-table"></div></details><div class="stage-actions"><p>Chưa biết một thông tin? Bạn có thể bổ sung sau.</p><button id="continue-groups" type="button">Xác nhận và tiếp tục</button></div></section>
+      <section id="groups-stage" class="assessment-stage" hidden aria-labelledby="group-title"><div class="section-heading"><div><p class="welcome-note" id="group-progress"></p><h2 id="group-title">Sản phẩm đang được thực hiện thế nào?</h2></div><span id="group-name" class="group-name"></span></div><progress id="group-meter" value="0" max="1" aria-label="Tiến độ trả lời"></progress><div id="group-question"></div><form id="group-form" hidden><label for="group-answer">Những việc đã làm và chưa làm</label><textarea id="group-answer" rows="5" maxlength="20000" placeholder="Ví dụ: Chúng tôi đã thông báo người dùng đang tương tác với AI, nhưng chưa có quy trình xử lý sự cố…"></textarea><p class="field-help">Mô tả thực tế hiện tại. Bạn không cần biết thuật ngữ pháp lý.</p><div class="group-actions"><button id="group-unknown" class="quiet" type="button">Chưa có thông tin</button><button id="group-submit" type="submit">Lưu và tiếp tục</button></div></form><div id="groups-complete" hidden><p>Bạn đã đi qua các nhóm câu hỏi. Những mục chưa có thông tin vẫn được giữ để xác minh.</p><button id="finish-assessment" type="button">Xem kết quả & việc cần làm</button></div><details id="answered-groups" class="answered-groups" hidden><summary>Quay lại một nhóm câu hỏi</summary><div id="group-list"></div></details></section>
+      <section id="report-stage" class="report-section" hidden aria-label="Bản đánh giá"><div class="report-heading"><div><h2>Những việc cần làm tiếp</h2><p>Kết quả dựa trên thông tin bạn cung cấp.</p></div><div class="downloads"><a id="assessment-download" class="download-link" hidden>Tải báo cáo</a><button id="verification-download" class="quiet" type="button" hidden>Tải mục cần xác minh</button></div></div><label id="worst-case-control" class="toggle" hidden><input id="worst-case" type="checkbox"> Xem theo kịch bản xấu nhất</label><div id="assessment-report"><p class="empty-state">Trả lời hiện trạng để xem những nghĩa vụ cần rà soát.</p></div></section>
+      <p class="session-note">Phiên được giữ tạm. Tải báo cáo để giữ lại kết quả.</p>
+    </section>
+  </main>
+  <dialog id="evidence-dialog" class="evidence-dialog" aria-labelledby="evidence-title"><div class="dialog-heading"><div><p class="welcome-note">Đối chiếu căn cứ</p><h2 id="evidence-title">Căn cứ pháp lý</h2></div><button id="close-evidence" class="icon-button quiet" type="button" aria-label="Đóng căn cứ">✕</button></div><div id="evidence-content" class="evidence-content"></div><div class="evidence-footer"><button id="copy-evidence" class="quiet" type="button">Sao chép đoạn trích</button><span id="copy-status" role="status"></span></div></dialog>
+  <dialog id="connection-dialog" class="connection-dialog" aria-labelledby="connection-title"><div class="dialog-heading"><div><p class="welcome-note">Thiết lập cho phiên này</p><h2 id="connection-title">Kết nối AI</h2></div><button id="close-connection" class="icon-button quiet" type="button" aria-label="Đóng thiết lập AI">✕</button></div><p class="connection-intro">Dùng kết nối có sẵn hoặc nhập khóa cá nhân cho nhà cung cấp bên dưới.</p><form id="connection-form"><fieldset class="connection-mode"><legend class="sr-only">Nguồn kết nối</legend><label><input id="mode-system" type="radio" name="connection-mode" value="system" checked> Kết nối hệ thống</label><label><input id="mode-personal" type="radio" name="connection-mode" value="personal"> Khóa cá nhân</label></fieldset><dl class="provider-details"><dt>Nhà cung cấp</dt><dd id="connection-provider">Đang kiểm tra…</dd><dt>Model</dt><dd><span id="connection-model">—</span><select id="model-select" aria-label="Chọn model cho phiên này" hidden></select></dd></dl><p id="model-help" class="field-help" hidden>Áp dụng ngay cho chat và đánh giá của phiên này.</p><div id="personal-fields" hidden><label for="api-key">API key</label><div class="key-input"><input id="api-key" type="password" autocomplete="off" spellcheck="false" autocapitalize="none" maxlength="512" placeholder="Nhập khóa của nhà cung cấp này"><button id="toggle-key" type="button" class="quiet" aria-pressed="false">Hiện</button></div><p class="field-help">Khóa được gửi tới máy chủ ứng dụng để gọi nhà cung cấp đã cấu hình, không ghi vào file hoặc báo cáo. Kết nối hết hạn sau 60 phút không sử dụng.</p><p class="field-help">Kiểm tra kết nối gửi một yêu cầu AI ngắn và có thể tính phí theo nhà cung cấp.</p></div><p id="connection-status" role="status" aria-live="polite"></p><p id="connection-error" role="alert"></p><div class="connection-actions"><button id="disconnect-ai" type="button" class="quiet" hidden>Ngắt kết nối cá nhân</button><button id="save-connection" type="submit">Dùng kết nối hệ thống</button></div></form></dialog>
+</body>
+</html>

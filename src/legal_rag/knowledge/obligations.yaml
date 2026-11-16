@@ -1,0 +1,2967 @@
+- id: ob-001
+  group: cam
+  role: moi_vai_tro
+  risk_level: moi_muc
+  condition: ''
+  obligation: Không được lợi dụng, chiếm đoạt hệ thống trí tuệ nhân tạo để thực hiện hành vi vi phạm pháp
+    luật, xâm phạm quyền, lợi ích hợp pháp của tổ chức, cá nhân.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-7_khoan-1
+    quote: Lợi dụng, chiếm đoạt hệ thống trí tuệ nhân tạo để thực hiện hành vi vi phạm pháp luật, xâm
+      phạm quyền, lợi ích hợp pháp của tổ chức, cá nhân.
+  review_status: ai_reviewed
+  kind: cam
+  criteria:
+  - id: c1
+    text: Có dấu hiệu lợi dụng, chiếm đoạt hệ thống để vi phạm pháp luật, xâm phạm quyền, lợi ích hợp
+      pháp của tổ chức, cá nhân.
+  review_note: 'Dòng cấm: hệ thống chỉ cảnh báo khi lời khai hoặc mô tả có dấu hiệu; không có dấu hiệu
+    thì ghi không phát hiện.'
+  review_by: ai
+- id: ob-002
+  group: cam
+  role: moi_vai_tro
+  risk_level: moi_muc
+  condition: ''
+  obligation: 'Không được phát triển, cung cấp, triển khai hoặc sử dụng các hệ thống trí tuệ nhân tạo
+    nhằm mục đích: Sử dụng yếu tố giả mạo hoặc mô phỏng người, sự kiện thật để lừa dối hoặc thao túng
+    nhận thức, hành vi của con người một cách có chủ đích và có hệ thống, gây tổn hại nghiêm trọng đến
+    quyền, lợi ích hợp pháp của con người;'
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-7_khoan-2_diem-b
+    quote: Sử dụng yếu tố giả mạo hoặc mô phỏng người, sự kiện thật để lừa dối hoặc thao túng nhận thức,
+      hành vi của con người một cách có chủ đích và có hệ thống, gây tổn hại nghiêm trọng đến quyền, lợi
+      ích
+  - chunk_id: 134-2025-QH15_dieu-7_khoan-2
+    quote: 'Phát triển, cung cấp, triển khai hoặc sử dụng các hệ thống trí tuệ nhân tạo nhằm mục đích
+      sau đây:'
+  review_status: ai_reviewed
+  kind: cam
+  criteria:
+  - id: c1
+    text: Có dấu hiệu dùng yếu tố giả mạo hoặc mô phỏng người, sự kiện thật để lừa dối, thao túng nhận
+      thức, hành vi con người một cách có chủ đích, có hệ thống, gây tổn hại nghiêm trọng.
+  review_note: 'Dòng cấm: hệ thống chỉ cảnh báo khi lời khai hoặc mô tả có dấu hiệu; không có dấu hiệu
+    thì ghi không phát hiện.'
+  review_by: ai
+- id: ob-003
+  group: cam
+  role: moi_vai_tro
+  risk_level: moi_muc
+  condition: ''
+  obligation: 'Không được phát triển, cung cấp, triển khai hoặc sử dụng các hệ thống trí tuệ nhân tạo
+    nhằm mục đích: Lợi dụng điểm yếu của nhóm người dễ bị tổn thương, bao gồm trẻ em, người cao tuổi,
+    người khuyết tật, người dân tộc thiểu số hoặc người mất năng lực hành vi dân sự, người bị hạn chế
+    năng lực hành vi dân sự, người có khó khăn trong nhận thức, làm chủ hành vi để gây tổn hại cho chính
+    họ hoặc người khác;'
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-7_khoan-2_diem-c
+    quote: Lợi dụng điểm yếu của nhóm người dễ bị tổn thương, bao gồm trẻ em, người cao tuổi, người khuyết
+      tật, người dân tộc thiểu số hoặc người mất năng lực hành vi dân sự, người bị hạn chế năng lực hành
+      vi
+  - chunk_id: 134-2025-QH15_dieu-7_khoan-2
+    quote: 'Phát triển, cung cấp, triển khai hoặc sử dụng các hệ thống trí tuệ nhân tạo nhằm mục đích
+      sau đây:'
+  review_status: ai_reviewed
+  kind: cam
+  criteria:
+  - id: c1
+    text: Có dấu hiệu lợi dụng điểm yếu của nhóm dễ bị tổn thương (trẻ em, người cao tuổi, người khuyết
+      tật, người dân tộc thiểu số, người hạn chế năng lực hành vi…) để gây tổn hại.
+  review_note: 'Dòng cấm: hệ thống chỉ cảnh báo khi lời khai hoặc mô tả có dấu hiệu; không có dấu hiệu
+    thì ghi không phát hiện.'
+  review_by: ai
+- id: ob-004
+  group: cam
+  role: moi_vai_tro
+  risk_level: moi_muc
+  condition: ''
+  obligation: 'Không được phát triển, cung cấp, triển khai hoặc sử dụng các hệ thống trí tuệ nhân tạo
+    nhằm mục đích: Tạo ra hoặc phổ biến nội dung giả mạo có khả năng gây nguy hại nghiêm trọng đến an
+    ninh quốc gia, trật tự, an toàn xã hội.'
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-7_khoan-2_diem-d
+    quote: Tạo ra hoặc phổ biến nội dung giả mạo có khả năng gây nguy hại nghiêm trọng đến an ninh quốc
+      gia, trật tự, an toàn xã hội.
+  - chunk_id: 134-2025-QH15_dieu-7_khoan-2
+    quote: 'Phát triển, cung cấp, triển khai hoặc sử dụng các hệ thống trí tuệ nhân tạo nhằm mục đích
+      sau đây:'
+  review_status: ai_reviewed
+  kind: cam
+  criteria:
+  - id: c1
+    text: Có dấu hiệu tạo ra hoặc phổ biến nội dung giả mạo có khả năng gây nguy hại nghiêm trọng đến
+      an ninh quốc gia, trật tự, an toàn xã hội.
+  review_note: 'Dòng cấm: hệ thống chỉ cảnh báo khi lời khai hoặc mô tả có dấu hiệu; không có dấu hiệu
+    thì ghi không phát hiện.'
+  review_by: ai
+- id: ob-005
+  group: cam
+  role: moi_vai_tro
+  risk_level: moi_muc
+  condition: ''
+  obligation: Không được thu thập, xử lý hoặc sử dụng dữ liệu để phát triển, huấn luyện, kiểm thử hoặc
+    vận hành hệ thống trí tuệ nhân tạo trái với quy định của pháp luật về dữ liệu, bảo vệ dữ liệu cá nhân,
+    sở hữu trí tuệ và an ninh mạng.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-7_khoan-3
+    quote: Thu thập, xử lý hoặc sử dụng dữ liệu để phát triển, huấn luyện, kiểm thử hoặc vận hành hệ thống
+      trí tuệ nhân tạo trái với quy định của pháp luật về dữ liệu, bảo vệ dữ liệu cá nhân, sở hữu trí
+      tuệ và
+  review_status: ai_reviewed
+  kind: cam
+  criteria:
+  - id: c1
+    text: Có dấu hiệu thu thập, xử lý, sử dụng dữ liệu để phát triển, huấn luyện, kiểm thử hoặc vận hành
+      hệ thống trái pháp luật về dữ liệu, dữ liệu cá nhân, sở hữu trí tuệ, an ninh mạng.
+  review_note: 'Dòng cấm: hệ thống chỉ cảnh báo khi lời khai hoặc mô tả có dấu hiệu; không có dấu hiệu
+    thì ghi không phát hiện.'
+  review_by: ai
+- id: ob-006
+  group: cam
+  role: moi_vai_tro
+  risk_level: moi_muc
+  condition: ''
+  obligation: Không được cản trở, vô hiệu hóa hoặc làm sai lệch cơ chế giám sát, can thiệp và kiểm soát
+    của con người đối với hệ thống trí tuệ nhân tạo theo quy định của Luật Trí tuệ nhân tạo số 134/2025/QH15.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-7_khoan-4
+    quote: Cản trở, vô hiệu hóa hoặc làm sai lệch cơ chế giám sát, can thiệp và kiểm soát của con người
+      đối với hệ thống trí tuệ nhân tạo theo quy định của Luật này.
+  review_status: ai_reviewed
+  kind: cam
+  criteria:
+  - id: c1
+    text: Có dấu hiệu cản trở, vô hiệu hóa hoặc làm sai lệch cơ chế giám sát, can thiệp, kiểm soát của
+      con người đối với hệ thống.
+  review_note: 'Dòng cấm: hệ thống chỉ cảnh báo khi lời khai hoặc mô tả có dấu hiệu; không có dấu hiệu
+    thì ghi không phát hiện.'
+  review_by: ai
+- id: ob-007
+  group: cam
+  role: moi_vai_tro
+  risk_level: moi_muc
+  condition: ''
+  obligation: Không được che giấu thông tin bắt buộc phải công khai, minh bạch hoặc giải trình; tẩy xóa,
+    làm sai lệch các thông tin, nhãn, cảnh báo bắt buộc trong hoạt động trí tuệ nhân tạo.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-7_khoan-5
+    quote: Che giấu thông tin bắt buộc phải công khai, minh bạch hoặc giải trình; tẩy xóa, làm sai lệch
+      các thông tin, nhãn, cảnh báo bắt buộc trong hoạt động trí tuệ nhân tạo.
+  review_status: ai_reviewed
+  kind: cam
+  criteria:
+  - id: c1
+    text: Có dấu hiệu che giấu thông tin bắt buộc công khai, minh bạch, giải trình; hoặc tẩy xóa, làm
+      sai lệch thông tin, nhãn, cảnh báo bắt buộc.
+    not_met:
+    - 'chỉ là chưa thực hiện một nghĩa vụ công khai (ví dụ chưa công khai báo cáo) mà không có ý che giấu:
+      đó là chưa đáp ứng nghĩa vụ, không phải dấu hiệu hành vi bị cấm'
+  review_note: 'Dòng cấm: hệ thống chỉ cảnh báo khi lời khai hoặc mô tả có dấu hiệu; không có dấu hiệu
+    thì ghi không phát hiện.'
+  review_by: ai
+- id: ob-008
+  group: cam
+  role: moi_vai_tro
+  risk_level: moi_muc
+  condition: ''
+  obligation: Không được lợi dụng hoạt động nghiên cứu, thử nghiệm, đánh giá hoặc kiểm định hệ thống trí
+    tuệ nhân tạo để thực hiện hành vi trái quy định của luật.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-7_khoan-6
+    quote: Lợi dụng hoạt động nghiên cứu, thử nghiệm, đánh giá hoặc kiểm định hệ thống trí tuệ nhân tạo
+      để thực hiện hành vi trái quy định của luật.
+  review_status: ai_reviewed
+  kind: cam
+  criteria:
+  - id: c1
+    text: Có dấu hiệu lợi dụng hoạt động nghiên cứu, thử nghiệm, đánh giá, kiểm định hệ thống để thực
+      hiện hành vi trái luật.
+  review_note: 'Dòng cấm: hệ thống chỉ cảnh báo khi lời khai hoặc mô tả có dấu hiệu; không có dấu hiệu
+    thì ghi không phát hiện.'
+  review_by: ai
+- id: ob-009
+  group: phan_loai_thong_bao
+  role: nha_cung_cap
+  risk_level: moi_muc
+  condition: Trước khi đưa hệ thống vào sử dụng
+  obligation: Nhà cung cấp có trách nhiệm tự thực hiện việc phân loại hệ thống trí tuệ nhân tạo theo quy
+    định tại khoản 1 Điều 10 của Luật Trí tuệ nhân tạo trước khi đưa hệ thống vào sử dụng và chịu trách
+    nhiệm trước pháp luật về tính chính xác, trung thực của kết quả phân loại.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-6_khoan-1
+    quote: Nhà cung cấp có trách nhiệm tự thực hiện việc phân loại hệ thống trí tuệ nhân tạo theo quy
+      định tại khoản 1 Điều 10 của Luật Trí tuệ nhân tạo trước khi đưa hệ thống vào sử dụng và chịu trách
+      nhiệm
+  - chunk_id: 134-2025-QH15_dieu-10_khoan-1
+    quote: Nhà cung cấp tự phân loại hệ thống trí tuệ nhân tạo trước khi đưa vào sử dụng. Hệ thống được
+      phân loại là rủi ro trung bình hoặc rủi ro cao phải có hồ sơ phân loại kèm theo.
+  - chunk_id: 134-2025-QH15_dieu-9_khoan-2
+    quote: Việc phân loại rủi ro của hệ thống trí tuệ nhân tạo được xác định trên cơ sở các tiêu chí về
+      mức độ tác động đến quyền con người, an toàn, an ninh; lĩnh vực sử dụng của hệ thống, đặc biệt là
+      lĩnh vực
+  review_status: ai_reviewed
+  deadline: trước khi đưa hệ thống vào sử dụng
+  criteria:
+  - id: c1
+    text: Đã tự thực hiện phân loại mức rủi ro của hệ thống.
+  - id: c2
+    text: Việc phân loại được thực hiện trước khi đưa hệ thống vào sử dụng.
+    not_met:
+    - phân loại sau khi hệ thống đã hoạt động
+  review_by: ai
+  kind: nghia_vu
+- id: ob-010
+  group: phan_loai_thong_bao
+  role: nha_cung_cap
+  risk_level: cao
+  condition: Trước khi đưa hệ thống vào sử dụng
+  obligation: Lập hồ sơ phân loại rủi ro trước khi đưa hệ thống vào sử dụng; bảo đảm thành phần hồ sơ
+    theo khoản 2 Điều 12 Nghị định 142. Thông tin về nền tảng, mô hình hoặc dịch vụ bên thứ ba chỉ trong
+    phạm vi quyền tiếp cận và kiểm soát hợp pháp; không bắt buộc tiết lộ các thông tin quy định tại khoản
+    4, trừ trường hợp pháp luật có quy định khác.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-12_khoan-1
+    quote: Nhà cung cấp phải lập hồ sơ phân loại rủi ro đối với hệ thống trí tuệ nhân tạo có rủi ro cao
+      và hệ thống trí tuệ nhân tạo có rủi ro trung bình trước khi đưa hệ thống vào sử dụng theo quy định
+      tại
+  - chunk_id: 142-2026-ND-CP_dieu-12_khoan-2
+    quote: 'Đối với hệ thống trí tuệ nhân tạo có rủi ro cao và rủi ro trung bình, nhà cung cấp phải bảo
+      đảm hồ sơ phân loại rủi ro bao gồm các tài liệu sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-12_khoan-2_diem-a
+    quote: 'Thông tin nhận diện hệ thống, bao gồm: tên hệ thống; phiên bản; mã định danh nội bộ hoặc mã
+      định danh do cơ quan nhà nước có thẩm quyền cấp; tên, địa chỉ và thông tin liên hệ của nhà cung
+      cấp;'
+  - chunk_id: 142-2026-ND-CP_dieu-12_khoan-2_diem-b
+    quote: 'Mô tả hệ thống và bối cảnh sử dụng: mục đích sử dụng; chức năng chính; kiến trúc hệ thống
+      ở mức chức năng, nghiệp vụ; phạm vi triển khai; nhóm người sử dụng và người bị ảnh hưởng;'
+  - chunk_id: 142-2026-ND-CP_dieu-12_khoan-2_diem-c
+    quote: 'Thông tin về dữ liệu: Mô tả khái quát loại dữ liệu đầu vào chủ yếu được sử dụng để vận hành
+      hệ thống;'
+  - chunk_id: 142-2026-ND-CP_dieu-12_khoan-2_diem-d
+    quote: 'Nội dung quản lý rủi ro: Tóm tắt các biện pháp quản lý rủi ro, bảo đảm an toàn và tính minh
+      bạch của hệ thống.'
+  - chunk_id: 142-2026-ND-CP_dieu-12_khoan-3
+    quote: Trường hợp nhà cung cấp phát triển hệ thống trí tuệ nhân tạo dựa trên nền tảng, mô hình hoặc
+      dịch vụ trí tuệ nhân tạo của bên thứ ba, nhà cung cấp chỉ phải cung cấp thông tin kỹ thuật và thông
+      tin về
+  - chunk_id: 142-2026-ND-CP_dieu-12_khoan-4
+    quote: Việc lập, cung cấp và quản lý hồ sơ phân loại rủi ro không bắt buộc nhà cung cấp phải tiết
+      lộ mã nguồn, bộ tham số mô hình, thuật toán chi tiết, dữ liệu huấn luyện thô hoặc các thông tin
+      thuộc danh
+  - chunk_id: 142-2026-ND-CP_dieu-12_khoan-6
+    quote: Nhà cung cấp, bên triển khai có trách nhiệm lưu trữ hồ sơ phân loại trong suốt thời gian hệ
+      thống hoạt động.
+  review_status: ai_reviewed
+  deadline: trước khi đưa hệ thống vào sử dụng
+  criteria:
+  - id: c1
+    text: Đã lập hồ sơ phân loại rủi ro.
+  - id: c2
+    text: 'Hồ sơ có đủ bốn thành phần: thông tin nhận diện hệ thống; mô tả hệ thống và bối cảnh sử dụng;
+      thông tin về dữ liệu đầu vào chủ yếu; nội dung quản lý rủi ro.'
+    not_met:
+    - chỉ nói đã có hồ sơ mà không nêu thành phần
+    - thiếu một trong bốn thành phần
+  - id: c3
+    text: Hồ sơ được lập trước khi đưa hệ thống vào sử dụng.
+    not_met:
+    - lập hồ sơ sau khi đã đưa vào sử dụng
+  - id: c4
+    text: Lưu trữ hồ sơ phân loại trong suốt thời gian hệ thống hoạt động.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-011
+  group: phan_loai_thong_bao
+  role: nha_cung_cap
+  risk_level: cao
+  condition: Trước khi đưa hệ thống vào sử dụng
+  obligation: Nhà cung cấp hệ thống trí tuệ nhân tạo có rủi ro trung bình và hệ thống trí tuệ nhân tạo
+    có rủi ro cao phải thông báo kết quả phân loại rủi ro cho Bộ Khoa học và Công nghệ thông qua Cổng
+    thông tin điện tử một cửa về trí tuệ nhân tạo trước khi đưa hệ thống vào sử dụng. Nhà cung cấp tự
+    kê khai, tự chịu trách nhiệm trước pháp luật về nội dung thông báo.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-14_khoan-1
+    quote: Nhà cung cấp hệ thống trí tuệ nhân tạo có rủi ro trung bình và hệ thống trí tuệ nhân tạo có
+      rủi ro cao phải thông báo kết quả phân loại rủi ro cho Bộ Khoa học và Công nghệ thông qua Cổng thông
+      tin
+  - chunk_id: 134-2025-QH15_dieu-10_khoan-3
+    quote: Đối với hệ thống được phân loại là rủi ro trung bình hoặc rủi ro cao, nhà cung cấp phải thông
+      báo kết quả phân loại cho Bộ Khoa học và Công nghệ thông qua Cổng thông tin điện tử một cửa về trí
+      tuệ
+  - chunk_id: 142-2026-ND-CP_dieu-14_khoan-2
+    quote: Nhà cung cấp phải bảo đảm nội dung thông báo kết quả phân loại rủi ro tuân thủ theo quy định
+      tại Điều 12 của Nghị định này.
+  - chunk_id: 142-2026-ND-CP_dieu-46_khoan-1
+    quote: Trường hợp Cổng thông tin điện tử một cửa về trí tuệ nhân tạo chưa được Bộ Khoa học và Công
+      nghệ công bố vận hành chính thức, việc thực hiện các thủ tục thông báo, báo cáo theo quy định của
+      Nghị định này được thực hiện thông qua hệ thống thông tin điện tử, dịch vụ công trực tuyến hoặc
+      phương thức tiếp nhận do Bộ Khoa học và Công nghệ công bố, bảo đảm thống nhất trên phạm vi toàn
+      quốc. Việc thực hiện thông báo, báo cáo theo phương thức quy định tại khoản này có giá trị pháp
+      lý tương đương với việc thực hiện thông qua Cổng thông tin điện tử một cửa về trí tuệ nhân tạo.
+  review_status: ai_reviewed
+  deadline: trước khi đưa hệ thống vào sử dụng
+  criteria:
+  - id: c1
+    text: Đã nộp thông báo kết quả phân loại rủi ro cho Bộ Khoa học và Công nghệ qua Cổng thông tin điện
+      tử một cửa về trí tuệ nhân tạo (hoặc phương thức Bộ công bố khi Cổng chưa vận hành chính thức).
+    not_met:
+    - dự kiến nộp
+    - đang chuẩn bị nộp
+    - đã gửi hồ sơ nhưng không rõ gửi cho ai, qua kênh nào
+  - id: c2
+    text: Thông báo được nộp trước khi đưa hệ thống vào sử dụng.
+    not_met:
+    - nộp sau khi hệ thống đã hoạt động
+  - id: c3
+    text: Nội dung thông báo đáp ứng thành phần hồ sơ phân loại theo Điều 12 Nghị định 142.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-012
+  group: phan_loai_thong_bao
+  role: nha_cung_cap
+  risk_level: trung_binh
+  condition: Trước khi đưa hệ thống vào sử dụng
+  obligation: Lập hồ sơ phân loại rủi ro trước khi đưa hệ thống vào sử dụng; bảo đảm thành phần hồ sơ
+    theo khoản 2 Điều 12 Nghị định 142. Thông tin về nền tảng, mô hình hoặc dịch vụ bên thứ ba chỉ trong
+    phạm vi quyền tiếp cận và kiểm soát hợp pháp; không bắt buộc tiết lộ các thông tin quy định tại khoản
+    4, trừ trường hợp pháp luật có quy định khác.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-12_khoan-1
+    quote: Nhà cung cấp phải lập hồ sơ phân loại rủi ro đối với hệ thống trí tuệ nhân tạo có rủi ro cao
+      và hệ thống trí tuệ nhân tạo có rủi ro trung bình trước khi đưa hệ thống vào sử dụng theo quy định
+      tại
+  - chunk_id: 142-2026-ND-CP_dieu-12_khoan-2
+    quote: 'Đối với hệ thống trí tuệ nhân tạo có rủi ro cao và rủi ro trung bình, nhà cung cấp phải bảo
+      đảm hồ sơ phân loại rủi ro bao gồm các tài liệu sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-12_khoan-2_diem-a
+    quote: 'Thông tin nhận diện hệ thống, bao gồm: tên hệ thống; phiên bản; mã định danh nội bộ hoặc mã
+      định danh do cơ quan nhà nước có thẩm quyền cấp; tên, địa chỉ và thông tin liên hệ của nhà cung
+      cấp;'
+  - chunk_id: 142-2026-ND-CP_dieu-12_khoan-2_diem-b
+    quote: 'Mô tả hệ thống và bối cảnh sử dụng: mục đích sử dụng; chức năng chính; kiến trúc hệ thống
+      ở mức chức năng, nghiệp vụ; phạm vi triển khai; nhóm người sử dụng và người bị ảnh hưởng;'
+  - chunk_id: 142-2026-ND-CP_dieu-12_khoan-2_diem-c
+    quote: 'Thông tin về dữ liệu: Mô tả khái quát loại dữ liệu đầu vào chủ yếu được sử dụng để vận hành
+      hệ thống;'
+  - chunk_id: 142-2026-ND-CP_dieu-12_khoan-2_diem-d
+    quote: 'Nội dung quản lý rủi ro: Tóm tắt các biện pháp quản lý rủi ro, bảo đảm an toàn và tính minh
+      bạch của hệ thống.'
+  - chunk_id: 142-2026-ND-CP_dieu-12_khoan-3
+    quote: Trường hợp nhà cung cấp phát triển hệ thống trí tuệ nhân tạo dựa trên nền tảng, mô hình hoặc
+      dịch vụ trí tuệ nhân tạo của bên thứ ba, nhà cung cấp chỉ phải cung cấp thông tin kỹ thuật và thông
+      tin về
+  - chunk_id: 142-2026-ND-CP_dieu-12_khoan-4
+    quote: Việc lập, cung cấp và quản lý hồ sơ phân loại rủi ro không bắt buộc nhà cung cấp phải tiết
+      lộ mã nguồn, bộ tham số mô hình, thuật toán chi tiết, dữ liệu huấn luyện thô hoặc các thông tin
+      thuộc danh
+  - chunk_id: 142-2026-ND-CP_dieu-12_khoan-6
+    quote: Nhà cung cấp, bên triển khai có trách nhiệm lưu trữ hồ sơ phân loại trong suốt thời gian hệ
+      thống hoạt động.
+  review_status: ai_reviewed
+  deadline: trước khi đưa hệ thống vào sử dụng
+  criteria:
+  - id: c1
+    text: Đã lập hồ sơ phân loại rủi ro.
+  - id: c2
+    text: 'Hồ sơ có đủ bốn thành phần: thông tin nhận diện hệ thống; mô tả hệ thống và bối cảnh sử dụng;
+      thông tin về dữ liệu đầu vào chủ yếu; nội dung quản lý rủi ro.'
+    not_met:
+    - chỉ nói đã có hồ sơ mà không nêu thành phần
+    - thiếu một trong bốn thành phần
+  - id: c3
+    text: Hồ sơ được lập trước khi đưa hệ thống vào sử dụng.
+    not_met:
+    - lập hồ sơ sau khi đã đưa vào sử dụng
+  - id: c4
+    text: Lưu trữ hồ sơ phân loại trong suốt thời gian hệ thống hoạt động.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-013
+  group: phan_loai_thong_bao
+  role: nha_cung_cap
+  risk_level: trung_binh
+  condition: Trước khi đưa hệ thống vào sử dụng
+  obligation: Nhà cung cấp hệ thống trí tuệ nhân tạo có rủi ro trung bình và hệ thống trí tuệ nhân tạo
+    có rủi ro cao phải thông báo kết quả phân loại rủi ro cho Bộ Khoa học và Công nghệ thông qua Cổng
+    thông tin điện tử một cửa về trí tuệ nhân tạo trước khi đưa hệ thống vào sử dụng. Nhà cung cấp tự
+    kê khai, tự chịu trách nhiệm trước pháp luật về nội dung thông báo.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-14_khoan-1
+    quote: Nhà cung cấp hệ thống trí tuệ nhân tạo có rủi ro trung bình và hệ thống trí tuệ nhân tạo có
+      rủi ro cao phải thông báo kết quả phân loại rủi ro cho Bộ Khoa học và Công nghệ thông qua Cổng thông
+      tin
+  - chunk_id: 134-2025-QH15_dieu-10_khoan-3
+    quote: Đối với hệ thống được phân loại là rủi ro trung bình hoặc rủi ro cao, nhà cung cấp phải thông
+      báo kết quả phân loại cho Bộ Khoa học và Công nghệ thông qua Cổng thông tin điện tử một cửa về trí
+      tuệ
+  - chunk_id: 142-2026-ND-CP_dieu-14_khoan-2
+    quote: Nhà cung cấp phải bảo đảm nội dung thông báo kết quả phân loại rủi ro tuân thủ theo quy định
+      tại Điều 12 của Nghị định này.
+  - chunk_id: 142-2026-ND-CP_dieu-46_khoan-1
+    quote: Trường hợp Cổng thông tin điện tử một cửa về trí tuệ nhân tạo chưa được Bộ Khoa học và Công
+      nghệ công bố vận hành chính thức, việc thực hiện các thủ tục thông báo, báo cáo theo quy định của
+      Nghị định này được thực hiện thông qua hệ thống thông tin điện tử, dịch vụ công trực tuyến hoặc
+      phương thức tiếp nhận do Bộ Khoa học và Công nghệ công bố, bảo đảm thống nhất trên phạm vi toàn
+      quốc. Việc thực hiện thông báo, báo cáo theo phương thức quy định tại khoản này có giá trị pháp
+      lý tương đương với việc thực hiện thông qua Cổng thông tin điện tử một cửa về trí tuệ nhân tạo.
+  review_status: ai_reviewed
+  deadline: trước khi đưa hệ thống vào sử dụng
+  criteria:
+  - id: c1
+    text: Đã nộp thông báo kết quả phân loại rủi ro cho Bộ Khoa học và Công nghệ qua Cổng thông tin điện
+      tử một cửa về trí tuệ nhân tạo (hoặc phương thức Bộ công bố khi Cổng chưa vận hành chính thức).
+    not_met:
+    - dự kiến nộp
+    - đang chuẩn bị nộp
+    - đã gửi hồ sơ nhưng không rõ gửi cho ai, qua kênh nào
+  - id: c2
+    text: Thông báo được nộp trước khi đưa hệ thống vào sử dụng.
+    not_met:
+    - nộp sau khi hệ thống đã hoạt động
+  - id: c3
+    text: Nội dung thông báo đáp ứng thành phần hồ sơ phân loại theo Điều 12 Nghị định 142.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-014
+  group: phan_loai_thong_bao
+  role: ben_trien_khai
+  risk_level: moi_muc
+  condition: Sửa đổi, tích hợp, thay đổi chức năng hoặc mục đích sử dụng so với công bố ban đầu làm phát
+    sinh rủi ro mới hoặc cao hơn
+  obligation: Trường hợp bên triển khai sửa đổi, tích hợp, thay đổi chức năng hoặc mục đích sử dụng của
+    hệ thống so với công bố ban đầu của nhà cung cấp làm phát sinh rủi ro mới hoặc rủi ro cao hơn, bên
+    triển khai có trách nhiệm phối hợp với nhà cung cấp để rà soát, phân loại lại mức độ rủi ro.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-6_khoan-4
+    quote: Trường hợp bên triển khai sửa đổi, tích hợp, thay đổi chức năng hoặc mục đích sử dụng của hệ
+      thống so với công bố ban đầu của nhà cung cấp làm phát sinh rủi ro mới hoặc rủi ro cao hơn, bên
+      triển khai
+  - chunk_id: 134-2025-QH15_dieu-10_khoan-2
+    quote: trường hợp sửa đổi, tích hợp hoặc thay đổi chức năng làm phát sinh rủi ro mới hoặc rủi ro cao
+      hơn thì phối hợp nhà cung cấp thực hiện phân loại lại.
+  review_status: ai_reviewed
+  applies_when:
+    fact: modified_by_deployer
+    op: is_true
+  criteria:
+  - id: c1
+    text: Có quy trình nội bộ bảo đảm khi sửa đổi, tích hợp, thay đổi chức năng hoặc mục đích sử dụng
+      làm phát sinh rủi ro mới hoặc cao hơn thì phối hợp với nhà cung cấp rà soát, phân loại lại mức rủi
+      ro.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-015
+  group: minh_bach
+  role: nha_cung_cap
+  risk_level: moi_muc
+  condition: Hệ thống tương tác trực tiếp với con người; trừ trường hợp pháp luật có quy định khác
+  obligation: Nhà cung cấp bảo đảm hệ thống trí tuệ nhân tạo tương tác trực tiếp với con người được thiết
+    kế và vận hành để người sử dụng nhận biết khi đang tương tác với hệ thống, trừ trường hợp pháp luật
+    có quy định khác.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-11_khoan-1
+    quote: Nhà cung cấp bảo đảm hệ thống trí tuệ nhân tạo tương tác trực tiếp với con người được thiết
+      kế và vận hành để người sử dụng nhận biết khi đang tương tác với hệ thống, trừ trường hợp pháp luật
+      có quy
+  review_status: ai_reviewed
+  applies_when:
+    fact: interacts_with_humans
+    op: is_true
+  criteria:
+  - id: c1
+    text: Người sử dụng được cho biết ngay trong quá trình tương tác (giao diện, lời chào, nhãn hiển thị
+      cạnh khung tương tác) rằng họ đang tương tác với hệ thống trí tuệ nhân tạo.
+    not_met:
+    - chỉ ghi trong điều khoản sử dụng hoặc chính sách quyền riêng tư
+    - chỉ nêu trong tài liệu nội bộ
+    - chỉ thông báo một lần khi đăng ký tài khoản
+  review_by: ai
+  kind: nghia_vu
+- id: ob-016
+  group: minh_bach
+  role: nha_cung_cap
+  risk_level: moi_muc
+  condition: Nội dung đầu ra là âm thanh, hình ảnh hoặc video; trường hợp mã nguồn mở hoặc miễn phí áp
+    dụng khoản 5 Điều 17 Nghị định 142
+  obligation: Nhà cung cấp hệ thống trí tuệ nhân tạo phải áp dụng giải pháp kỹ thuật để nội dung đầu ra
+    là âm thanh, hình ảnh hoặc video được đánh dấu ở định dạng máy đọc theo quy định tại khoản 2 Điều
+    11 của Luật Trí tuệ nhân tạo. Nhà cung cấp không bắt buộc phải thực hiện đánh dấu kỹ thuật ở định
+    dạng máy đọc đối với nội dung đầu ra là văn bản, trừ trường hợp pháp luật có quy định khác.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-17_khoan-1
+    quote: Nhà cung cấp hệ thống trí tuệ nhân tạo phải áp dụng giải pháp kỹ thuật để nội dung đầu ra là
+      âm thanh, hình ảnh hoặc video được đánh dấu ở định dạng máy đọc theo quy định tại khoản 2 Điều 11
+      của Luật
+  - chunk_id: 134-2025-QH15_dieu-11_khoan-2
+    quote: Nhà cung cấp bảo đảm các nội dung âm thanh, hình ảnh, video do hệ thống trí tuệ nhân tạo tạo
+      ra được đánh dấu ở định dạng máy đọc theo quy định của Chính phủ.
+  - chunk_id: 142-2026-ND-CP_dieu-17_khoan-5
+    quote: 'Trường hợp hệ thống trí tuệ nhân tạo được cung cấp dưới dạng mã nguồn mở hoặc cung cấp miễn
+      phí, nhà cung cấp được coi là đã thực hiện nghĩa vụ quy định tại khoản 1 Điều này khi:'
+  - chunk_id: 142-2026-ND-CP_dieu-17_khoan-5_diem-a
+    quote: Tích hợp sẵn chức năng đánh dấu kỹ thuật; hoặc
+  - chunk_id: 142-2026-ND-CP_dieu-17_khoan-5_diem-b
+    quote: Công bố công khai công cụ, cấu hình tiêu chuẩn, giao diện lập trình ứng dụng hoặc tài liệu
+      kỹ thuật cho phép bên triển khai cấu hình và vận hành chức năng đánh dấu.
+  - chunk_id: 142-2026-ND-CP_dieu-17_khoan-5_cuoi
+    quote: Bên triển khai khi sử dụng hệ thống này để cung cấp nội dung ra công cộng phải áp dụng giải
+      pháp kỹ thuật để thực hiện việc đánh dấu nội dung đầu ra.
+  - chunk_id: 142-2026-ND-CP_dieu-17_khoan-2
+    quote: 'Việc đánh dấu kỹ thuật quy định tại khoản 1 Điều này phải bảo đảm khả năng nhận diện bằng
+      máy đọc và có thể được thực hiện bằng một trong các biện pháp sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-17_khoan-3
+    quote: Dấu hiệu nhận biết ở định dạng máy đọc phải thể hiện thông tin xác nhận nội dung được tạo ra
+      hoặc chỉnh sửa bằng hệ thống trí tuệ nhân tạo. Nhà cung cấp có thể tích hợp thêm thông tin về nhà
+      cung cấp, hệ thống trí tuệ nhân tạo hoặc thời điểm tạo, chỉnh sửa nội dung nếu giải pháp kỹ thuật
+      cho phép, nhằm phục vụ việc xác thực nguồn gốc và truy vết nội dung.
+  - chunk_id: 142-2026-ND-CP_dieu-17_khoan-2_diem-a
+    quote: Tích hợp dấu hiệu nhận biết vào cấu trúc tệp tin hoặc dữ liệu nội dung;
+  - chunk_id: 142-2026-ND-CP_dieu-17_khoan-2_diem-b
+    quote: Tích hợp dấu hiệu nhận biết vào siêu dữ liệu của tệp tin;
+  - chunk_id: 142-2026-ND-CP_dieu-17_khoan-2_diem-c
+    quote: Sử dụng chữ ký số, chữ ký điện tử hoặc phương thức xác thực kỹ thuật tương đương;
+  - chunk_id: 142-2026-ND-CP_dieu-17_khoan-2_diem-d
+    quote: Áp dụng giải pháp kỹ thuật khác bảo đảm khả năng nhận diện nội dung được tạo ra hoặc chỉnh
+      sửa bằng hệ thống trí tuệ nhân tạo.
+  review_status: ai_reviewed
+  applies_when:
+    fact: content_types
+    op: overlaps
+    value:
+    - am_thanh
+    - hinh_anh
+    - video
+  criteria:
+  - id: c1
+    text: 'Nội dung âm thanh, hình ảnh, video do hệ thống tạo ra được đánh dấu ở định dạng máy đọc được
+      (ví dụ siêu dữ liệu, thủy vân số). Với hệ thống mã nguồn mở hoặc miễn phí: đã tích hợp sẵn chức
+      năng đánh dấu, hoặc công bố công cụ, tài liệu để bên triển khai cấu hình đánh dấu.'
+    not_met:
+    - chỉ gắn nhãn chữ hiển thị, không có đánh dấu máy đọc
+    - chỉ đánh dấu văn bản
+  - id: c2
+    text: Dấu hiệu máy đọc thể hiện thông tin xác nhận nội dung do hệ thống AI tạo hoặc chỉnh sửa, bằng
+      một biện pháp như tích hợp vào cấu trúc tệp, siêu dữ liệu, chữ ký số hoặc tương đương.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-017
+  group: minh_bach
+  role: ben_trien_khai
+  risk_level: moi_muc
+  condition: Cung cấp ra công cộng nội dung có khả năng gây nhầm lẫn về tính xác thực của sự kiện, nhân
+    vật; trừ trường hợp pháp luật có quy định khác
+  obligation: Bên triển khai có trách nhiệm thông báo rõ ràng khi cung cấp ra công cộng văn bản, âm thanh,
+    hình ảnh, video được tạo ra hoặc chỉnh sửa bằng hệ thống trí tuệ nhân tạo nếu nội dung đó có khả năng
+    gây nhầm lẫn về tính xác thực của sự kiện, nhân vật, trừ trường hợp pháp luật có quy định khác.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-11_khoan-3
+    quote: Bên triển khai có trách nhiệm thông báo rõ ràng khi cung cấp ra công cộng văn bản, âm thanh,
+      hình ảnh, video được tạo ra hoặc chỉnh sửa bằng hệ thống trí tuệ nhân tạo nếu nội dung đó có khả
+      năng gây
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-1
+    quote: Bên triển khai phải thông báo rõ ràng khi cung cấp ra công cộng nội dung do hệ thống trí tuệ
+      nhân tạo tạo ra hoặc chỉnh sửa có khả năng gây nhầm lẫn về tính xác thực của sự kiện, nhân vật hoặc
+      nguồn
+  review_status: ai_reviewed
+  applies_when:
+    all:
+    - fact: generates_content
+      op: is_true
+    - fact: public_distribution
+      op: is_true
+    - fact: content_may_mislead
+      op: is_true
+  criteria:
+  - id: c1
+    text: Khi cung cấp ra công cộng văn bản, âm thanh, hình ảnh, video do AI tạo hoặc chỉnh sửa có khả
+      năng gây nhầm lẫn về tính xác thực của sự kiện, nhân vật, có thông báo rõ ràng rằng nội dung do
+      AI tạo hoặc chỉnh sửa.
+    not_met:
+    - chỉ ghi chung ở trang giới thiệu
+    - không thông báo trên từng nội dung
+  review_by: ai
+  kind: nghia_vu
+- id: ob-018
+  group: minh_bach
+  role: ben_trien_khai
+  risk_level: moi_muc
+  condition: Âm thanh, hình ảnh, video mô phỏng người thật hoặc tái hiện sự kiện thực tế; trừ các trường hợp tại khoản 4 Điều 18 Nghị định 142/2026/NĐ-CP
+  obligation: Bên triển khai có trách nhiệm bảo đảm âm thanh, hình ảnh, video được tạo ra hoặc chỉnh sửa
+    bằng hệ thống trí tuệ nhân tạo nhằm mô phỏng, giả lập ngoại hình, giọng nói của người thật hoặc tái
+    hiện sự kiện thực tế phải được gắn nhãn dễ nhận biết để phân biệt với nội dung thật. Đối với sản phẩm
+    là tác phẩm điện ảnh, nghệ thuật hoặc sáng tạo, việc gắn nhãn quy định tại khoản 4 Điều 11 Luật Trí
+    tuệ nhân tạo số 134/2025/QH15 được thực hiện theo phương thức phù hợp, bảo đảm không làm cản trở việc
+    hiển thị, trình diễn hoặc thưởng thức tác phẩm.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-11_khoan-4
+    quote: Bên triển khai có trách nhiệm bảo đảm âm thanh, hình ảnh, video được tạo ra hoặc chỉnh sửa
+      bằng hệ thống trí tuệ nhân tạo nhằm mô phỏng, giả lập ngoại hình, giọng nói của người thật hoặc
+      tái hiện sự
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-2
+    quote: 'Bên triển khai phải gắn nhãn dễ nhận biết đối với âm thanh, hình ảnh hoặc video được tạo ra
+      hoặc chỉnh sửa bằng hệ thống trí tuệ nhân tạo trong các trường hợp sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-2_diem-a
+    quote: Mô phỏng hoặc giả lập ngoại hình, giọng nói của người thật;
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-2_diem-b
+    quote: Tái hiện sự kiện thực tế để phân biệt với nội dung thật, trừ trường hợp pháp luật có quy định
+      khác.
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-4
+    quote: 'Bên triển khai không phải thực hiện nghĩa vụ gắn nhãn hiển thị trong các trường hợp sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-4_diem-a
+    quote: Nội dung được chỉnh sửa kỹ thuật nhằm cải thiện chất lượng âm thanh, hình ảnh hoặc video mà
+      không làm thay đổi bản chất hoặc ngữ cảnh chính của nội dung;
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-4_diem-b
+    quote: Văn bản được xử lý bằng công cụ hỗ trợ sửa lỗi chính tả, ngữ pháp, tóm tắt, diễn giải hoặc
+      dịch thuật mà không làm sai lệch nội dung cơ bản của văn bản gốc;
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-4_diem-c
+    quote: Nội dung được sử dụng trong phạm vi nội bộ của cơ quan, tổ chức, doanh nghiệp và không được
+      cung cấp ra công cộng;
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-4_diem-d
+    quote: Nội dung được tạo ra trong quá trình nghiên cứu, phát triển hoặc thử nghiệm trong môi trường
+      kiểm soát và không được cung cấp ra công cộng.
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-6
+    quote: Đối với tác phẩm điện ảnh, chương trình nghệ thuật hoặc nội dung sáng tạo, việc thông báo và
+      gắn nhãn hiển thị do bên triển khai trực tiếp đưa nội dung ra công cộng thực hiện và có thể được
+      thực hiện
+  review_status: ai_reviewed
+  applies_when:
+    all:
+    - fact: simulates_real_person
+      op: is_true
+    - fact: public_distribution
+      op: is_true
+  criteria:
+  - id: c1
+    text: Âm thanh, hình ảnh, video mô phỏng ngoại hình, giọng nói người thật hoặc tái hiện sự kiện thực
+      tế được gắn nhãn dễ nhận biết để phân biệt với nội dung thật.
+    not_met:
+    - nhãn quá nhỏ hoặc bị che
+    - chỉ ghi trong mô tả mà người xem không thấy
+  review_by: ai
+  kind: nghia_vu
+- id: ob-019
+  group: minh_bach
+  role: nha_cung_cap
+  risk_level: moi_muc
+  condition: Trong suốt quá trình cung cấp hệ thống, sản phẩm hoặc nội dung cho người sử dụng
+  obligation: Nhà cung cấp và bên triển khai có trách nhiệm duy trì thông tin minh bạch theo quy định
+    tại Điều 11 Luật Trí tuệ nhân tạo số 134/2025/QH15 trong suốt quá trình cung cấp hệ thống, sản phẩm
+    hoặc nội dung cho người sử dụng.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-11_khoan-5
+    quote: Nhà cung cấp và bên triển khai có trách nhiệm duy trì thông tin minh bạch theo quy định tại
+      Điều này trong suốt quá trình cung cấp hệ thống, sản phẩm hoặc nội dung cho người sử dụng.
+  review_status: ai_reviewed
+  applies_when:
+    any:
+    - fact: interacts_with_humans
+      op: is_true
+    - fact: generates_content
+      op: is_true
+  criteria:
+  - id: c1
+    text: Thông tin minh bạch (nhận biết đang tương tác với AI, nhãn nội dung) được duy trì liên tục trong
+      suốt quá trình cung cấp, kể cả sau các lần cập nhật.
+    not_met:
+    - chỉ thông báo khi ra mắt
+  review_by: ai
+  kind: nghia_vu
+- id: ob-020
+  group: minh_bach
+  role: ben_trien_khai
+  risk_level: moi_muc
+  condition: Trong suốt quá trình cung cấp hệ thống, sản phẩm hoặc nội dung cho người sử dụng
+  obligation: Nhà cung cấp và bên triển khai có trách nhiệm duy trì thông tin minh bạch theo quy định
+    tại Điều 11 Luật Trí tuệ nhân tạo số 134/2025/QH15 trong suốt quá trình cung cấp hệ thống, sản phẩm
+    hoặc nội dung cho người sử dụng.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-11_khoan-5
+    quote: Nhà cung cấp và bên triển khai có trách nhiệm duy trì thông tin minh bạch theo quy định tại
+      Điều này trong suốt quá trình cung cấp hệ thống, sản phẩm hoặc nội dung cho người sử dụng.
+  review_status: ai_reviewed
+  applies_when:
+    any:
+    - fact: interacts_with_humans
+      op: is_true
+    - fact: generates_content
+      op: is_true
+  criteria:
+  - id: c1
+    text: Thông tin minh bạch (nhận biết đang tương tác với AI, nhãn nội dung) được duy trì liên tục trong
+      suốt quá trình cung cấp, kể cả sau các lần cập nhật.
+    not_met:
+    - chỉ thông báo khi ra mắt
+  review_by: ai
+  kind: nghia_vu
+- id: ob-021
+  group: su_co
+  role: nha_phat_trien
+  risk_level: moi_muc
+  condition: Khi hệ thống xảy ra sự cố nghiêm trọng
+  obligation: Nhà phát triển, nhà cung cấp phải khẩn trương áp dụng biện pháp kỹ thuật để khắc phục, tạm
+    dừng hoặc thu hồi hệ thống, đồng thời thông báo cho cơ quan có thẩm quyền;
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-12_khoan-2_diem-a
+    quote: Nhà phát triển, nhà cung cấp phải khẩn trương áp dụng biện pháp kỹ thuật để khắc phục, tạm
+      dừng hoặc thu hồi hệ thống, đồng thời thông báo cho cơ quan có thẩm quyền;
+  - chunk_id: 134-2025-QH15_dieu-12_khoan-2
+    quote: 'Khi hệ thống trí tuệ nhân tạo xảy ra sự cố nghiêm trọng, nhà phát triển, nhà cung cấp, bên
+      triển khai, người sử dụng hệ thống trí tuệ nhân tạo có trách nhiệm sau đây:'
+  - chunk_id: 134-2025-QH15_dieu-12_khoan-4
+    quote: Báo cáo và xử lý sự cố được thực hiện qua Cổng thông tin điện tử một cửa về trí tuệ nhân tạo.
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Có quy trình nội bộ bảo đảm khi có sự cố nghiêm trọng thì khẩn trương áp dụng biện pháp kỹ thuật
+      để khắc phục, tạm dừng hoặc thu hồi hệ thống.
+  - id: c2
+    text: Có quy trình nội bộ bảo đảm khi có sự cố nghiêm trọng thì thông báo cho cơ quan có thẩm quyền
+      qua Cổng thông tin điện tử một cửa.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-022
+  group: su_co
+  role: nha_cung_cap
+  risk_level: moi_muc
+  condition: Khi hệ thống xảy ra sự cố nghiêm trọng
+  obligation: Nhà phát triển, nhà cung cấp phải khẩn trương áp dụng biện pháp kỹ thuật để khắc phục, tạm
+    dừng hoặc thu hồi hệ thống, đồng thời thông báo cho cơ quan có thẩm quyền;
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-12_khoan-2_diem-a
+    quote: Nhà phát triển, nhà cung cấp phải khẩn trương áp dụng biện pháp kỹ thuật để khắc phục, tạm
+      dừng hoặc thu hồi hệ thống, đồng thời thông báo cho cơ quan có thẩm quyền;
+  - chunk_id: 134-2025-QH15_dieu-12_khoan-2
+    quote: 'Khi hệ thống trí tuệ nhân tạo xảy ra sự cố nghiêm trọng, nhà phát triển, nhà cung cấp, bên
+      triển khai, người sử dụng hệ thống trí tuệ nhân tạo có trách nhiệm sau đây:'
+  - chunk_id: 134-2025-QH15_dieu-12_khoan-4
+    quote: Báo cáo và xử lý sự cố được thực hiện qua Cổng thông tin điện tử một cửa về trí tuệ nhân tạo.
+  - chunk_id: 142-2026-ND-CP_dieu-19_khoan-2
+    quote: 'Khi xảy ra sự cố nghiêm trọng của hệ thống trí tuệ nhân tạo, các chủ thể có trách nhiệm sau
+      đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-19_khoan-2_diem-b
+    quote: Nhà cung cấp phải áp dụng các biện pháp kỹ thuật cần thiết để ngăn chặn, hạn chế và khắc phục
+      hậu quả của sự cố;
+  - chunk_id: 142-2026-ND-CP_dieu-19_khoan-2_diem-c
+    quote: Nhà cung cấp và bên triển khai có trách nhiệm phối hợp cung cấp thông tin và thực hiện các
+      biện pháp cần thiết để xử lý sự cố theo quy định của pháp luật.
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Có quy trình nội bộ bảo đảm khi có sự cố nghiêm trọng thì khẩn trương áp dụng biện pháp kỹ thuật
+      để khắc phục, tạm dừng hoặc thu hồi hệ thống.
+  - id: c2
+    text: Có quy trình nội bộ bảo đảm khi có sự cố nghiêm trọng thì thông báo cho cơ quan có thẩm quyền
+      qua Cổng thông tin điện tử một cửa.
+  - id: c3
+    text: Có quy trình nội bộ bảo đảm khi có sự cố nghiêm trọng thì áp dụng biện pháp kỹ thuật để ngăn
+      chặn, hạn chế, khắc phục hậu quả, và phối hợp với bên triển khai cung cấp thông tin xử lý sự cố.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-023
+  group: su_co
+  role: ben_trien_khai
+  risk_level: moi_muc
+  condition: Khi hệ thống xảy ra sự cố nghiêm trọng
+  obligation: Bên triển khai và người sử dụng phải kịp thời ghi nhận sự cố, thực hiện các biện pháp cần
+    thiết để hạn chế hậu quả và thông báo cho nhà cung cấp để phối hợp khắc phục;
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-19_khoan-2_diem-a
+    quote: Bên triển khai và người sử dụng phải kịp thời ghi nhận sự cố, thực hiện các biện pháp cần thiết
+      để hạn chế hậu quả và thông báo cho nhà cung cấp để phối hợp khắc phục;
+  - chunk_id: 134-2025-QH15_dieu-12_khoan-2_diem-b
+    quote: Bên triển khai và người sử dụng có nghĩa vụ ghi nhận, thông báo kịp thời sự cố và phối hợp
+      trong quá trình khắc phục.
+  - chunk_id: 142-2026-ND-CP_dieu-19_khoan-2
+    quote: 'Khi xảy ra sự cố nghiêm trọng của hệ thống trí tuệ nhân tạo, các chủ thể có trách nhiệm sau
+      đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-19_khoan-2_diem-c
+    quote: Nhà cung cấp và bên triển khai có trách nhiệm phối hợp cung cấp thông tin và thực hiện các
+      biện pháp cần thiết để xử lý sự cố theo quy định của pháp luật.
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Có quy trình nội bộ bảo đảm ghi nhận kịp thời sự cố nghiêm trọng.
+  - id: c2
+    text: Có quy trình nội bộ bảo đảm thực hiện biện pháp cần thiết để hạn chế hậu quả khi có sự cố.
+  - id: c3
+    text: Có quy trình nội bộ bảo đảm thông báo cho nhà cung cấp để phối hợp khắc phục.
+  - id: c4
+    text: Có quy trình nội bộ bảo đảm phối hợp với nhà cung cấp cung cấp thông tin và thực hiện biện pháp
+      cần thiết để xử lý sự cố.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-024
+  group: su_co
+  role: nguoi_su_dung
+  risk_level: moi_muc
+  condition: Khi hệ thống xảy ra sự cố nghiêm trọng
+  obligation: Bên triển khai và người sử dụng phải kịp thời ghi nhận sự cố, thực hiện các biện pháp cần
+    thiết để hạn chế hậu quả và thông báo cho nhà cung cấp để phối hợp khắc phục;
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-19_khoan-2_diem-a
+    quote: Bên triển khai và người sử dụng phải kịp thời ghi nhận sự cố, thực hiện các biện pháp cần thiết
+      để hạn chế hậu quả và thông báo cho nhà cung cấp để phối hợp khắc phục;
+  - chunk_id: 134-2025-QH15_dieu-12_khoan-2_diem-b
+    quote: Bên triển khai và người sử dụng có nghĩa vụ ghi nhận, thông báo kịp thời sự cố và phối hợp
+      trong quá trình khắc phục.
+  - chunk_id: 142-2026-ND-CP_dieu-19_khoan-2
+    quote: 'Khi xảy ra sự cố nghiêm trọng của hệ thống trí tuệ nhân tạo, các chủ thể có trách nhiệm sau
+      đây:'
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Có quy trình nội bộ bảo đảm ghi nhận kịp thời sự cố nghiêm trọng.
+  - id: c2
+    text: Có quy trình nội bộ bảo đảm thực hiện biện pháp cần thiết để hạn chế hậu quả khi có sự cố.
+  - id: c3
+    text: Có quy trình nội bộ bảo đảm thông báo cho nhà cung cấp để phối hợp khắc phục.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-025
+  group: su_co
+  role: nha_cung_cap
+  risk_level: moi_muc
+  condition: Khi hệ thống xảy ra sự cố nghiêm trọng
+  obligation: Nhà cung cấp và bên triển khai phải duy trì, lưu giữ nhật ký hệ thống, dữ liệu và thông
+    tin liên quan đến sự cố để phục vụ việc xác minh, đánh giá và khắc phục sự cố; đồng thời gửi báo cáo
+    chính thức về kết quả khắc phục sự cố cho cơ quan nhà nước có thẩm quyền trong thời hạn 15 ngày kể
+    từ ngày nộp báo cáo sơ bộ.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-19_khoan-4
+    quote: Nhà cung cấp và bên triển khai phải duy trì, lưu giữ nhật ký hệ thống, dữ liệu và thông tin
+      liên quan đến sự cố để phục vụ việc xác minh, đánh giá và khắc phục sự cố; đồng thời gửi báo cáo
+      chính thức
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Duy trì, lưu giữ nhật ký hệ thống, dữ liệu và thông tin liên quan đến sự cố.
+  - id: c2
+    text: Có quy trình nội bộ bảo đảm gửi báo cáo chính thức về kết quả khắc phục sự cố trong 15 ngày
+      kể từ ngày nộp báo cáo sơ bộ.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-026
+  group: su_co
+  role: ben_trien_khai
+  risk_level: moi_muc
+  condition: Khi hệ thống xảy ra sự cố nghiêm trọng
+  obligation: Nhà cung cấp và bên triển khai phải duy trì, lưu giữ nhật ký hệ thống, dữ liệu và thông
+    tin liên quan đến sự cố để phục vụ việc xác minh, đánh giá và khắc phục sự cố; đồng thời gửi báo cáo
+    chính thức về kết quả khắc phục sự cố cho cơ quan nhà nước có thẩm quyền trong thời hạn 15 ngày kể
+    từ ngày nộp báo cáo sơ bộ.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-19_khoan-4
+    quote: Nhà cung cấp và bên triển khai phải duy trì, lưu giữ nhật ký hệ thống, dữ liệu và thông tin
+      liên quan đến sự cố để phục vụ việc xác minh, đánh giá và khắc phục sự cố; đồng thời gửi báo cáo
+      chính thức
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Duy trì, lưu giữ nhật ký hệ thống, dữ liệu và thông tin liên quan đến sự cố.
+  - id: c2
+    text: Có quy trình nội bộ bảo đảm gửi báo cáo chính thức về kết quả khắc phục sự cố trong 15 ngày
+      kể từ ngày nộp báo cáo sơ bộ.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-027
+  group: danh_gia_phu_hop
+  role: nha_cung_cap
+  risk_level: cao
+  condition: Hệ thống thuộc Danh mục phải chứng nhận sự phù hợp trước khi đưa vào sử dụng
+  obligation: Thực hiện đánh giá sự phù hợp qua tổ chức đánh giá sự phù hợp quy định tại khoản 4 Điều
+    13 Nghị định 142 trước khi đưa hệ thống vào sử dụng; đánh giá lại khi có thay đổi đáng kể làm ảnh
+    hưởng đến kết quả đánh giá ban đầu. Các cập nhật không làm thay đổi việc đáp ứng yêu cầu tại Điều
+    14 Luật không được coi là thay đổi đáng kể.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-2_diem-a
+    quote: Đối với hệ thống trí tuệ nhân tạo có rủi ro cao thuộc Danh mục hệ thống trí tuệ nhân tạo phải
+      chứng nhận sự phù hợp trước khi đưa vào sử dụng, nhà cung cấp phải thực hiện đánh giá sự phù hợp
+      thông
+  - chunk_id: 134-2025-QH15_dieu-13_khoan-1
+    quote: Hệ thống trí tuệ nhân tạo có rủi ro cao phải được đánh giá sự phù hợp theo quy định của Luật
+      này trước khi đưa vào sử dụng hoặc khi có thay đổi đáng kể trong quá trình sử dụng. Trường hợp có
+      tiêu
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-1
+    quote: Nhà cung cấp hệ thống trí tuệ nhân tạo có rủi ro cao phải thực hiện đánh giá sự phù hợp trước
+      khi đưa hệ thống vào sử dụng theo quy định tại khoản 1 Điều 13 của Luật Trí tuệ nhân tạo. Trong
+      quá trình
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-1_cuoi
+    quote: Các hoạt động cập nhật dữ liệu định kỳ, sửa lỗi kỹ thuật, tối ưu hiệu năng hoặc nâng cấp phiên
+      bản không làm thay đổi việc đáp ứng các yêu cầu quy định tại Điều 14 của Luật Trí tuệ nhân tạo của
+      hệ
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-2
+    quote: 'Nhà cung cấp phải thực hiện đánh giá sự phù hợp với yêu cầu của Điều 14 của Luật Trí tuệ nhân
+      tạo theo các phương thức sau đây:'
+  - chunk_id: 134-2025-QH15_dieu-13_khoan-2
+    quote: 'Đánh giá sự phù hợp là việc xác nhận hệ thống trí tuệ nhân tạo đáp ứng các yêu cầu tại Điều
+      14 của Luật này và được thực hiện như sau:'
+  - chunk_id: 134-2025-QH15_dieu-13_khoan-2_diem-a
+    quote: 'Đối với hệ thống trí tuệ nhân tạo có rủi ro cao thuộc danh mục hệ thống trí tuệ nhân tạo phải
+      chứng nhận sự phù hợp trước khi đưa vào sử dụng: việc đánh giá được thực hiện bởi tổ chức đánh giá
+      sự phù hợp đã được đăng ký hoặc thừa nhận theo quy định của pháp luật;'
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-1_diem-a
+    quote: Thay đổi chức năng chính, mục đích sử dụng hoặc phạm vi ứng dụng của hệ thống làm phát sinh
+      rủi ro mới hoặc làm thay đổi mức độ rủi ro đã được đánh giá;
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-1_diem-b
+    quote: Thay đổi kiến trúc hệ thống, mô hình trí tuệ nhân tạo hoặc cấu hình kỹ thuật chủ yếu có thể
+      ảnh hưởng đến tính chính xác, độ tin cậy, mức độ an toàn hoặc khả năng kiểm soát của hệ thống;
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-1_diem-c
+    quote: Thay đổi nguồn dữ liệu, loại dữ liệu đầu vào chủ yếu hoặc phương thức xử lý dữ liệu làm ảnh
+      hưởng đáng kể đến kết quả vận hành hoặc mức độ rủi ro của hệ thống;
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-1_diem-d
+    quote: Tích hợp hệ thống trí tuệ nhân tạo với hệ thống khác hoặc môi trường vận hành mới có thể làm
+      phát sinh rủi ro mới hoặc làm thay đổi điều kiện vận hành đã được đánh giá;
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-1_diem-đ
+    quote: Các thay đổi khác làm ảnh hưởng đáng kể đến việc đáp ứng các yêu cầu quy định tại Điều 14 của
+      Luật Trí tuệ nhân tạo.
+  review_status: ai_reviewed
+  applies_when:
+    fact: requires_conformity_certification
+    op: is_true
+  deadline: trước khi đưa hệ thống vào sử dụng
+  criteria:
+  - id: c1
+    text: Đã đánh giá sự phù hợp thông qua tổ chức đánh giá sự phù hợp trước khi đưa hệ thống vào sử dụng.
+    not_met:
+    - tự đánh giá nội bộ
+  - id: c2
+    text: Có quy trình nội bộ bảo đảm đánh giá lại khi có thay đổi đáng kể làm ảnh hưởng kết quả đánh
+      giá ban đầu.
+  review_by: ai
+  kind: nghia_vu
+  review_note: 'Người soát chốt: phần công khai kết quả đánh giá sự phù hợp tách sang ob-092.'
+- id: ob-028
+  group: danh_gia_phu_hop
+  role: nha_cung_cap
+  risk_level: cao
+  condition: Hệ thống không thuộc trường hợp phải chứng nhận sự phù hợp trước khi đưa vào sử dụng
+  obligation: Thực hiện đánh giá sự phù hợp trước khi đưa hệ thống vào sử dụng, được tự đánh giá hoặc
+    sử dụng dịch vụ của tổ chức đánh giá sự phù hợp. Khi tự đánh giá, lập hồ sơ kỹ thuật và chịu trách
+    nhiệm trước pháp luật về kết quả; đánh giá lại khi có thay đổi đáng kể làm ảnh hưởng đến kết quả ban
+    đầu, không bao gồm các cập nhật quy định tại đoạn cuối khoản 1 Điều 13 Nghị định 142.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-2_diem-b
+    quote: Đối với hệ thống trí tuệ nhân tạo có rủi ro cao không thuộc trường hợp quy định tại điểm a
+      khoản này, nhà cung cấp có quyền tự thực hiện đánh giá sự phù hợp hoặc sử dụng dịch vụ của tổ chức
+      đánh giá
+  - chunk_id: 134-2025-QH15_dieu-13_khoan-1
+    quote: Hệ thống trí tuệ nhân tạo có rủi ro cao phải được đánh giá sự phù hợp theo quy định của Luật
+      này trước khi đưa vào sử dụng hoặc khi có thay đổi đáng kể trong quá trình sử dụng. Trường hợp có
+      tiêu
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-1
+    quote: Nhà cung cấp hệ thống trí tuệ nhân tạo có rủi ro cao phải thực hiện đánh giá sự phù hợp trước
+      khi đưa hệ thống vào sử dụng theo quy định tại khoản 1 Điều 13 của Luật Trí tuệ nhân tạo. Trong
+      quá trình
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-1_cuoi
+    quote: Các hoạt động cập nhật dữ liệu định kỳ, sửa lỗi kỹ thuật, tối ưu hiệu năng hoặc nâng cấp phiên
+      bản không làm thay đổi việc đáp ứng các yêu cầu quy định tại Điều 14 của Luật Trí tuệ nhân tạo của
+      hệ
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-2
+    quote: 'Nhà cung cấp phải thực hiện đánh giá sự phù hợp với yêu cầu của Điều 14 của Luật Trí tuệ nhân
+      tạo theo các phương thức sau đây:'
+  - chunk_id: 134-2025-QH15_dieu-13_khoan-2
+    quote: 'Đánh giá sự phù hợp là việc xác nhận hệ thống trí tuệ nhân tạo đáp ứng các yêu cầu tại Điều
+      14 của Luật này và được thực hiện như sau:'
+  - chunk_id: 134-2025-QH15_dieu-13_khoan-2_diem-b
+    quote: 'Đối với các hệ thống trí tuệ nhân tạo có rủi ro cao khác: nhà cung cấp tự đánh giá sự phù
+      hợp hoặc thuê tổ chức đánh giá sự phù hợp đã được đăng ký hoặc thừa nhận theo quy định của pháp
+      luật.'
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-1_diem-a
+    quote: Thay đổi chức năng chính, mục đích sử dụng hoặc phạm vi ứng dụng của hệ thống làm phát sinh
+      rủi ro mới hoặc làm thay đổi mức độ rủi ro đã được đánh giá;
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-1_diem-b
+    quote: Thay đổi kiến trúc hệ thống, mô hình trí tuệ nhân tạo hoặc cấu hình kỹ thuật chủ yếu có thể
+      ảnh hưởng đến tính chính xác, độ tin cậy, mức độ an toàn hoặc khả năng kiểm soát của hệ thống;
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-1_diem-c
+    quote: Thay đổi nguồn dữ liệu, loại dữ liệu đầu vào chủ yếu hoặc phương thức xử lý dữ liệu làm ảnh
+      hưởng đáng kể đến kết quả vận hành hoặc mức độ rủi ro của hệ thống;
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-1_diem-d
+    quote: Tích hợp hệ thống trí tuệ nhân tạo với hệ thống khác hoặc môi trường vận hành mới có thể làm
+      phát sinh rủi ro mới hoặc làm thay đổi điều kiện vận hành đã được đánh giá;
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-1_diem-đ
+    quote: Các thay đổi khác làm ảnh hưởng đáng kể đến việc đáp ứng các yêu cầu quy định tại Điều 14 của
+      Luật Trí tuệ nhân tạo.
+  review_status: ai_reviewed
+  applies_when:
+    fact: requires_conformity_certification
+    op: is_false
+  deadline: trước khi đưa hệ thống vào sử dụng
+  criteria:
+  - id: c1
+    text: Đã đánh giá sự phù hợp (tự đánh giá hoặc qua tổ chức đánh giá sự phù hợp) trước khi đưa hệ thống
+      vào sử dụng.
+  - id: c2
+    text: 'Nếu tự đánh giá: đã lập hồ sơ kỹ thuật về việc đánh giá.'
+  - id: c3
+    text: Có quy trình nội bộ bảo đảm đánh giá lại khi có thay đổi đáng kể làm ảnh hưởng kết quả đánh
+      giá ban đầu.
+  review_by: ai
+  kind: nghia_vu
+  review_note: 'Người soát chốt: phần công khai kết quả đánh giá sự phù hợp tách sang ob-092.'
+- id: ob-029
+  group: quan_ly_rui_ro_cao
+  role: nha_cung_cap
+  risk_level: cao
+  condition: ''
+  obligation: Thiết lập và duy trì biện pháp quản lý rủi ro và thường xuyên rà soát khi hệ thống có thay
+    đổi đáng kể hoặc phát sinh rủi ro mới;
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-1_diem-a
+    quote: Thiết lập và duy trì biện pháp quản lý rủi ro và thường xuyên rà soát khi hệ thống có thay
+      đổi đáng kể hoặc phát sinh rủi ro mới;
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-1
+    quote: 'Nhà cung cấp hệ thống trí tuệ nhân tạo có rủi ro cao có trách nhiệm sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-15_khoan-1
+    quote: Nhà cung cấp hệ thống trí tuệ nhân tạo có rủi ro cao phải thiết lập và duy trì hệ thống quản
+      lý rủi ro đối với hệ thống do mình cung cấp phù hợp với mục đích sử dụng, phạm vi triển khai và
+      mức độ rủi
+  - chunk_id: 142-2026-ND-CP_dieu-15_khoan-2
+    quote: 'Hệ thống quản lý rủi ro quy định tại khoản 1 Điều này bao gồm tối thiểu các nội dung sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-15_khoan-2_diem-a
+    quote: Xác định và đánh giá các rủi ro có thể phát sinh đối với quyền con người, an toàn, an ninh
+      hoặc lợi ích công cộng trong quá trình thiết kế, phát triển và cung cấp hệ thống;
+  - chunk_id: 142-2026-ND-CP_dieu-15_khoan-2_diem-d
+    quote: Áp dụng biện pháp kỹ thuật hoặc biện pháp quản lý nhằm phòng ngừa, hạn chế hoặc kiểm soát các
+      rủi ro đã được xác định;
+  - chunk_id: 142-2026-ND-CP_dieu-15_khoan-2_diem-đ
+    quote: Rà soát và cập nhật biện pháp quản lý rủi ro khi hệ thống có thay đổi đáng kể về mô hình, dữ
+      liệu, phương thức vận hành hoặc mục đích sử dụng.
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Đã thiết lập hệ thống quản lý rủi ro, gồm xác định và đánh giá các rủi ro có thể phát sinh đối
+      với quyền con người, an toàn, an ninh hoặc lợi ích công cộng.
+  - id: c2
+    text: Áp dụng biện pháp kỹ thuật hoặc quản lý để phòng ngừa, hạn chế, kiểm soát các rủi ro đã xác
+      định.
+  - id: c3
+    text: Rà soát, cập nhật biện pháp quản lý rủi ro khi hệ thống thay đổi đáng kể về mô hình, dữ liệu,
+      phương thức vận hành, mục đích sử dụng hoặc phát sinh rủi ro mới.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-030
+  group: quan_ly_rui_ro_cao
+  role: nha_cung_cap
+  risk_level: cao
+  condition: ''
+  obligation: Quản trị dữ liệu huấn luyện, kiểm thử và vận hành bảo đảm chất lượng trong phạm vi khả năng
+    kỹ thuật và phù hợp với mục đích sử dụng của hệ thống;
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-1_diem-b
+    quote: Quản trị dữ liệu huấn luyện, kiểm thử và vận hành bảo đảm chất lượng trong phạm vi khả năng
+      kỹ thuật và phù hợp với mục đích sử dụng của hệ thống;
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-1
+    quote: 'Nhà cung cấp hệ thống trí tuệ nhân tạo có rủi ro cao có trách nhiệm sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-15_khoan-2_diem-b
+    quote: Bảo đảm chất lượng, tính phù hợp và tính đại diện của dữ liệu huấn luyện, dữ liệu kiểm thử
+      và dữ liệu đánh giá trong phạm vi cần thiết để hạn chế rủi ro phát sinh từ dữ liệu;
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Có biện pháp quản trị chất lượng, tính phù hợp, tính đại diện của dữ liệu huấn luyện, kiểm thử
+      và vận hành.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-031
+  group: quan_ly_rui_ro_cao
+  role: nha_cung_cap
+  risk_level: cao
+  condition: ''
+  obligation: Lập, cập nhật, lưu giữ hồ sơ kỹ thuật và nhật ký hoạt động ở mức cần thiết cho việc đánh
+    giá sự phù hợp và kiểm tra sau khi đưa vào sử dụng; cung cấp các thông tin này cho cơ quan nhà nước
+    có thẩm quyền theo nguyên tắc cần thiết, tương xứng với mục đích kiểm tra và không làm lộ bí mật kinh
+    doanh;
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-1_diem-c
+    quote: Lập, cập nhật, lưu giữ hồ sơ kỹ thuật và nhật ký hoạt động ở mức cần thiết cho việc đánh giá
+      sự phù hợp và kiểm tra sau khi đưa vào sử dụng; cung cấp các thông tin này cho cơ quan nhà nước
+      có thẩm
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-1
+    quote: 'Nhà cung cấp hệ thống trí tuệ nhân tạo có rủi ro cao có trách nhiệm sau đây:'
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Lập, cập nhật và lưu giữ hồ sơ kỹ thuật của hệ thống.
+  - id: c2
+    text: Lưu giữ nhật ký hoạt động ở mức cần thiết cho đánh giá sự phù hợp và kiểm tra sau khi đưa vào
+      sử dụng.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-032
+  group: quan_ly_rui_ro_cao
+  role: nha_cung_cap
+  risk_level: cao
+  condition: ''
+  obligation: Thiết kế hệ thống bảo đảm khả năng giám sát và can thiệp của con người đối với hệ thống;
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-1_diem-d
+    quote: Thiết kế hệ thống bảo đảm khả năng giám sát và can thiệp của con người đối với hệ thống;
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-1
+    quote: 'Nhà cung cấp hệ thống trí tuệ nhân tạo có rủi ro cao có trách nhiệm sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-15_khoan-2_diem-c
+    quote: Thiết kế và duy trì cơ chế giám sát và can thiệp của con người phù hợp với mức độ rủi ro của
+      hệ thống;
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Hệ thống được thiết kế có cơ chế để con người giám sát và can thiệp (dừng, sửa, bác bỏ kết quả).
+    not_met:
+    - chỉ có người xem báo cáo định kỳ, không can thiệp được
+  review_by: ai
+  kind: nghia_vu
+- id: ob-033
+  group: quan_ly_rui_ro_cao
+  role: nha_cung_cap
+  risk_level: cao
+  condition: ''
+  obligation: Thực hiện trách nhiệm giải trình đối với cơ quan nhà nước có thẩm quyền về mục đích sử dụng,
+    nguyên lý hoạt động ở mức mô tả chức năng, loại dữ liệu đầu vào chủ yếu, biện pháp quản lý và kiểm
+    soát rủi ro cùng các nội dung cần thiết phục vụ thanh tra, kiểm tra; cung cấp cho người sử dụng và
+    người bị ảnh hưởng các thông tin công khai ở mức mô tả chức năng, cách thức vận hành và cảnh báo rủi
+    ro để bảo đảm an toàn trong sử dụng. Việc giải trình và cung cấp thông tin không được yêu cầu tiết
+    lộ mã nguồn, thuật toán chi tiết, bộ tham số hoặc thông tin thuộc bí mật kinh doanh, bí mật công nghệ;
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-1_diem-e
+    quote: Thực hiện trách nhiệm giải trình đối với cơ quan nhà nước có thẩm quyền về mục đích sử dụng,
+      nguyên lý hoạt động ở mức mô tả chức năng, loại dữ liệu đầu vào chủ yếu, biện pháp quản lý và kiểm
+      soát
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-1
+    quote: 'Nhà cung cấp hệ thống trí tuệ nhân tạo có rủi ro cao có trách nhiệm sau đây:'
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Có sẵn thông tin để giải trình với cơ quan nhà nước về mục đích, nguyên lý hoạt động, dữ liệu
+      đầu vào chủ yếu, biện pháp quản lý và kiểm soát rủi ro.
+  - id: c2
+    text: Cung cấp cho người sử dụng và người bị ảnh hưởng thông tin công khai về chức năng, cách vận
+      hành và cảnh báo rủi ro.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-034
+  group: quan_ly_rui_ro_cao
+  role: nha_cung_cap
+  risk_level: cao
+  condition: ''
+  obligation: Phối hợp với cơ quan nhà nước có thẩm quyền và bên triển khai trong kiểm tra, đánh giá,
+    hậu kiểm và khắc phục sự cố liên quan đến hệ thống.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-1_diem-g
+    quote: Phối hợp với cơ quan nhà nước có thẩm quyền và bên triển khai trong kiểm tra, đánh giá, hậu
+      kiểm và khắc phục sự cố liên quan đến hệ thống.
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-1
+    quote: 'Nhà cung cấp hệ thống trí tuệ nhân tạo có rủi ro cao có trách nhiệm sau đây:'
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Có quy trình nội bộ bảo đảm phối hợp với cơ quan nhà nước và bên triển khai khi kiểm tra, đánh
+      giá, hậu kiểm và khắc phục sự cố.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-035
+  group: quan_ly_rui_ro_cao
+  role: ben_trien_khai
+  risk_level: cao
+  condition: ''
+  obligation: Vận hành và giám sát hệ thống đúng mục đích, phạm vi và mức độ rủi ro đã được phân loại,
+    không làm phát sinh rủi ro mới hoặc rủi ro cao hơn;
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-2_diem-a
+    quote: Vận hành và giám sát hệ thống đúng mục đích, phạm vi và mức độ rủi ro đã được phân loại, không
+      làm phát sinh rủi ro mới hoặc rủi ro cao hơn;
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-2
+    quote: 'Bên triển khai hệ thống trí tuệ nhân tạo có rủi ro cao có trách nhiệm sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-15_khoan-5_diem-a
+    quote: Vận hành hệ thống đúng mục đích sử dụng, điều kiện sử dụng và giới hạn sử dụng do nhà cung
+      cấp xác định;
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Vận hành, giám sát hệ thống đúng mục đích, điều kiện và giới hạn sử dụng do nhà cung cấp xác
+      định.
+    not_met:
+    - dùng hệ thống cho mục đích khác với công bố của nhà cung cấp
+  review_by: ai
+  kind: nghia_vu
+- id: ob-036
+  group: quan_ly_rui_ro_cao
+  role: ben_trien_khai
+  risk_level: cao
+  condition: ''
+  obligation: Bảo đảm an toàn, bảo mật dữ liệu và khả năng can thiệp của con người trong quá trình sử
+    dụng;
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-2_diem-b
+    quote: Bảo đảm an toàn, bảo mật dữ liệu và khả năng can thiệp của con người trong quá trình sử dụng;
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-2
+    quote: 'Bên triển khai hệ thống trí tuệ nhân tạo có rủi ro cao có trách nhiệm sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-15_khoan-5_diem-c
+    quote: Thiết lập và duy trì cơ chế giám sát và can thiệp của con người trong quá trình sử dụng hệ
+      thống theo quy định của pháp luật;
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Có biện pháp bảo đảm an toàn, bảo mật dữ liệu trong quá trình sử dụng.
+  - id: c2
+    text: Có cơ chế để con người giám sát và can thiệp trong quá trình sử dụng hệ thống.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-037
+  group: quan_ly_rui_ro_cao
+  role: nguoi_su_dung
+  risk_level: cao
+  condition: ''
+  obligation: Người sử dụng hệ thống trí tuệ nhân tạo có rủi ro cao có trách nhiệm tuân thủ quy trình
+    vận hành, hướng dẫn kỹ thuật và các biện pháp bảo đảm an toàn; không can thiệp trái phép làm thay
+    đổi tính năng của hệ thống; thông báo kịp thời các sự cố phát sinh cho bên triển khai.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-3
+    quote: Người sử dụng hệ thống trí tuệ nhân tạo có rủi ro cao có trách nhiệm tuân thủ quy trình vận
+      hành, hướng dẫn kỹ thuật và các biện pháp bảo đảm an toàn; không can thiệp trái phép làm thay đổi
+      tính năng
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Tuân thủ quy trình vận hành, hướng dẫn kỹ thuật, biện pháp an toàn; không can thiệp trái phép
+      thay đổi tính năng; thông báo kịp thời sự cố cho bên triển khai.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-038
+  group: nuoc_ngoai
+  role: nha_cung_cap
+  risk_level: cao
+  condition: Nhà cung cấp nước ngoài có hệ thống được cung cấp tại Việt Nam
+  obligation: Nhà cung cấp nước ngoài có hệ thống trí tuệ nhân tạo có rủi ro cao được cung cấp tại Việt
+    Nam phải có đầu mối liên hệ hợp pháp tại Việt Nam; trường hợp hệ thống thuộc diện bắt buộc chứng nhận
+    sự phù hợp trước khi đưa vào sử dụng, phải có hiện diện thương mại hoặc đại diện được ủy quyền tại
+    Việt Nam.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-6
+    quote: Nhà cung cấp nước ngoài có hệ thống trí tuệ nhân tạo có rủi ro cao được cung cấp tại Việt Nam
+      phải có đầu mối liên hệ hợp pháp tại Việt Nam; trường hợp hệ thống thuộc diện bắt buộc chứng nhận
+      sự phù
+  review_status: ai_reviewed
+  applies_when:
+    fact: is_foreign_provider
+    op: is_true
+  criteria:
+  - id: c1
+    text: Có đầu mối liên hệ hợp pháp tại Việt Nam.
+  - id: c2
+    text: 'Nếu hệ thống thuộc diện bắt buộc chứng nhận sự phù hợp trước khi đưa vào sử dụng: có hiện diện
+      thương mại hoặc đại diện được ủy quyền tại Việt Nam.'
+    not_met:
+    - chỉ có email hỗ trợ khách hàng
+  review_by: ai
+  kind: nghia_vu
+- id: ob-039
+  group: khu_vuc_cong
+  role: co_quan_nha_nuoc
+  risk_level: moi_muc
+  condition: Sử dụng hệ thống trong quản lý nhà nước và cung cấp dịch vụ công
+  obligation: Việc sử dụng hệ thống trí tuệ nhân tạo trong quản lý nhà nước và cung cấp dịch vụ công phải
+    bảo đảm công khai, minh bạch và có trách nhiệm tuân thủ Khung đạo đức trí tuệ nhân tạo quốc gia.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-27_khoan-1
+    quote: Việc sử dụng hệ thống trí tuệ nhân tạo trong quản lý nhà nước và cung cấp dịch vụ công phải
+      bảo đảm công khai, minh bạch và có trách nhiệm tuân thủ Khung đạo đức trí tuệ nhân tạo quốc gia.
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-6
+    quote: Việc sử dụng hệ thống trí tuệ nhân tạo trong cơ quan nhà nước phải tuân thủ Khung đạo đức trí
+      tuệ nhân tạo quốc gia và không thay thế thẩm quyền, trách nhiệm quyết định của người có thẩm quyền
+      theo
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Việc sử dụng hệ thống trong quản lý nhà nước, dịch vụ công được công khai, minh bạch với người
+      dân.
+  - id: c2
+    text: Tuân thủ Khung đạo đức trí tuệ nhân tạo quốc gia.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-040
+  group: khu_vuc_cong
+  role: co_quan_nha_nuoc
+  risk_level: moi_muc
+  condition: Cơ quan vận hành hệ thống rủi ro cao hoặc có tác động đáng kể đến quyền con người, công bằng
+    xã hội hoặc lợi ích công cộng
+  obligation: Cơ quan vận hành hệ thống trí tuệ nhân tạo có rủi ro cao hoặc có tác động đáng kể đến quyền
+    con người, công bằng xã hội hoặc lợi ích công cộng phải lập báo cáo đánh giá tác động việc sử dụng
+    hệ thống; báo cáo gồm việc xác định rủi ro, biện pháp kiểm soát và bảo đảm khả năng giám sát, can
+    thiệp của con người.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-27_khoan-3
+    quote: Cơ quan vận hành hệ thống trí tuệ nhân tạo có rủi ro cao hoặc có tác động đáng kể đến quyền
+      con người, công bằng xã hội hoặc lợi ích công cộng phải lập báo cáo đánh giá tác động việc sử dụng
+      hệ
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-3
+    quote: Cơ quan, đơn vị triển khai phải lập báo cáo đánh giá tác động theo Mẫu AI02 tại Phụ lục ban
+      hành kèm theo Nghị định này. Báo cáo đánh giá tác động phải đáp ứng quy định tại khoản 3 Điều 27
+      Luật Trí
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-3_diem-a
+    quote: Thông tin mô tả hệ thống trí tuệ nhân tạo và mục đích sử dụng;
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-3_diem-b
+    quote: Nhận diện và đánh giá rủi ro;
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-3_diem-c
+    quote: Biện pháp kiểm soát và giảm thiểu rủi ro;
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-3_diem-d
+    quote: Cơ chế bảo đảm khả năng giám sát và can thiệp của con người trong quá trình vận hành hệ thống.
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-4
+    quote: Người đứng đầu cơ quan, đơn vị triển khai có trách nhiệm tổ chức lập, phê duyệt báo cáo đánh
+      giá tác động trước khi đưa hệ thống trí tuệ nhân tạo vào sử dụng và chịu trách nhiệm trước pháp
+      luật về
+  review_status: ai_reviewed
+  applies_when:
+    any:
+    - fact: risk_level
+      op: eq
+      value: cao
+    - fact: public_decision_use
+      op: is_true
+  deadline: trước khi đưa hệ thống vào sử dụng
+  criteria:
+  - id: c1
+    text: 'Báo cáo đánh giá tác động lập theo Mẫu AI02, có: mô tả hệ thống và mục đích; nhận diện, đánh
+      giá rủi ro; biện pháp kiểm soát, giảm thiểu rủi ro; cơ chế giám sát, can thiệp của con người.'
+    not_met:
+    - thiếu một trong bốn nội dung
+  - id: c2
+    text: Người đứng đầu cơ quan, đơn vị đã phê duyệt báo cáo trước khi đưa hệ thống vào sử dụng.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-041
+  group: khu_vuc_cong
+  role: co_quan_nha_nuoc
+  risk_level: moi_muc
+  condition: Cơ quan lập báo cáo đánh giá tác động việc sử dụng hệ thống
+  obligation: Cơ quan lập báo cáo đánh giá tác động chịu trách nhiệm về nội dung, tính trung thực và đầy
+    đủ của báo cáo; báo cáo được công khai theo quy định của pháp luật, trừ nội dung thuộc bí mật nhà
+    nước, bí mật kinh doanh hoặc dữ liệu cá nhân.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-27_khoan-4
+    quote: Cơ quan lập báo cáo đánh giá tác động chịu trách nhiệm về nội dung, tính trung thực và đầy
+      đủ của báo cáo; báo cáo được công khai theo quy định của pháp luật, trừ nội dung thuộc bí mật nhà
+      nước, bí
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-5
+    quote: Cơ quan, đơn vị triển khai phải công khai báo cáo đánh giá tác động theo quy định tại khoản
+      4 Điều 27 Luật Trí tuệ nhân tạo, trừ nội dung thuộc bí mật nhà nước, bí mật kinh doanh hoặc dữ liệu
+      cá nhân
+  review_status: ai_reviewed
+  applies_when:
+    any:
+    - fact: risk_level
+      op: eq
+      value: cao
+    - fact: public_decision_use
+      op: is_true
+  criteria:
+  - id: c1
+    text: Báo cáo đánh giá tác động đã được công khai (trừ nội dung thuộc bí mật nhà nước, bí mật kinh
+      doanh, dữ liệu cá nhân).
+  review_by: ai
+  kind: nghia_vu
+- id: ob-042
+  group: chuyen_tiep
+  role: nha_cung_cap
+  risk_level: moi_muc
+  condition: Hệ thống đã hoạt động trước ngày Luật có hiệu lực; trong lĩnh vực y tế, giáo dục và tài chính
+  obligation: Thực hiện các nghĩa vụ tuân thủ theo quy định của Luật trong thời hạn 18 tháng kể từ ngày
+    Luật Trí tuệ nhân tạo số 134/2025/QH15 có hiệu lực thi hành đối với hệ thống trí tuệ nhân tạo trong
+    lĩnh vực y tế, giáo dục và tài chính;
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-35_khoan-1_diem-a
+    quote: 18 tháng kể từ ngày Luật này có hiệu lực thi hành đối với hệ thống trí tuệ nhân tạo trong lĩnh
+      vực y tế, giáo dục và tài chính;
+  - chunk_id: 134-2025-QH15_dieu-35_khoan-1
+    quote: Đối với các hệ thống trí tuệ nhân tạo đã được đưa vào hoạt động trước ngày Luật này có hiệu
+      lực thi hành, nhà cung cấp và bên triển khai có trách nhiệm thực hiện các nghĩa vụ tuân thủ theo
+      quy định
+  - chunk_id: 134-2025-QH15_dieu-35_khoan-2
+    quote: Trong thời hạn quy định tại khoản 1 Điều này, hệ thống trí tuệ nhân tạo được tiếp tục hoạt
+      động, trừ trường hợp cơ quan quản lý nhà nước về trí tuệ nhân tạo xác định hệ thống có nguy cơ gây
+      thiệt hại
+  review_status: user_reviewed
+  kind: thong_tin
+  applies_when:
+    all:
+    - fact: operation_start_date
+      op: lt
+      value: luat_134
+    - fact: sectors
+      op: overlaps
+      value:
+      - giao_duc
+      - y_te
+      - tai_chinh_ngan_hang
+  deadline: 01/09/2027 (18 tháng từ 01/03/2026)
+  review_by: user
+- id: ob-043
+  group: chuyen_tiep
+  role: nha_cung_cap
+  risk_level: moi_muc
+  condition: Hệ thống đã hoạt động trước ngày Luật có hiệu lực; không thuộc lĩnh vực y tế, giáo dục và
+    tài chính
+  obligation: Thực hiện các nghĩa vụ tuân thủ theo quy định của Luật trong thời hạn 12 tháng kể từ ngày
+    Luật Trí tuệ nhân tạo số 134/2025/QH15 có hiệu lực thi hành đối với các hệ thống trí tuệ nhân tạo
+    không thuộc trường hợp quy định tại điểm a khoản 1 Điều 35 Luật Trí tuệ nhân tạo số 134/2025/QH15.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-35_khoan-1_diem-b
+    quote: 12 tháng kể từ ngày Luật này có hiệu lực thi hành đối với các hệ thống trí tuệ nhân tạo không
+      thuộc trường hợp quy định tại điểm a khoản này.
+  - chunk_id: 134-2025-QH15_dieu-35_khoan-1
+    quote: Đối với các hệ thống trí tuệ nhân tạo đã được đưa vào hoạt động trước ngày Luật này có hiệu
+      lực thi hành, nhà cung cấp và bên triển khai có trách nhiệm thực hiện các nghĩa vụ tuân thủ theo
+      quy định
+  - chunk_id: 134-2025-QH15_dieu-35_khoan-2
+    quote: Trong thời hạn quy định tại khoản 1 Điều này, hệ thống trí tuệ nhân tạo được tiếp tục hoạt
+      động, trừ trường hợp cơ quan quản lý nhà nước về trí tuệ nhân tạo xác định hệ thống có nguy cơ gây
+      thiệt hại
+  review_status: ai_reviewed
+  kind: thong_tin
+  applies_when:
+    all:
+    - fact: operation_start_date
+      op: lt
+      value: luat_134
+    - not:
+        fact: sectors
+        op: overlaps
+        value:
+        - giao_duc
+        - y_te
+        - tai_chinh_ngan_hang
+  deadline: 01/03/2027 (12 tháng từ 01/03/2026)
+  review_by: ai
+- id: ob-044
+  group: chuyen_tiep
+  role: ben_trien_khai
+  risk_level: moi_muc
+  condition: Hệ thống đã hoạt động trước ngày Luật có hiệu lực; trong lĩnh vực y tế, giáo dục và tài chính
+  obligation: Thực hiện các nghĩa vụ tuân thủ theo quy định của Luật trong thời hạn 18 tháng kể từ ngày
+    Luật Trí tuệ nhân tạo số 134/2025/QH15 có hiệu lực thi hành đối với hệ thống trí tuệ nhân tạo trong
+    lĩnh vực y tế, giáo dục và tài chính;
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-35_khoan-1_diem-a
+    quote: 18 tháng kể từ ngày Luật này có hiệu lực thi hành đối với hệ thống trí tuệ nhân tạo trong lĩnh
+      vực y tế, giáo dục và tài chính;
+  - chunk_id: 134-2025-QH15_dieu-35_khoan-1
+    quote: Đối với các hệ thống trí tuệ nhân tạo đã được đưa vào hoạt động trước ngày Luật này có hiệu
+      lực thi hành, nhà cung cấp và bên triển khai có trách nhiệm thực hiện các nghĩa vụ tuân thủ theo
+      quy định
+  - chunk_id: 134-2025-QH15_dieu-35_khoan-2
+    quote: Trong thời hạn quy định tại khoản 1 Điều này, hệ thống trí tuệ nhân tạo được tiếp tục hoạt
+      động, trừ trường hợp cơ quan quản lý nhà nước về trí tuệ nhân tạo xác định hệ thống có nguy cơ gây
+      thiệt hại
+  review_status: user_reviewed
+  kind: thong_tin
+  applies_when:
+    all:
+    - fact: operation_start_date
+      op: lt
+      value: luat_134
+    - fact: sectors
+      op: overlaps
+      value:
+      - giao_duc
+      - y_te
+      - tai_chinh_ngan_hang
+  deadline: 01/09/2027 (18 tháng từ 01/03/2026)
+  review_by: user
+- id: ob-045
+  group: chuyen_tiep
+  role: ben_trien_khai
+  risk_level: moi_muc
+  condition: Hệ thống đã hoạt động trước ngày Luật có hiệu lực; không thuộc lĩnh vực y tế, giáo dục và
+    tài chính
+  obligation: Thực hiện các nghĩa vụ tuân thủ theo quy định của Luật trong thời hạn 12 tháng kể từ ngày
+    Luật Trí tuệ nhân tạo số 134/2025/QH15 có hiệu lực thi hành đối với các hệ thống trí tuệ nhân tạo
+    không thuộc trường hợp quy định tại điểm a khoản 1 Điều 35 Luật Trí tuệ nhân tạo số 134/2025/QH15.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-35_khoan-1_diem-b
+    quote: 12 tháng kể từ ngày Luật này có hiệu lực thi hành đối với các hệ thống trí tuệ nhân tạo không
+      thuộc trường hợp quy định tại điểm a khoản này.
+  - chunk_id: 134-2025-QH15_dieu-35_khoan-1
+    quote: Đối với các hệ thống trí tuệ nhân tạo đã được đưa vào hoạt động trước ngày Luật này có hiệu
+      lực thi hành, nhà cung cấp và bên triển khai có trách nhiệm thực hiện các nghĩa vụ tuân thủ theo
+      quy định
+  - chunk_id: 134-2025-QH15_dieu-35_khoan-2
+    quote: Trong thời hạn quy định tại khoản 1 Điều này, hệ thống trí tuệ nhân tạo được tiếp tục hoạt
+      động, trừ trường hợp cơ quan quản lý nhà nước về trí tuệ nhân tạo xác định hệ thống có nguy cơ gây
+      thiệt hại
+  review_status: ai_reviewed
+  kind: thong_tin
+  applies_when:
+    all:
+    - fact: operation_start_date
+      op: lt
+      value: luat_134
+    - not:
+        fact: sectors
+        op: overlaps
+        value:
+        - giao_duc
+        - y_te
+        - tai_chinh_ngan_hang
+  deadline: 01/03/2027 (12 tháng từ 01/03/2026)
+  review_by: ai
+- id: ob-046
+  group: minh_bach
+  role: nguoi_su_dung
+  risk_level: trung_binh
+  condition: ''
+  obligation: Người sử dụng có trách nhiệm tuân thủ quy định về thông báo, gắn nhãn hệ thống trí tuệ nhân
+    tạo.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-15_khoan-1_diem-d
+    quote: Người sử dụng có trách nhiệm tuân thủ quy định về thông báo, gắn nhãn hệ thống trí tuệ nhân
+      tạo.
+  - chunk_id: 134-2025-QH15_dieu-15_khoan-1
+    quote: 'Hệ thống trí tuệ nhân tạo có rủi ro trung bình được quản lý như sau:'
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Tuân thủ quy định về thông báo, gắn nhãn khi sử dụng hệ thống (không gỡ, che nhãn; giữ thông
+      báo khi chia sẻ nội dung).
+  review_by: ai
+  kind: nghia_vu
+- id: ob-047
+  group: minh_bach
+  role: nha_cung_cap
+  risk_level: thap
+  condition: Khi có yêu cầu của cơ quan nhà nước có thẩm quyền trong trường hợp có dấu hiệu vi phạm pháp
+    luật hoặc ảnh hưởng đến quyền, lợi ích hợp pháp của tổ chức, cá nhân
+  obligation: Nhà cung cấp có trách nhiệm giải trình khi có yêu cầu của cơ quan nhà nước có thẩm quyền
+    trong trường hợp có dấu hiệu vi phạm pháp luật hoặc ảnh hưởng đến quyền, lợi ích hợp pháp của tổ chức,
+    cá nhân;
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-15_khoan-2_diem-a
+    quote: Nhà cung cấp có trách nhiệm giải trình khi có yêu cầu của cơ quan nhà nước có thẩm quyền trong
+      trường hợp có dấu hiệu vi phạm pháp luật hoặc ảnh hưởng đến quyền, lợi ích hợp pháp của tổ chức,
+      cá nhân;
+  - chunk_id: 134-2025-QH15_dieu-15_khoan-2
+    quote: 'Hệ thống trí tuệ nhân tạo có rủi ro thấp được quản lý như sau:'
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Có sẵn thông tin về hệ thống để giải trình khi cơ quan nhà nước yêu cầu trong trường hợp có
+      dấu hiệu vi phạm hoặc ảnh hưởng quyền lợi.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-048
+  group: minh_bach
+  role: ben_trien_khai
+  risk_level: thap
+  condition: Khi có yêu cầu của cơ quan nhà nước có thẩm quyền trong trường hợp có dấu hiệu vi phạm pháp
+    luật hoặc ảnh hưởng đến quyền, lợi ích hợp pháp của tổ chức, cá nhân
+  obligation: Bên triển khai có trách nhiệm giải trình khi có yêu cầu của cơ quan nhà nước có thẩm quyền
+    trong trường hợp có dấu hiệu vi phạm pháp luật hoặc ảnh hưởng đến quyền, lợi ích hợp pháp của tổ chức,
+    cá nhân;
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-15_khoan-2_diem-b
+    quote: Bên triển khai có trách nhiệm giải trình khi có yêu cầu của cơ quan nhà nước có thẩm quyền
+      trong trường hợp có dấu hiệu vi phạm pháp luật hoặc ảnh hưởng đến quyền, lợi ích hợp pháp của tổ
+      chức, cá
+  - chunk_id: 134-2025-QH15_dieu-15_khoan-2
+    quote: 'Hệ thống trí tuệ nhân tạo có rủi ro thấp được quản lý như sau:'
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Có sẵn thông tin về hệ thống để giải trình khi cơ quan nhà nước yêu cầu trong trường hợp có
+      dấu hiệu vi phạm hoặc ảnh hưởng quyền lợi.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-049
+  group: phan_loai_thong_bao
+  role: nha_cung_cap
+  risk_level: moi_muc
+  condition: Kết quả phân loại lại xác định mức độ rủi ro cao hơn mức đã phân loại
+  obligation: Trường hợp kết quả phân loại lại xác định mức độ rủi ro của hệ thống cao hơn mức đã phân
+    loại, nhà cung cấp, bên triển khai phải thực hiện thông báo kết quả phân loại lại cho cơ quan nhà
+    nước có thẩm quyền trong thời hạn 15 ngày làm việc kể từ ngày hoàn thành việc rà soát và phải áp dụng
+    ngay các biện pháp quản lý rủi ro tương ứng với mức độ rủi ro mới;
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-11_khoan-3_diem-a
+    quote: Trường hợp kết quả phân loại lại xác định mức độ rủi ro của hệ thống cao hơn mức đã phân loại,
+      nhà cung cấp, bên triển khai phải thực hiện thông báo kết quả phân loại lại cho cơ quan nhà nước
+      có thẩm
+  - chunk_id: 142-2026-ND-CP_dieu-11_khoan-3
+    quote: 'Việc thực hiện thông báo kết quả sau khi rà soát, phân loại lại được quy định như sau:'
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Có quy trình nội bộ bảo đảm khi kết quả phân loại lại cao hơn mức cũ thì thông báo cho cơ quan
+      có thẩm quyền trong 15 ngày làm việc kể từ khi hoàn thành rà soát.
+  - id: c2
+    text: Có quy trình nội bộ bảo đảm khi phân loại lại lên mức cao hơn thì áp dụng ngay biện pháp quản
+      lý rủi ro tương ứng mức mới.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-050
+  group: phan_loai_thong_bao
+  role: ben_trien_khai
+  risk_level: moi_muc
+  condition: Kết quả phân loại lại xác định mức độ rủi ro cao hơn mức đã phân loại
+  obligation: Trường hợp kết quả phân loại lại xác định mức độ rủi ro của hệ thống cao hơn mức đã phân
+    loại, nhà cung cấp, bên triển khai phải thực hiện thông báo kết quả phân loại lại cho cơ quan nhà
+    nước có thẩm quyền trong thời hạn 15 ngày làm việc kể từ ngày hoàn thành việc rà soát và phải áp dụng
+    ngay các biện pháp quản lý rủi ro tương ứng với mức độ rủi ro mới;
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-11_khoan-3_diem-a
+    quote: Trường hợp kết quả phân loại lại xác định mức độ rủi ro của hệ thống cao hơn mức đã phân loại,
+      nhà cung cấp, bên triển khai phải thực hiện thông báo kết quả phân loại lại cho cơ quan nhà nước
+      có thẩm
+  - chunk_id: 142-2026-ND-CP_dieu-11_khoan-3
+    quote: 'Việc thực hiện thông báo kết quả sau khi rà soát, phân loại lại được quy định như sau:'
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Có quy trình nội bộ bảo đảm khi kết quả phân loại lại cao hơn mức cũ thì thông báo cho cơ quan
+      có thẩm quyền trong 15 ngày làm việc kể từ khi hoàn thành rà soát.
+  - id: c2
+    text: Có quy trình nội bộ bảo đảm khi phân loại lại lên mức cao hơn thì áp dụng ngay biện pháp quản
+      lý rủi ro tương ứng mức mới.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-051
+  group: minh_bach
+  role: nha_cung_cap
+  risk_level: trung_binh
+  condition: ''
+  obligation: Phải bảo đảm minh bạch theo quy định tại Điều 11 Luật Trí tuệ nhân tạo số 134/2025/QH15.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-15_khoan-1
+    quote: 'Hệ thống trí tuệ nhân tạo có rủi ro trung bình được quản lý như sau:'
+  - chunk_id: 134-2025-QH15_dieu-15_khoan-1_diem-a
+    quote: Nhà cung cấp và bên triển khai phải bảo đảm minh bạch theo quy định tại Điều 11 của Luật này;
+  review_status: ai_reviewed
+  kind: thong_tin
+  review_note: Dẫn chiếu chung tới Điều 11; nghĩa vụ cụ thể chấm ở ob-015 đến ob-020.
+  review_by: ai
+- id: ob-052
+  group: minh_bach
+  role: ben_trien_khai
+  risk_level: trung_binh
+  condition: ''
+  obligation: Phải bảo đảm minh bạch theo quy định tại Điều 11 Luật Trí tuệ nhân tạo số 134/2025/QH15.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-15_khoan-1
+    quote: 'Hệ thống trí tuệ nhân tạo có rủi ro trung bình được quản lý như sau:'
+  - chunk_id: 134-2025-QH15_dieu-15_khoan-1_diem-a
+    quote: Nhà cung cấp và bên triển khai phải bảo đảm minh bạch theo quy định tại Điều 11 của Luật này;
+  review_status: ai_reviewed
+  kind: thong_tin
+  review_note: Dẫn chiếu chung tới Điều 11; nghĩa vụ cụ thể chấm ở ob-015 đến ob-020.
+  review_by: ai
+- id: ob-053
+  group: minh_bach
+  role: nha_cung_cap
+  risk_level: trung_binh
+  condition: ''
+  obligation: Nhà cung cấp có trách nhiệm giải trình về mục đích sử dụng, nguyên lý hoạt động ở mức mô
+    tả chức năng, dữ liệu đầu vào chủ yếu và biện pháp quản lý rủi ro, an toàn của hệ thống khi có yêu
+    cầu của cơ quan nhà nước trong thanh tra, kiểm tra hoặc khi có dấu hiệu rủi ro hoặc sự cố; việc giải
+    trình không yêu cầu tiết lộ mã nguồn, thuật toán chi tiết, bộ tham số hoặc bí mật kinh doanh, bí mật
+    công nghệ;
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-15_khoan-1_diem-b
+    quote: Nhà cung cấp có trách nhiệm giải trình về mục đích sử dụng, nguyên lý hoạt động ở mức mô tả
+      chức năng, dữ liệu đầu vào chủ yếu và biện pháp quản lý rủi ro, an toàn của hệ thống khi có yêu
+      cầu của cơ quan nhà nước trong thanh tra, kiểm tra hoặc khi có dấu hiệu rủi ro hoặc sự cố; việc
+      giải trình
+  - chunk_id: 134-2025-QH15_dieu-15_khoan-1
+    quote: 'Hệ thống trí tuệ nhân tạo có rủi ro trung bình được quản lý như sau:'
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Có sẵn tài liệu mô tả mục đích sử dụng, nguyên lý hoạt động ở mức chức năng, dữ liệu đầu vào
+      chủ yếu và biện pháp quản lý rủi ro, an toàn để giải trình khi cơ quan nhà nước yêu cầu.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-054
+  group: minh_bach
+  role: ben_trien_khai
+  risk_level: trung_binh
+  condition: ''
+  obligation: Bên triển khai có trách nhiệm giải trình về việc vận hành, kiểm soát rủi ro, xử lý sự cố
+    và bảo vệ quyền, lợi ích hợp pháp của tổ chức, cá nhân khi có yêu cầu của cơ quan nhà nước có thẩm
+    quyền trong quá trình thanh tra, kiểm tra hoặc xử lý sự cố;
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-15_khoan-1_diem-c
+    quote: Bên triển khai có trách nhiệm giải trình về việc vận hành, kiểm soát rủi ro, xử lý sự cố và
+      bảo vệ quyền, lợi ích hợp pháp của tổ chức, cá nhân khi có yêu cầu của cơ quan nhà nước có thẩm
+      quyền trong quá trình thanh tra, kiểm tra hoặc xử lý sự cố;
+  - chunk_id: 134-2025-QH15_dieu-15_khoan-1
+    quote: 'Hệ thống trí tuệ nhân tạo có rủi ro trung bình được quản lý như sau:'
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Có sẵn thông tin về việc vận hành, kiểm soát rủi ro, xử lý sự cố và bảo vệ quyền lợi của tổ
+      chức, cá nhân để giải trình khi cơ quan nhà nước yêu cầu.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-055
+  group: minh_bach
+  role: nguoi_su_dung
+  risk_level: thap
+  condition: ''
+  obligation: Người sử dụng có quyền khai thác, sử dụng hệ thống cho các mục đích hợp pháp và tự chịu
+    trách nhiệm trước pháp luật về hoạt động sử dụng của mình.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-15_khoan-2_diem-c
+    quote: Người sử dụng có quyền khai thác, sử dụng hệ thống cho các mục đích hợp pháp và tự chịu trách
+      nhiệm trước pháp luật về hoạt động sử dụng của mình.
+  - chunk_id: 134-2025-QH15_dieu-15_khoan-2
+    quote: 'Hệ thống trí tuệ nhân tạo có rủi ro thấp được quản lý như sau:'
+  review_status: user_rejected
+  review_by: user
+  kind: nghia_vu
+- id: ob-056
+  group: minh_bach
+  role: nha_cung_cap
+  risk_level: moi_muc
+  condition: ''
+  obligation: 'Nhà cung cấp và bên triển khai hệ thống trí tuệ nhân tạo phải thực hiện trách nhiệm minh
+    bạch, thông báo, đánh dấu kỹ thuật và gắn nhãn hiển thị đối với hệ thống trí tuệ nhân tạo và nội dung
+    do hệ thống tạo ra theo quy định tại Điều 11 của Luật Trí tuệ nhân tạo. Việc thực hiện trách nhiệm
+    minh bạch phải phù hợp với mục đích sử dụng, bối cảnh triển khai và mức độ rủi ro của hệ thống. Nhà
+    cung cấp và bên triển khai phải thực hiện các nghĩa vụ sau đây: Thông báo, đánh dấu kỹ thuật và gắn
+    nhãn hiển thị đối với hệ thống trí tuệ nhân tạo và nội dung do hệ thống tạo ra theo quy định của pháp
+    luật; Cung cấp thông tin về mục đích sử dụng, phạm vi áp dụng, điều kiện sử dụng và các hạn chế của
+    hệ thống trí tuệ nhân tạo; Lưu trữ thông tin, tài liệu phục vụ việc kiểm tra, giám sát theo quy định
+    của pháp luật. Nhà cung cấp và bên triển khai phải giải trình khi có yêu cầu bằng văn bản của cơ quan
+    nhà nước có thẩm quyền theo quy định tại Điều 14 và Điều 15 của Luật Trí tuệ nhân tạo. Phạm vi, nội
+    dung và thời hạn giải trình phải phù hợp với địa vị pháp lý của từng chủ thể và mức độ rủi ro của
+    hệ thống. Khi thực hiện trách nhiệm giải trình và cung cấp thông tin theo quy định của pháp luật,
+    nhà cung cấp và bên triển khai không bắt buộc phải tiết lộ mã nguồn, thuật toán chi tiết, dữ liệu
+    huấn luyện, bộ tham số hoặc thông tin thuộc phạm vi bí mật kinh doanh, bí mật công nghệ, trừ trường
+    hợp pháp luật có quy định khác.'
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-16_khoan-1
+    quote: Nhà cung cấp và bên triển khai hệ thống trí tuệ nhân tạo phải thực hiện trách nhiệm minh bạch,
+      thông báo, đánh dấu kỹ thuật và gắn nhãn hiển thị đối với hệ thống trí tuệ nhân tạo và nội dung
+      do hệ thống tạo ra theo quy định tại Điều 11 của Luật Trí tuệ nhân tạo. Việc thực hiện trách nhiệm
+      minh bạch
+  - chunk_id: 142-2026-ND-CP_dieu-16_khoan-2
+    quote: 'Nhà cung cấp và bên triển khai phải thực hiện các nghĩa vụ sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-16_khoan-2_diem-a
+    quote: Thông báo, đánh dấu kỹ thuật và gắn nhãn hiển thị đối với hệ thống trí tuệ nhân tạo và nội
+      dung do hệ thống tạo ra theo quy định của pháp luật;
+  - chunk_id: 142-2026-ND-CP_dieu-16_khoan-2_diem-b
+    quote: Cung cấp thông tin về mục đích sử dụng, phạm vi áp dụng, điều kiện sử dụng và các hạn chế của
+      hệ thống trí tuệ nhân tạo;
+  - chunk_id: 142-2026-ND-CP_dieu-16_khoan-2_diem-c
+    quote: Lưu trữ thông tin, tài liệu phục vụ việc kiểm tra, giám sát theo quy định của pháp luật.
+  - chunk_id: 142-2026-ND-CP_dieu-16_khoan-3
+    quote: Nhà cung cấp và bên triển khai phải giải trình khi có yêu cầu bằng văn bản của cơ quan nhà
+      nước có thẩm quyền theo quy định tại Điều 14 và Điều 15 của Luật Trí tuệ nhân tạo. Phạm vi, nội
+      dung và thời hạn giải trình phải phù hợp với địa vị pháp lý của từng chủ thể và mức độ rủi ro của
+      hệ thống.
+  - chunk_id: 142-2026-ND-CP_dieu-16_khoan-4
+    quote: Khi thực hiện trách nhiệm giải trình và cung cấp thông tin theo quy định của pháp luật, nhà
+      cung cấp và bên triển khai không bắt buộc phải tiết lộ mã nguồn, thuật toán chi tiết, dữ liệu huấn
+      luyện, bộ tham số hoặc thông tin thuộc phạm vi bí mật kinh doanh, bí mật công nghệ, trừ trường hợp
+      pháp luật
+  review_status: ai_reviewed
+  applies_when:
+    any:
+    - fact: interacts_with_humans
+      op: is_true
+    - fact: generates_content
+      op: is_true
+  criteria:
+  - id: c1
+    text: Cung cấp thông tin về mục đích sử dụng, phạm vi áp dụng, điều kiện sử dụng và các hạn chế của
+      hệ thống (ví dụ trong hướng dẫn sử dụng, trang giới thiệu).
+  - id: c2
+    text: Lưu trữ thông tin, tài liệu phục vụ kiểm tra, giám sát.
+  - id: c3
+    text: Sẵn sàng giải trình khi có yêu cầu bằng văn bản của cơ quan nhà nước có thẩm quyền.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-057
+  group: minh_bach
+  role: ben_trien_khai
+  risk_level: moi_muc
+  condition: ''
+  obligation: 'Nhà cung cấp và bên triển khai hệ thống trí tuệ nhân tạo phải thực hiện trách nhiệm minh
+    bạch, thông báo, đánh dấu kỹ thuật và gắn nhãn hiển thị đối với hệ thống trí tuệ nhân tạo và nội dung
+    do hệ thống tạo ra theo quy định tại Điều 11 của Luật Trí tuệ nhân tạo. Việc thực hiện trách nhiệm
+    minh bạch phải phù hợp với mục đích sử dụng, bối cảnh triển khai và mức độ rủi ro của hệ thống. Nhà
+    cung cấp và bên triển khai phải thực hiện các nghĩa vụ sau đây: Thông báo, đánh dấu kỹ thuật và gắn
+    nhãn hiển thị đối với hệ thống trí tuệ nhân tạo và nội dung do hệ thống tạo ra theo quy định của pháp
+    luật; Cung cấp thông tin về mục đích sử dụng, phạm vi áp dụng, điều kiện sử dụng và các hạn chế của
+    hệ thống trí tuệ nhân tạo; Lưu trữ thông tin, tài liệu phục vụ việc kiểm tra, giám sát theo quy định
+    của pháp luật. Nhà cung cấp và bên triển khai phải giải trình khi có yêu cầu bằng văn bản của cơ quan
+    nhà nước có thẩm quyền theo quy định tại Điều 14 và Điều 15 của Luật Trí tuệ nhân tạo. Phạm vi, nội
+    dung và thời hạn giải trình phải phù hợp với địa vị pháp lý của từng chủ thể và mức độ rủi ro của
+    hệ thống. Khi thực hiện trách nhiệm giải trình và cung cấp thông tin theo quy định của pháp luật,
+    nhà cung cấp và bên triển khai không bắt buộc phải tiết lộ mã nguồn, thuật toán chi tiết, dữ liệu
+    huấn luyện, bộ tham số hoặc thông tin thuộc phạm vi bí mật kinh doanh, bí mật công nghệ, trừ trường
+    hợp pháp luật có quy định khác.'
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-16_khoan-1
+    quote: Nhà cung cấp và bên triển khai hệ thống trí tuệ nhân tạo phải thực hiện trách nhiệm minh bạch,
+      thông báo, đánh dấu kỹ thuật và gắn nhãn hiển thị đối với hệ thống trí tuệ nhân tạo và nội dung
+      do hệ thống tạo ra theo quy định tại Điều 11 của Luật Trí tuệ nhân tạo. Việc thực hiện trách nhiệm
+      minh bạch
+  - chunk_id: 142-2026-ND-CP_dieu-16_khoan-2
+    quote: 'Nhà cung cấp và bên triển khai phải thực hiện các nghĩa vụ sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-16_khoan-2_diem-a
+    quote: Thông báo, đánh dấu kỹ thuật và gắn nhãn hiển thị đối với hệ thống trí tuệ nhân tạo và nội
+      dung do hệ thống tạo ra theo quy định của pháp luật;
+  - chunk_id: 142-2026-ND-CP_dieu-16_khoan-2_diem-b
+    quote: Cung cấp thông tin về mục đích sử dụng, phạm vi áp dụng, điều kiện sử dụng và các hạn chế của
+      hệ thống trí tuệ nhân tạo;
+  - chunk_id: 142-2026-ND-CP_dieu-16_khoan-2_diem-c
+    quote: Lưu trữ thông tin, tài liệu phục vụ việc kiểm tra, giám sát theo quy định của pháp luật.
+  - chunk_id: 142-2026-ND-CP_dieu-16_khoan-3
+    quote: Nhà cung cấp và bên triển khai phải giải trình khi có yêu cầu bằng văn bản của cơ quan nhà
+      nước có thẩm quyền theo quy định tại Điều 14 và Điều 15 của Luật Trí tuệ nhân tạo. Phạm vi, nội
+      dung và thời hạn giải trình phải phù hợp với địa vị pháp lý của từng chủ thể và mức độ rủi ro của
+      hệ thống.
+  - chunk_id: 142-2026-ND-CP_dieu-16_khoan-4
+    quote: Khi thực hiện trách nhiệm giải trình và cung cấp thông tin theo quy định của pháp luật, nhà
+      cung cấp và bên triển khai không bắt buộc phải tiết lộ mã nguồn, thuật toán chi tiết, dữ liệu huấn
+      luyện, bộ tham số hoặc thông tin thuộc phạm vi bí mật kinh doanh, bí mật công nghệ, trừ trường hợp
+      pháp luật
+  review_status: ai_reviewed
+  applies_when:
+    any:
+    - fact: interacts_with_humans
+      op: is_true
+    - fact: generates_content
+      op: is_true
+  criteria:
+  - id: c1
+    text: Cung cấp thông tin về mục đích sử dụng, phạm vi áp dụng, điều kiện sử dụng và các hạn chế của
+      hệ thống (ví dụ trong hướng dẫn sử dụng, trang giới thiệu).
+  - id: c2
+    text: Lưu trữ thông tin, tài liệu phục vụ kiểm tra, giám sát.
+  - id: c3
+    text: Sẵn sàng giải trình khi có yêu cầu bằng văn bản của cơ quan nhà nước có thẩm quyền.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-058
+  group: minh_bach
+  role: nha_cung_cap
+  risk_level: moi_muc
+  condition: Hệ thống tích hợp mô hình trí tuệ nhân tạo của tổ chức, cá nhân khác
+  obligation: Trường hợp hệ thống trí tuệ nhân tạo tích hợp mô hình trí tuệ nhân tạo của tổ chức, cá nhân
+    khác, nhà cung cấp phải thỏa thuận với tổ chức, cá nhân cung cấp mô hình để bảo đảm việc phối hợp
+    cung cấp thông tin kỹ thuật cần thiết phục vụ việc thực hiện trách nhiệm minh bạch và giải trình theo
+    quy định của pháp luật.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-16_khoan-6
+    quote: Trường hợp hệ thống trí tuệ nhân tạo tích hợp mô hình trí tuệ nhân tạo của tổ chức, cá nhân
+      khác, nhà cung cấp phải thỏa thuận với tổ chức, cá nhân cung cấp mô hình để bảo đảm việc phối hợp
+      cung cấp thông tin kỹ thuật cần thiết phục vụ việc thực hiện trách nhiệm minh bạch và giải trình
+      theo quy
+  review_status: ai_reviewed
+  applies_when:
+    fact: uses_third_party_model
+    op: is_true
+  criteria:
+  - id: c1
+    text: Có thỏa thuận với tổ chức, cá nhân cung cấp mô hình về việc phối hợp cung cấp thông tin kỹ thuật
+      phục vụ minh bạch và giải trình.
+    not_met:
+    - chỉ dùng điều khoản dịch vụ chuẩn của bên cung cấp mà không có nội dung về cung cấp thông tin kỹ
+      thuật
+  review_by: ai
+  kind: nghia_vu
+- id: ob-059
+  group: minh_bach
+  role: nha_cung_cap
+  risk_level: moi_muc
+  condition: ''
+  obligation: Nhà cung cấp phải bảo đảm chức năng đánh dấu kỹ thuật được duy trì trong quá trình tạo,
+    xuất và cung cấp nội dung trong phạm vi các chức năng do hệ thống kiểm soát.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-17_khoan-4
+    quote: Nhà cung cấp phải bảo đảm chức năng đánh dấu kỹ thuật được duy trì trong quá trình tạo, xuất
+      và cung cấp nội dung trong phạm vi các chức năng do hệ thống kiểm soát.
+  review_status: ai_reviewed
+  applies_when:
+    fact: content_types
+    op: overlaps
+    value:
+    - am_thanh
+    - hinh_anh
+    - video
+  criteria:
+  - id: c1
+    text: Chức năng đánh dấu kỹ thuật được duy trì trong quá trình tạo, xuất và cung cấp nội dung (không
+      bị mất khi tải xuống, chia sẻ trong phạm vi hệ thống kiểm soát).
+  review_by: ai
+  kind: nghia_vu
+- id: ob-060
+  group: minh_bach
+  role: ben_trien_khai
+  risk_level: moi_muc
+  condition: ''
+  obligation: 'Việc thông báo và gắn nhãn hiển thị phải bảo đảm các yêu cầu sau đây: Rõ ràng, dễ hiểu
+    và dễ nhận biết đối với người tiếp nhận; Được thực hiện trước hoặc tại thời điểm người tiếp nhận tiếp
+    cận nội dung; Không được thiết kế theo cách che giấu hoặc làm giảm khả năng nhận biết bản chất của
+    nội dung; Phù hợp với loại hình nội dung và phương thức cung cấp nội dung; Không gây cản trở đáng
+    kể việc hiển thị, trình diễn hoặc sử dụng nội dung.'
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-3
+    quote: 'Việc thông báo và gắn nhãn hiển thị phải bảo đảm các yêu cầu sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-3_diem-a
+    quote: Rõ ràng, dễ hiểu và dễ nhận biết đối với người tiếp nhận;
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-3_diem-b
+    quote: Được thực hiện trước hoặc tại thời điểm người tiếp nhận tiếp cận nội dung;
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-3_diem-c
+    quote: Không được thiết kế theo cách che giấu hoặc làm giảm khả năng nhận biết bản chất của nội dung;
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-3_diem-d
+    quote: Phù hợp với loại hình nội dung và phương thức cung cấp nội dung;
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-3_diem-đ
+    quote: Không gây cản trở đáng kể việc hiển thị, trình diễn hoặc sử dụng nội dung.
+  review_status: ai_reviewed
+  applies_when:
+    any:
+    - fact: simulates_real_person
+      op: is_true
+    - all:
+      - fact: generates_content
+        op: is_true
+      - fact: public_distribution
+        op: is_true
+  criteria:
+  - id: c1
+    text: Thông báo và nhãn hiển thị rõ ràng, dễ hiểu, dễ nhận biết đối với người tiếp nhận.
+  - id: c2
+    text: Thông báo, nhãn được thể hiện trước hoặc tại thời điểm người tiếp nhận tiếp cận nội dung.
+    not_met:
+    - chỉ có ở cuối nội dung dài
+    - chỉ hiện khi người xem bấm vào
+  - id: c3
+    text: Thông báo, nhãn không bị thiết kế theo cách che giấu hoặc làm giảm khả năng nhận biết.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-061
+  group: minh_bach
+  role: ben_trien_khai
+  risk_level: moi_muc
+  condition: ''
+  obligation: 'Bên triển khai có quyền lựa chọn hình thức thể hiện thông báo và nhãn hiển thị phù hợp
+    với loại hình nội dung và phương thức cung cấp, bao gồm: Hiển thị trực tiếp trên nội dung; Hiển thị
+    tại tiêu đề, phần mô tả hoặc chú thích kèm theo nội dung; Hiển thị trên giao diện của nền tảng cung
+    cấp nội dung; Phát thông báo bằng âm thanh hoặc hình thức phù hợp khác.'
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-5
+    quote: 'Bên triển khai có quyền lựa chọn hình thức thể hiện thông báo và nhãn hiển thị phù hợp với
+      loại hình nội dung và phương thức cung cấp, bao gồm:'
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-5_diem-a
+    quote: Hiển thị trực tiếp trên nội dung;
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-5_diem-b
+    quote: Hiển thị tại tiêu đề, phần mô tả hoặc chú thích kèm theo nội dung;
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-5_diem-c
+    quote: Hiển thị trên giao diện của nền tảng cung cấp nội dung;
+  - chunk_id: 142-2026-ND-CP_dieu-18_khoan-5_diem-d
+    quote: Phát thông báo bằng âm thanh hoặc hình thức phù hợp khác.
+  review_status: ai_reviewed
+  kind: thong_tin
+  review_note: Quyền lựa chọn hình thức thông báo, nhãn; không chấm hiện trạng.
+  review_by: ai
+- id: ob-062
+  group: su_co
+  role: moi_vai_tro
+  risk_level: moi_muc
+  condition: ''
+  obligation: Nhà phát triển, nhà cung cấp, bên triển khai và người sử dụng hệ thống trí tuệ nhân tạo
+    có trách nhiệm bảo đảm an toàn, an ninh, độ tin cậy và kịp thời phát hiện, khắc phục sự cố có khả
+    năng gây tổn hại đến con người, tài sản, dữ liệu hoặc trật tự xã hội.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-12_khoan-1
+    quote: Nhà phát triển, nhà cung cấp, bên triển khai và người sử dụng hệ thống trí tuệ nhân tạo có
+      trách nhiệm bảo đảm an toàn, an ninh, độ tin cậy và kịp thời phát hiện, khắc phục sự cố có khả năng
+      gây tổn hại đến con người, tài sản, dữ liệu hoặc trật tự xã hội.
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Có biện pháp bảo đảm an toàn, an ninh, độ tin cậy của hệ thống.
+  - id: c2
+    text: Có cơ chế kịp thời phát hiện và khắc phục sự cố có khả năng gây tổn hại đến con người, tài sản,
+      dữ liệu hoặc trật tự xã hội.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-063
+  group: su_co
+  role: nha_cung_cap
+  risk_level: moi_muc
+  condition: Khi hệ thống xảy ra sự cố nghiêm trọng
+  obligation: 'Nhà cung cấp hoặc bên triển khai phải báo cáo sơ bộ sự cố nghiêm trọng cho cơ quan nhà
+    nước có thẩm quyền theo Mẫu AI01a đối với tổ chức hoặc Mẫu AI01b đối với cá nhân tại Phụ lục ban hành
+    kèm theo Nghị định 142/2026/NĐ-CP thông qua Cổng thông tin điện tử một cửa về trí tuệ nhân tạo trong
+    thời hạn như sau: Đối với các sự cố nghiêm trọng có tính khẩn cấp quy định tại điểm a, điểm d khoản
+    1 Điều 19 Nghị định 142/2026/NĐ-CP và trường hợp không thể kiểm soát đối với quy định tại điểm c khoản
+    1 Điều 19 Nghị định 142/2026/NĐ-CP: thực hiện báo cáo sơ bộ trong thời hạn 72 giờ kể từ thời điểm
+    xác nhận sự cố; Đối với các sự cố nghiêm trọng còn lại: thực hiện báo cáo sơ bộ trong thời hạn 05
+    ngày làm việc kể từ thời điểm xác nhận sự cố; Thời điểm xác nhận sự cố quy định tại khoản 3 Điều 19
+    Nghị định 142/2026/NĐ-CP được tính từ khi tổ chức, cá nhân có đủ cơ sở thông tin ban đầu để xác định
+    sự cố đã thực sự xảy ra và có khả năng cao bắt nguồn từ lỗi của hệ thống trí tuệ nhân tạo, không đợi
+    đến khi hoàn thành điều tra toàn diện nguyên nhân kỹ thuật. Việc nộp báo cáo sơ bộ trong thời hạn
+    quy định không bị coi là sự thừa nhận lỗi kỹ thuật hoặc trách nhiệm pháp lý của tổ chức, cá nhân báo
+    cáo. Trường hợp bên triển khai không thể liên lạc với nhà cung cấp, bên triển khai có trách nhiệm
+    thực hiện việc báo cáo theo quy định tại khoản 3 Điều 19 Nghị định 142/2026/NĐ-CP.'
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-19_khoan-3
+    quote: 'Nhà cung cấp hoặc bên triển khai phải báo cáo sơ bộ sự cố nghiêm trọng cho cơ quan nhà nước
+      có thẩm quyền theo Mẫu AI01a đối với tổ chức hoặc Mẫu AI01b đối với cá nhân tại Phụ lục ban hành
+      kèm theo Nghị định này thông qua Cổng thông tin điện tử một cửa về trí tuệ nhân tạo trong thời hạn
+      như sau:'
+  - chunk_id: 142-2026-ND-CP_dieu-19_khoan-3_diem-a
+    quote: 'Đối với các sự cố nghiêm trọng có tính khẩn cấp quy định tại điểm a, điểm d khoản 1 Điều này
+      và trường hợp không thể kiểm soát đối với quy định tại điểm c khoản 1 Điều này: thực hiện báo cáo
+      sơ bộ trong thời hạn 72 giờ kể từ thời điểm xác nhận sự cố;'
+  - chunk_id: 142-2026-ND-CP_dieu-19_khoan-3_diem-b
+    quote: 'Đối với các sự cố nghiêm trọng còn lại: thực hiện báo cáo sơ bộ trong thời hạn 05 ngày làm
+      việc kể từ thời điểm xác nhận sự cố;'
+  - chunk_id: 142-2026-ND-CP_dieu-19_khoan-3_diem-c
+    quote: Thời điểm xác nhận sự cố quy định tại khoản này được tính từ khi tổ chức, cá nhân có đủ cơ
+      sở thông tin ban đầu để xác định sự cố đã thực sự xảy ra và có khả năng cao bắt nguồn từ lỗi của
+      hệ thống trí tuệ nhân tạo, không đợi đến khi hoàn thành điều tra toàn diện nguyên nhân kỹ thuật.
+      Việc nộp báo
+  - chunk_id: 142-2026-ND-CP_dieu-19_khoan-3_cuoi
+    quote: Trường hợp bên triển khai không thể liên lạc với nhà cung cấp, bên triển khai có trách nhiệm
+      thực hiện việc báo cáo theo quy định tại khoản này.
+  review_status: user_reviewed
+  review_note: Văn bản dùng chủ thể “nhà cung cấp hoặc bên triển khai”; hai dòng thể hiện cùng quy tắc
+    lựa chọn, không phải hai báo cáo độc lập. Bên triển khai phải báo cáo khi không thể liên lạc với nhà
+    cung cấp.
+  criteria:
+  - id: c1
+    text: Có quy trình báo cáo sơ bộ sự cố nghiêm trọng cho cơ quan nhà nước qua Cổng thông tin điện tử
+      một cửa theo Mẫu AI01a (tổ chức) hoặc AI01b (cá nhân).
+    not_met:
+    - chỉ báo cáo nội bộ
+    - chỉ báo cho khách hàng
+  - id: c2
+    text: Thời hạn báo cáo sơ bộ trong quy trình không quá 72 giờ với sự cố khẩn cấp và không quá 05 ngày
+      làm việc với sự cố còn lại, tính từ khi xác nhận sự cố.
+    not_met:
+    - thời hạn dài hơn, ví dụ 7 ngày làm việc
+    - đợi điều tra xong nguyên nhân mới báo cáo
+  review_by: user
+  kind: nghia_vu
+- id: ob-064
+  group: su_co
+  role: ben_trien_khai
+  risk_level: moi_muc
+  condition: Khi hệ thống xảy ra sự cố nghiêm trọng
+  obligation: 'Nhà cung cấp hoặc bên triển khai phải báo cáo sơ bộ sự cố nghiêm trọng cho cơ quan nhà
+    nước có thẩm quyền theo Mẫu AI01a đối với tổ chức hoặc Mẫu AI01b đối với cá nhân tại Phụ lục ban hành
+    kèm theo Nghị định 142/2026/NĐ-CP thông qua Cổng thông tin điện tử một cửa về trí tuệ nhân tạo trong
+    thời hạn như sau: Đối với các sự cố nghiêm trọng có tính khẩn cấp quy định tại điểm a, điểm d khoản
+    1 Điều 19 Nghị định 142/2026/NĐ-CP và trường hợp không thể kiểm soát đối với quy định tại điểm c khoản
+    1 Điều 19 Nghị định 142/2026/NĐ-CP: thực hiện báo cáo sơ bộ trong thời hạn 72 giờ kể từ thời điểm
+    xác nhận sự cố; Đối với các sự cố nghiêm trọng còn lại: thực hiện báo cáo sơ bộ trong thời hạn 05
+    ngày làm việc kể từ thời điểm xác nhận sự cố; Thời điểm xác nhận sự cố quy định tại khoản 3 Điều 19
+    Nghị định 142/2026/NĐ-CP được tính từ khi tổ chức, cá nhân có đủ cơ sở thông tin ban đầu để xác định
+    sự cố đã thực sự xảy ra và có khả năng cao bắt nguồn từ lỗi của hệ thống trí tuệ nhân tạo, không đợi
+    đến khi hoàn thành điều tra toàn diện nguyên nhân kỹ thuật. Việc nộp báo cáo sơ bộ trong thời hạn
+    quy định không bị coi là sự thừa nhận lỗi kỹ thuật hoặc trách nhiệm pháp lý của tổ chức, cá nhân báo
+    cáo. Trường hợp bên triển khai không thể liên lạc với nhà cung cấp, bên triển khai có trách nhiệm
+    thực hiện việc báo cáo theo quy định tại khoản 3 Điều 19 Nghị định 142/2026/NĐ-CP.'
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-19_khoan-3
+    quote: 'Nhà cung cấp hoặc bên triển khai phải báo cáo sơ bộ sự cố nghiêm trọng cho cơ quan nhà nước
+      có thẩm quyền theo Mẫu AI01a đối với tổ chức hoặc Mẫu AI01b đối với cá nhân tại Phụ lục ban hành
+      kèm theo Nghị định này thông qua Cổng thông tin điện tử một cửa về trí tuệ nhân tạo trong thời hạn
+      như sau:'
+  - chunk_id: 142-2026-ND-CP_dieu-19_khoan-3_diem-a
+    quote: 'Đối với các sự cố nghiêm trọng có tính khẩn cấp quy định tại điểm a, điểm d khoản 1 Điều này
+      và trường hợp không thể kiểm soát đối với quy định tại điểm c khoản 1 Điều này: thực hiện báo cáo
+      sơ bộ trong thời hạn 72 giờ kể từ thời điểm xác nhận sự cố;'
+  - chunk_id: 142-2026-ND-CP_dieu-19_khoan-3_diem-b
+    quote: 'Đối với các sự cố nghiêm trọng còn lại: thực hiện báo cáo sơ bộ trong thời hạn 05 ngày làm
+      việc kể từ thời điểm xác nhận sự cố;'
+  - chunk_id: 142-2026-ND-CP_dieu-19_khoan-3_diem-c
+    quote: Thời điểm xác nhận sự cố quy định tại khoản này được tính từ khi tổ chức, cá nhân có đủ cơ
+      sở thông tin ban đầu để xác định sự cố đã thực sự xảy ra và có khả năng cao bắt nguồn từ lỗi của
+      hệ thống trí tuệ nhân tạo, không đợi đến khi hoàn thành điều tra toàn diện nguyên nhân kỹ thuật.
+      Việc nộp báo
+  - chunk_id: 142-2026-ND-CP_dieu-19_khoan-3_cuoi
+    quote: Trường hợp bên triển khai không thể liên lạc với nhà cung cấp, bên triển khai có trách nhiệm
+      thực hiện việc báo cáo theo quy định tại khoản này.
+  review_status: user_reviewed
+  review_note: Văn bản dùng chủ thể “nhà cung cấp hoặc bên triển khai”; hai dòng thể hiện cùng quy tắc
+    lựa chọn, không phải hai báo cáo độc lập. Bên triển khai phải báo cáo khi không thể liên lạc với nhà
+    cung cấp.
+  criteria:
+  - id: c1
+    text: Có quy trình báo cáo sơ bộ sự cố nghiêm trọng cho cơ quan nhà nước qua Cổng thông tin điện tử
+      một cửa theo Mẫu AI01a (tổ chức) hoặc AI01b (cá nhân).
+    not_met:
+    - chỉ báo cáo nội bộ
+    - chỉ báo cho khách hàng
+  - id: c2
+    text: Thời hạn báo cáo sơ bộ trong quy trình không quá 72 giờ với sự cố khẩn cấp và không quá 05 ngày
+      làm việc với sự cố còn lại, tính từ khi xác nhận sự cố.
+    not_met:
+    - thời hạn dài hơn, ví dụ 7 ngày làm việc
+    - đợi điều tra xong nguyên nhân mới báo cáo
+  review_by: user
+  kind: nghia_vu
+- id: ob-065
+  group: phan_loai_thong_bao
+  role: ben_trien_khai
+  risk_level: moi_muc
+  condition: ''
+  obligation: Bên triển khai được kế thừa kết quả phân loại của nhà cung cấp và có trách nhiệm bảo đảm
+    an toàn, nguyên vẹn của hệ thống trong quá trình sử dụng.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-10_khoan-2
+    quote: Bên triển khai được kế thừa kết quả phân loại của nhà cung cấp và có trách nhiệm bảo đảm an
+      toàn, nguyên vẹn của hệ thống trong quá trình sử dụng; trường hợp sửa đổi, tích hợp hoặc thay đổi
+      chức năng làm phát sinh rủi ro mới hoặc rủi ro cao hơn thì phối hợp nhà cung cấp thực hiện phân
+      loại lại.
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Có biện pháp bảo đảm an toàn, nguyên vẹn của hệ thống trong quá trình sử dụng (không làm thay
+      đổi hệ thống ngoài phạm vi nhà cung cấp cho phép).
+  review_by: ai
+  kind: nghia_vu
+- id: ob-066
+  group: phan_loai_thong_bao
+  role: nha_cung_cap
+  risk_level: moi_muc
+  condition: Chưa xác định được mức độ rủi ro
+  obligation: Trường hợp chưa xác định được mức độ rủi ro, nhà cung cấp được đề nghị Bộ Khoa học và Công
+    nghệ hướng dẫn về phân loại trên cơ sở hồ sơ kỹ thuật.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-10_khoan-4
+    quote: Trường hợp chưa xác định được mức độ rủi ro, nhà cung cấp được đề nghị Bộ Khoa học và Công
+      nghệ hướng dẫn về phân loại trên cơ sở hồ sơ kỹ thuật.
+  review_status: ai_reviewed
+  kind: thong_tin
+  applies_when:
+    fact: risk_level
+    op: eq
+    value: chua_phan_loai
+  review_by: ai
+- id: ob-067
+  group: phan_loai_thong_bao
+  role: nha_cung_cap
+  risk_level: moi_muc
+  condition: Hệ thống rủi ro trung bình theo khoản 1 Điều 9 Nghị định 142/2026/NĐ-CP, trừ các trường hợp tại khoản 3 Điều 9
+  obligation: 'Nhà cung cấp có trách nhiệm phân loại hệ thống trí tuệ nhân tạo vào nhóm rủi ro trung bình
+    khi hệ thống đó đáp ứng đồng thời các điều kiện sau đây: Không thuộc Danh mục hệ thống trí tuệ nhân
+    tạo có rủi ro cao do Thủ tướng Chính phủ ban hành theo quy định tại khoản 4 Điều 13 của Luật Trí tuệ
+    nhân tạo; Có khả năng gây nhầm lẫn, tác động hoặc thao túng người sử dụng do người sử dụng không nhận
+    biết được chủ thể tương tác là hệ thống trí tuệ nhân tạo hoặc nội dung do hệ thống tạo ra theo quy
+    định tại điểm b khoản 1 Điều 9 của Luật Trí tuệ nhân tạo. Nhà cung cấp, bên triển khai không phân
+    loại hệ thống trí tuệ nhân tạo là hệ thống có rủi ro trung bình khi thuộc một trong các trường hợp
+    sau đây: Hệ thống chỉ hỗ trợ chỉnh sửa kỹ thuật nhằm cải thiện hình thức nội dung, không tạo nội dung
+    mới và không thay đổi danh tính của chủ thể; Hệ thống hỗ trợ công việc văn phòng mà người sử dụng
+    có thể nhận biết rõ ràng bản chất chức năng là công cụ trí tuệ nhân tạo thông qua bối cảnh sử dụng
+    và không có chức năng mô phỏng, giả lập có khả năng gây nhầm lẫn về danh tính, tính xác thực của sự
+    kiện; Hệ thống không tương tác, cung cấp trực tiếp dịch vụ hoặc nội dung ra công chúng bao gồm cả
+    trường hợp không phát hành ra công chúng thông qua bên thứ ba, nền tảng trung gian; Hệ thống được
+    sử dụng trong hoạt động nghệ thuật, điện ảnh, trò chơi điện tử hoặc hoạt động sáng tạo khác; bối cảnh
+    công bố thể hiện rõ nội dung mang tính hư cấu; Hệ thống trí tuệ nhân tạo chỉ thực hiện xử lý, phân
+    tích dữ liệu hoặc tối ưu vận hành trong hệ thống kỹ thuật; không tương tác trực tiếp với người sử
+    dụng, không tạo nội dung cung cấp ra công chúng và không trực tiếp tương tác với môi trường vật lý
+    như chức năng điều khiển chính của hệ thống.'
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-9_khoan-1
+    quote: 'Nhà cung cấp có trách nhiệm phân loại hệ thống trí tuệ nhân tạo vào nhóm rủi ro trung bình
+      khi hệ thống đó đáp ứng đồng thời các điều kiện sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-9_khoan-1_diem-a
+    quote: Không thuộc Danh mục hệ thống trí tuệ nhân tạo có rủi ro cao do Thủ tướng Chính phủ ban hành
+      theo quy định tại khoản 4 Điều 13 của Luật Trí tuệ nhân tạo;
+  - chunk_id: 142-2026-ND-CP_dieu-9_khoan-1_diem-b
+    quote: Có khả năng gây nhầm lẫn, tác động hoặc thao túng người sử dụng do người sử dụng không nhận
+      biết được chủ thể tương tác là hệ thống trí tuệ nhân tạo hoặc nội dung do hệ thống tạo ra theo quy
+      định tại điểm b khoản 1 Điều 9 của Luật Trí tuệ nhân tạo.
+  - chunk_id: 142-2026-ND-CP_dieu-9_khoan-3
+    quote: 'Nhà cung cấp, bên triển khai không phân loại hệ thống trí tuệ nhân tạo là hệ thống có rủi
+      ro trung bình khi thuộc một trong các trường hợp sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-9_khoan-3_diem-a
+    quote: Hệ thống chỉ hỗ trợ chỉnh sửa kỹ thuật nhằm cải thiện hình thức nội dung, không tạo nội dung
+      mới và không thay đổi danh tính của chủ thể;
+  - chunk_id: 142-2026-ND-CP_dieu-9_khoan-3_diem-b
+    quote: Hệ thống hỗ trợ công việc văn phòng mà người sử dụng có thể nhận biết rõ ràng bản chất chức
+      năng là công cụ trí tuệ nhân tạo thông qua bối cảnh sử dụng và không có chức năng mô phỏng, giả
+      lập có khả năng gây nhầm lẫn về danh tính, tính xác thực của sự kiện;
+  - chunk_id: 142-2026-ND-CP_dieu-9_khoan-3_diem-c
+    quote: Hệ thống không tương tác, cung cấp trực tiếp dịch vụ hoặc nội dung ra công chúng bao gồm cả
+      trường hợp không phát hành ra công chúng thông qua bên thứ ba, nền tảng trung gian;
+  - chunk_id: 142-2026-ND-CP_dieu-9_khoan-3_diem-d
+    quote: Hệ thống được sử dụng trong hoạt động nghệ thuật, điện ảnh, trò chơi điện tử hoặc hoạt động
+      sáng tạo khác; bối cảnh công bố thể hiện rõ nội dung mang tính hư cấu;
+  - chunk_id: 142-2026-ND-CP_dieu-9_khoan-3_diem-đ
+    quote: Hệ thống trí tuệ nhân tạo chỉ thực hiện xử lý, phân tích dữ liệu hoặc tối ưu vận hành trong
+      hệ thống kỹ thuật; không tương tác trực tiếp với người sử dụng, không tạo nội dung cung cấp ra công
+      chúng và không trực tiếp tương tác với môi trường vật lý như chức năng điều khiển chính của hệ thống.
+  review_status: ai_reviewed
+  kind: thong_tin
+  review_note: Tiêu chí phân loại rủi ro trung bình; dùng cho phần gợi ý, không chấm hiện trạng.
+  review_by: ai
+- id: ob-068
+  group: phan_loai_thong_bao
+  role: ben_trien_khai
+  risk_level: moi_muc
+  condition: Bên triển khai sửa đổi, tích hợp, thay đổi chức năng
+  obligation: Khi sửa đổi, tích hợp hoặc thay đổi chức năng làm phát sinh rủi ro mới hoặc cao hơn (khoản
+    2 Điều 10 Luật Trí tuệ nhân tạo), bên triển khai phân loại lại theo tiêu chí rủi ro trung bình tại
+    khoản 1 Điều 9 Nghị định 142/2026/NĐ-CP và các trường hợp không phân loại là trung bình tại khoản
+    3 Điều 9 Nghị định 142/2026/NĐ-CP.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-10_khoan-2
+    quote: trường hợp sửa đổi, tích hợp hoặc thay đổi chức năng làm phát sinh rủi ro mới hoặc rủi ro cao
+      hơn thì phối hợp nhà cung cấp thực hiện phân loại lại
+  - chunk_id: 142-2026-ND-CP_dieu-9_khoan-2
+    quote: Bên triển khai áp dụng quy định tại khoản 1 Điều này để thực hiện phân loại lại hệ thống trí
+      tuệ nhân tạo đối với trường hợp quy định tại khoản 2 Điều 10 của Luật Trí tuệ nhân tạo.
+  - chunk_id: 142-2026-ND-CP_dieu-9_khoan-1
+    quote: 'Nhà cung cấp có trách nhiệm phân loại hệ thống trí tuệ nhân tạo vào nhóm rủi ro trung bình
+      khi hệ thống đó đáp ứng đồng thời các điều kiện sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-9_khoan-1_diem-a
+    quote: Không thuộc Danh mục hệ thống trí tuệ nhân tạo có rủi ro cao do Thủ tướng Chính phủ ban hành
+      theo quy định tại khoản 4 Điều 13 của Luật Trí tuệ nhân tạo;
+  - chunk_id: 142-2026-ND-CP_dieu-9_khoan-1_diem-b
+    quote: Có khả năng gây nhầm lẫn, tác động hoặc thao túng người sử dụng do người sử dụng không nhận
+      biết được chủ thể tương tác là hệ thống trí tuệ nhân tạo hoặc nội dung do hệ thống tạo ra theo quy
+      định tại điểm b khoản 1 Điều 9 của Luật Trí tuệ nhân tạo.
+  - chunk_id: 142-2026-ND-CP_dieu-9_khoan-3
+    quote: 'Nhà cung cấp, bên triển khai không phân loại hệ thống trí tuệ nhân tạo là hệ thống có rủi
+      ro trung bình khi thuộc một trong các trường hợp sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-9_khoan-3_diem-a
+    quote: Hệ thống chỉ hỗ trợ chỉnh sửa kỹ thuật nhằm cải thiện hình thức nội dung, không tạo nội dung
+      mới và không thay đổi danh tính của chủ thể;
+  - chunk_id: 142-2026-ND-CP_dieu-9_khoan-3_diem-b
+    quote: Hệ thống hỗ trợ công việc văn phòng mà người sử dụng có thể nhận biết rõ ràng bản chất chức
+      năng là công cụ trí tuệ nhân tạo thông qua bối cảnh sử dụng và không có chức năng mô phỏng, giả
+      lập có khả năng gây nhầm lẫn về danh tính, tính xác thực của sự kiện;
+  - chunk_id: 142-2026-ND-CP_dieu-9_khoan-3_diem-c
+    quote: Hệ thống không tương tác, cung cấp trực tiếp dịch vụ hoặc nội dung ra công chúng bao gồm cả
+      trường hợp không phát hành ra công chúng thông qua bên thứ ba, nền tảng trung gian;
+  - chunk_id: 142-2026-ND-CP_dieu-9_khoan-3_diem-d
+    quote: Hệ thống được sử dụng trong hoạt động nghệ thuật, điện ảnh, trò chơi điện tử hoặc hoạt động
+      sáng tạo khác; bối cảnh công bố thể hiện rõ nội dung mang tính hư cấu;
+  - chunk_id: 142-2026-ND-CP_dieu-9_khoan-3_diem-đ
+    quote: Hệ thống trí tuệ nhân tạo chỉ thực hiện xử lý, phân tích dữ liệu hoặc tối ưu vận hành trong
+      hệ thống kỹ thuật; không tương tác trực tiếp với người sử dụng, không tạo nội dung cung cấp ra công
+      chúng và không trực tiếp tương tác với môi trường vật lý như chức năng điều khiển chính của hệ thống.
+  review_status: user_reviewed
+  kind: thong_tin
+  applies_when:
+    fact: modified_by_deployer
+    op: is_true
+  review_note: Cách phân loại lại; nghĩa vụ phối hợp phân loại lại được chấm ở ob-014.
+  review_by: user
+- id: ob-069
+  group: phan_loai_thong_bao
+  role: nha_cung_cap
+  risk_level: moi_muc
+  condition: Phát sinh một trong các sự kiện tại khoản 1 Điều 11 Nghị định 142/2026/NĐ-CP
+  obligation: 'Nhà cung cấp phải thực hiện rà soát và phân loại lại mức độ rủi ro của hệ thống trí tuệ
+    nhân tạo khi phát sinh một trong các sự kiện pháp lý sau đây: Hệ thống có sự thay đổi đáng kể về chức
+    năng, mục đích sử dụng hoặc ngữ cảnh triển khai làm ảnh hưởng đến tiêu chí phân loại rủi ro ban đầu
+    của hệ thống; Hệ thống xảy ra sự cố nghiêm trọng chứng minh mức độ rủi ro thực tế cao hơn mức đã được
+    phân loại; Có quyết định của Thủ tướng Chính phủ về việc sửa đổi, bổ sung Danh mục hệ thống trí tuệ
+    nhân tạo có rủi ro cao làm thay đổi mức độ rủi ro của hệ thống; Có yêu cầu bằng văn bản của cơ quan
+    quản lý nhà nước có thẩm quyền theo quy định tại khoản 6 Điều 10 của Luật Trí tuệ nhân tạo.'
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-11_khoan-1
+    quote: 'Nhà cung cấp phải thực hiện rà soát và phân loại lại mức độ rủi ro của hệ thống trí tuệ nhân
+      tạo khi phát sinh một trong các sự kiện pháp lý sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-11_khoan-1_diem-a
+    quote: Hệ thống có sự thay đổi đáng kể về chức năng, mục đích sử dụng hoặc ngữ cảnh triển khai làm
+      ảnh hưởng đến tiêu chí phân loại rủi ro ban đầu của hệ thống;
+  - chunk_id: 142-2026-ND-CP_dieu-11_khoan-1_diem-b
+    quote: Hệ thống xảy ra sự cố nghiêm trọng chứng minh mức độ rủi ro thực tế cao hơn mức đã được phân
+      loại;
+  - chunk_id: 142-2026-ND-CP_dieu-11_khoan-1_diem-c
+    quote: Có quyết định của Thủ tướng Chính phủ về việc sửa đổi, bổ sung Danh mục hệ thống trí tuệ nhân
+      tạo có rủi ro cao làm thay đổi mức độ rủi ro của hệ thống;
+  - chunk_id: 142-2026-ND-CP_dieu-11_khoan-1_diem-d
+    quote: Có yêu cầu bằng văn bản của cơ quan quản lý nhà nước có thẩm quyền theo quy định tại khoản
+      6 Điều 10 của Luật Trí tuệ nhân tạo.
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: 'Có quy trình nội bộ bảo đảm rà soát, phân loại lại mức rủi ro khi có: thay đổi đáng kể về chức
+      năng, mục đích, ngữ cảnh triển khai; sự cố nghiêm trọng cho thấy rủi ro cao hơn; quyết định sửa
+      đổi Danh mục; hoặc yêu cầu bằng văn bản của cơ quan quản lý.'
+    not_met:
+    - chỉ rà soát định kỳ chung chung, không gắn với các sự kiện này
+  review_by: ai
+  kind: nghia_vu
+- id: ob-070
+  group: phan_loai_thong_bao
+  role: ben_trien_khai
+  risk_level: moi_muc
+  condition: Sửa đổi, tích hợp hoặc thay đổi chức năng làm phát sinh rủi ro mới hoặc cao hơn
+  obligation: Bên triển khai phải phối hợp với nhà cung cấp thực hiện phân loại lại hệ thống trí tuệ nhân
+    tạo trong trường hợp bên triển khai thực hiện sửa đổi, tích hợp hoặc thay đổi chức năng làm phát sinh
+    rủi ro mới hoặc rủi ro cao hơn so với kết quả phân loại ban đầu của nhà cung cấp.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-11_khoan-2
+    quote: Bên triển khai phải phối hợp với nhà cung cấp thực hiện phân loại lại hệ thống trí tuệ nhân
+      tạo trong trường hợp bên triển khai thực hiện sửa đổi, tích hợp hoặc thay đổi chức năng làm phát
+      sinh rủi ro mới hoặc rủi ro cao hơn so với kết quả phân loại ban đầu của nhà cung cấp.
+  review_status: ai_reviewed
+  kind: thong_tin
+  applies_when:
+    fact: modified_by_deployer
+    op: is_true
+  review_note: Trùng nội dung ob-014 (cùng quy định ở NĐ 142 Điều 11 khoản 2); chấm ở ob-014.
+  review_by: ai
+- id: ob-071
+  group: phan_loai_thong_bao
+  role: nha_cung_cap
+  risk_level: moi_muc
+  condition: Nâng cấp, tối ưu hóa hiệu suất, sửa lỗi kỹ thuật thông thường hoặc cập nhật dữ liệu định
+    kỳ không làm thay đổi bản chất rủi ro
+  obligation: Nhà cung cấp, bên triển khai không phải thực hiện rà soát và thông báo phân loại lại khi
+    tiến hành các hoạt động nâng cấp, tối ưu hóa hiệu suất, sửa lỗi kỹ thuật thông thường hoặc cập nhật
+    dữ liệu định kỳ mà không làm thay đổi bản chất rủi ro của hệ thống.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-11_khoan-4
+    quote: Nhà cung cấp, bên triển khai không phải thực hiện rà soát và thông báo phân loại lại khi tiến
+      hành các hoạt động nâng cấp, tối ưu hóa hiệu suất, sửa lỗi kỹ thuật thông thường hoặc cập nhật dữ
+      liệu định kỳ mà không làm thay đổi bản chất rủi ro của hệ thống.
+  review_status: ai_reviewed
+  kind: thong_tin
+  review_note: 'Miễn trừ: không phải phân loại lại khi chỉ nâng cấp, sửa lỗi thông thường.'
+  review_by: ai
+- id: ob-072
+  group: phan_loai_thong_bao
+  role: nha_cung_cap
+  risk_level: cao
+  condition: Hệ thống phải phân loại lại thành rủi ro cao khi Danh mục hệ thống trí tuệ nhân tạo có rủi ro cao được sửa đổi, bổ sung
+  obligation: Trường hợp hệ thống trí tuệ nhân tạo phải phân loại lại thành rủi ro cao theo quy định tại
+    điểm a khoản 1 Điều 11 Nghị định 142/2026/NĐ-CP, nhà cung cấp, bên triển khai áp dụng thời gian chuyển
+    tiếp tối đa 12 tháng kể từ ngày quyết định sửa đổi, bổ sung Danh mục hệ thống trí tuệ nhân tạo có
+    rủi ro cao của Thủ tướng Chính phủ có hiệu lực để hoàn thiện hồ sơ và thủ tục đánh giá sự phù hợp
+    theo quy định của Luật Trí tuệ nhân tạo. Trong thời hạn chuyển tiếp, hệ thống được phép tiếp tục hoạt
+    động nhưng nhà cung cấp, bên triển khai phải thiết lập và duy trì cơ chế giám sát thực chất của con
+    người. Người thực hiện giám sát phải được bảo đảm đủ thông tin, thẩm quyền để đánh giá độc lập, can
+    thiệp hoặc bác bỏ kết quả của hệ thống; đồng thời, nhà cung cấp, bên triển khai phải lưu trữ đầy đủ
+    nhật ký vận hành và các quyết định can thiệp để phục vụ công tác thanh tra, kiểm tra.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-11_khoan-5
+    quote: Trường hợp hệ thống trí tuệ nhân tạo phải phân loại lại thành rủi ro cao theo quy định tại
+      điểm a khoản 1 Điều này, nhà cung cấp, bên triển khai áp dụng thời gian chuyển tiếp tối đa 12 tháng
+      kể từ ngày quyết định sửa đổi, bổ sung Danh mục hệ thống trí tuệ nhân tạo có rủi ro cao của Thủ
+      tướng Chính
+  review_status: user_reviewed
+  review_note: Chuyển tiếp khi phải phân loại lại thành rủi ro cao; chỉ phát sinh khi Danh mục thay đổi.
+  kind: thong_tin
+  review_by: user
+- id: ob-073
+  group: phan_loai_thong_bao
+  role: ben_trien_khai
+  risk_level: moi_muc
+  condition: Nâng cấp, tối ưu hóa hiệu suất, sửa lỗi kỹ thuật thông thường hoặc cập nhật dữ liệu định
+    kỳ không làm thay đổi bản chất rủi ro
+  obligation: Nhà cung cấp, bên triển khai không phải thực hiện rà soát và thông báo phân loại lại khi
+    tiến hành các hoạt động nâng cấp, tối ưu hóa hiệu suất, sửa lỗi kỹ thuật thông thường hoặc cập nhật
+    dữ liệu định kỳ mà không làm thay đổi bản chất rủi ro của hệ thống.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-11_khoan-4
+    quote: Nhà cung cấp, bên triển khai không phải thực hiện rà soát và thông báo phân loại lại khi tiến
+      hành các hoạt động nâng cấp, tối ưu hóa hiệu suất, sửa lỗi kỹ thuật thông thường hoặc cập nhật dữ
+      liệu định kỳ mà không làm thay đổi bản chất rủi ro của hệ thống.
+  review_status: ai_reviewed
+  kind: thong_tin
+  review_note: 'Miễn trừ: không phải phân loại lại khi chỉ nâng cấp, sửa lỗi thông thường.'
+  review_by: ai
+- id: ob-074
+  group: phan_loai_thong_bao
+  role: ben_trien_khai
+  risk_level: cao
+  condition: Hệ thống phải phân loại lại thành rủi ro cao khi Danh mục hệ thống trí tuệ nhân tạo có rủi ro cao được sửa đổi, bổ sung
+  obligation: Trường hợp hệ thống trí tuệ nhân tạo phải phân loại lại thành rủi ro cao theo quy định tại
+    điểm a khoản 1 Điều 11 Nghị định 142/2026/NĐ-CP, nhà cung cấp, bên triển khai áp dụng thời gian chuyển
+    tiếp tối đa 12 tháng kể từ ngày quyết định sửa đổi, bổ sung Danh mục hệ thống trí tuệ nhân tạo có
+    rủi ro cao của Thủ tướng Chính phủ có hiệu lực để hoàn thiện hồ sơ và thủ tục đánh giá sự phù hợp
+    theo quy định của Luật Trí tuệ nhân tạo. Trong thời hạn chuyển tiếp, hệ thống được phép tiếp tục hoạt
+    động nhưng nhà cung cấp, bên triển khai phải thiết lập và duy trì cơ chế giám sát thực chất của con
+    người. Người thực hiện giám sát phải được bảo đảm đủ thông tin, thẩm quyền để đánh giá độc lập, can
+    thiệp hoặc bác bỏ kết quả của hệ thống; đồng thời, nhà cung cấp, bên triển khai phải lưu trữ đầy đủ
+    nhật ký vận hành và các quyết định can thiệp để phục vụ công tác thanh tra, kiểm tra.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-11_khoan-5
+    quote: Trường hợp hệ thống trí tuệ nhân tạo phải phân loại lại thành rủi ro cao theo quy định tại
+      điểm a khoản 1 Điều này, nhà cung cấp, bên triển khai áp dụng thời gian chuyển tiếp tối đa 12 tháng
+      kể từ ngày quyết định sửa đổi, bổ sung Danh mục hệ thống trí tuệ nhân tạo có rủi ro cao của Thủ
+      tướng Chính
+  review_status: user_reviewed
+  review_note: Chuyển tiếp khi phải phân loại lại thành rủi ro cao; chỉ phát sinh khi Danh mục thay đổi.
+  kind: thong_tin
+  review_by: user
+- id: ob-075
+  group: danh_gia_phu_hop
+  role: moi_vai_tro
+  risk_level: cao
+  condition: Hệ thống đã được đánh giá sự phù hợp
+  obligation: Kết quả đánh giá sự phù hợp là điều kiện để hệ thống trí tuệ nhân tạo có rủi ro cao được
+    phép đưa vào sử dụng; tổ chức, cá nhân có hệ thống đã được đánh giá sự phù hợp có trách nhiệm duy
+    trì sự phù hợp và công khai thông tin theo quy định của Chính phủ, là căn cứ để thực hiện kiểm tra,
+    giám sát việc tuân thủ quy định tại Điều 10 của Luật Trí tuệ nhân tạo số 134/2025/QH15.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-13_khoan-3
+    quote: Kết quả đánh giá sự phù hợp là điều kiện để hệ thống trí tuệ nhân tạo có rủi ro cao được phép
+      đưa vào sử dụng; tổ chức, cá nhân có hệ thống đã được đánh giá sự phù hợp có trách nhiệm duy trì
+      sự phù hợp và công khai thông tin theo quy định của Chính phủ, là căn cứ để thực hiện kiểm tra,
+      giám sát
+  review_status: ai_reviewed
+  kind: thong_tin
+  review_note: Nguyên tắc chung Luật 134 Điều 13 khoản 3; nghĩa vụ cụ thể chấm ở ob-027, ob-028.
+  review_by: ai
+- id: ob-076
+  group: quan_ly_rui_ro_cao
+  role: nha_cung_cap
+  risk_level: cao
+  condition: Hệ thống trí tuệ nhân tạo có rủi ro cao
+  obligation: Nhà cung cấp có trách nhiệm cung cấp cho bên triển khai các thông tin cần thiết về mục đích
+    sử dụng của hệ thống, điều kiện vận hành an toàn, các rủi ro đã được xác định và biện pháp quản lý
+    rủi ro tương ứng để bảo đảm việc triển khai và sử dụng hệ thống đúng mục đích.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-15_khoan-3
+    quote: Nhà cung cấp có trách nhiệm cung cấp cho bên triển khai các thông tin cần thiết về mục đích
+      sử dụng của hệ thống, điều kiện vận hành an toàn, các rủi ro đã được xác định và biện pháp quản
+      lý rủi ro tương ứng để bảo đảm việc triển khai và sử dụng hệ thống đúng mục đích.
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Đã cung cấp cho bên triển khai thông tin về mục đích sử dụng, điều kiện vận hành an toàn, các
+      rủi ro đã xác định và biện pháp quản lý rủi ro.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-077
+  group: quan_ly_rui_ro_cao
+  role: ben_trien_khai
+  risk_level: cao
+  condition: Hệ thống trí tuệ nhân tạo có rủi ro cao
+  obligation: Bên triển khai hệ thống trí tuệ nhân tạo có rủi ro cao phải tổ chức quản lý rủi ro trong
+    quá trình triển khai và vận hành hệ thống phù hợp với mục đích sử dụng, phạm vi triển khai, mức độ
+    rủi ro của hệ thống và hướng dẫn kỹ thuật của nhà cung cấp.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-15_khoan-4
+    quote: Bên triển khai hệ thống trí tuệ nhân tạo có rủi ro cao phải tổ chức quản lý rủi ro trong quá
+      trình triển khai và vận hành hệ thống phù hợp với mục đích sử dụng, phạm vi triển khai, mức độ rủi
+      ro của hệ thống và hướng dẫn kỹ thuật của nhà cung cấp.
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Tổ chức quản lý rủi ro trong quá trình triển khai, vận hành, phù hợp với mục đích, phạm vi,
+      mức rủi ro và hướng dẫn kỹ thuật của nhà cung cấp.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-078
+  group: quan_ly_rui_ro_cao
+  role: ben_trien_khai
+  risk_level: cao
+  condition: Hệ thống trí tuệ nhân tạo có rủi ro cao
+  obligation: Trường hợp phát hiện hệ thống có nguy cơ gây thiệt hại nghiêm trọng đến tính mạng, sức khỏe
+    con người, quyền con người, tài sản, an ninh mạng, trật tự, an toàn xã hội hoặc lợi ích công cộng,
+    bên triển khai phải kịp thời áp dụng biện pháp hạn chế rủi ro trong phạm vi quyền kiểm soát của mình
+    và thông báo cho nhà cung cấp và cơ quan nhà nước có thẩm quyền theo quy định của pháp luật.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-15_khoan-6
+    quote: Trường hợp phát hiện hệ thống có nguy cơ gây thiệt hại nghiêm trọng đến tính mạng, sức khỏe
+      con người, quyền con người, tài sản, an ninh mạng, trật tự, an toàn xã hội hoặc lợi ích công cộng,
+      bên triển khai phải kịp thời áp dụng biện pháp hạn chế rủi ro trong phạm vi quyền kiểm soát của
+      mình và
+  - chunk_id: 142-2026-ND-CP_dieu-15_khoan-5_diem-d
+    quote: Áp dụng biện pháp hạn chế hoặc kiểm soát rủi ro trong phạm vi quyền kiểm soát của mình khi
+      phát hiện hệ thống hoạt động không đúng mục đích sử dụng hoặc phát sinh rủi ro mới;
+  review_status: ai_reviewed
+  criteria:
+  - id: c1
+    text: Có quy trình nội bộ bảo đảm khi phát hiện nguy cơ thiệt hại nghiêm trọng thì kịp thời áp dụng
+      biện pháp hạn chế rủi ro trong phạm vi kiểm soát.
+  - id: c2
+    text: Có quy trình nội bộ bảo đảm khi phát hiện nguy cơ thiệt hại nghiêm trọng thì thông báo cho nhà
+      cung cấp và cơ quan nhà nước có thẩm quyền.
+  - id: c3
+    text: Có quy trình nội bộ bảo đảm áp dụng biện pháp hạn chế hoặc kiểm soát rủi ro khi phát hiện hệ
+      thống hoạt động không đúng mục đích hoặc phát sinh rủi ro mới.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-079
+  group: khu_vuc_cong
+  role: co_quan_nha_nuoc
+  risk_level: moi_muc
+  condition: Người ra quyết định sử dụng kết quả hệ thống trong quản lý nhà nước và cung cấp dịch vụ công
+  obligation: Hệ thống trí tuệ nhân tạo không thay thế thẩm quyền và trách nhiệm quyết định của người
+    ra quyết định theo quy định của pháp luật. Người ra quyết định chịu trách nhiệm về việc xem xét và
+    sử dụng kết quả do hệ thống trí tuệ nhân tạo cung cấp.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-27_khoan-2
+    quote: Hệ thống trí tuệ nhân tạo không thay thế thẩm quyền và trách nhiệm quyết định của người ra
+      quyết định theo quy định của pháp luật. Người ra quyết định chịu trách nhiệm về việc xem xét và
+      sử dụng kết quả do hệ thống trí tuệ nhân tạo cung cấp.
+  review_status: ai_reviewed
+  applies_when:
+    fact: public_decision_use
+    op: is_true
+  criteria:
+  - id: c1
+    text: Người có thẩm quyền xem xét kết quả của hệ thống và tự ra quyết định; hệ thống không thay thế
+      thẩm quyền quyết định.
+    not_met:
+    - quyết định được ban hành tự động theo kết quả hệ thống
+  review_by: ai
+  kind: nghia_vu
+- id: ob-080
+  group: khu_vuc_cong
+  role: co_quan_nha_nuoc
+  risk_level: moi_muc
+  condition: Hệ thống thuộc khoản 1 Điều 20 Nghị định 142/2026/NĐ-CP
+  obligation: 'Cơ quan nhà nước thực hiện đánh giá tác động đối với hệ thống trí tuệ nhân tạo thuộc một
+    trong các trường hợp sau đây: Hệ thống thuộc nhóm hệ thống trí tuệ nhân tạo có rủi ro cao theo quy
+    định của Luật; Hệ thống trí tuệ nhân tạo quy định tại khoản 7 Điều 20 Nghị định 142/2026/NĐ-CP mà
+    kết quả của hệ thống được sử dụng làm căn cứ trực tiếp để người có thẩm quyền xem xét, quyết định
+    ban hành quyết định hành chính. Hệ thống trí tuệ nhân tạo do cơ quan nhà nước triển khai được xác
+    định là có liên quan đến quyền con người, công bằng xã hội hoặc lợi ích công cộng khi thuộc một trong
+    các trường hợp sau đây: Kết quả của hệ thống được sử dụng làm căn cứ trong quá trình xem xét, quyết
+    định trong hoạt động quản lý nhà nước hoặc cung cấp dịch vụ công; Được sử dụng để phân loại, chấm
+    điểm, đánh giá hoặc xếp hạng tổ chức, cá nhân; Được sử dụng để phân bổ ngân sách, nguồn lực công hoặc
+    xác định mức hưởng, đối tượng thụ hưởng chính sách, chế độ; Được sử dụng để phát hiện, lựa chọn, sàng
+    lọc hoặc giám sát tổ chức, cá nhân phục vụ hoạt động quản lý nhà nước.'
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-1
+    quote: 'Cơ quan nhà nước thực hiện đánh giá tác động đối với hệ thống trí tuệ nhân tạo thuộc một trong
+      các trường hợp sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-1_diem-a
+    quote: Hệ thống thuộc nhóm hệ thống trí tuệ nhân tạo có rủi ro cao theo quy định của Luật;
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-1_diem-b
+    quote: Hệ thống trí tuệ nhân tạo quy định tại khoản 7 Điều này mà kết quả của hệ thống được sử dụng
+      làm căn cứ trực tiếp để người có thẩm quyền xem xét, quyết định ban hành quyết định hành chính.
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-7
+    quote: 'Hệ thống trí tuệ nhân tạo do cơ quan nhà nước triển khai được xác định là có liên quan đến
+      quyền con người, công bằng xã hội hoặc lợi ích công cộng khi thuộc một trong các trường hợp sau
+      đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-7_diem-a
+    quote: Kết quả của hệ thống được sử dụng làm căn cứ trong quá trình xem xét, quyết định trong hoạt
+      động quản lý nhà nước hoặc cung cấp dịch vụ công;
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-7_diem-b
+    quote: Được sử dụng để phân loại, chấm điểm, đánh giá hoặc xếp hạng tổ chức, cá nhân;
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-7_diem-c
+    quote: Được sử dụng để phân bổ ngân sách, nguồn lực công hoặc xác định mức hưởng, đối tượng thụ hưởng
+      chính sách, chế độ;
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-7_diem-d
+    quote: Được sử dụng để phát hiện, lựa chọn, sàng lọc hoặc giám sát tổ chức, cá nhân phục vụ hoạt động
+      quản lý nhà nước.
+  review_status: user_reviewed
+  review_note: 'Đối chiếu thêm khoản 3 Điều 27 Luật 134/2025/QH15: Nghị định mô tả điều kiện kết quả làm
+    căn cứ trực tiếp ban hành quyết định hành chính. Không tự kết luận điều kiện của Luật bị thu hẹp.'
+  applies_when:
+    any:
+    - fact: risk_level
+      op: eq
+      value: cao
+    - fact: public_decision_use
+      op: is_true
+  criteria:
+  - id: c1
+    text: Đã thực hiện đánh giá tác động đối với hệ thống.
+  review_by: user
+  kind: nghia_vu
+- id: ob-081
+  group: khu_vuc_cong
+  role: co_quan_nha_nuoc
+  risk_level: moi_muc
+  condition: Hệ thống thuộc khoản 1 Điều 20 Nghị định 142/2026/NĐ-CP có thay đổi làm phát sinh rủi ro
+    mới hoặc thay đổi mức độ rủi ro
+  obligation: Trường hợp hệ thống trí tuệ nhân tạo quy định tại khoản 1 Điều 20 Nghị định 142/2026/NĐ-CP
+    có thay đổi về mục đích sử dụng, chức năng chính, nguồn dữ liệu đầu vào chủ yếu hoặc phạm vi đối tượng
+    áp dụng làm phát sinh rủi ro mới hoặc làm thay đổi mức độ rủi ro của hệ thống, cơ quan, đơn vị triển
+    khai phải thực hiện đánh giá tác động bổ sung trước khi tiếp tục sử dụng hệ thống.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-2
+    quote: Trường hợp hệ thống trí tuệ nhân tạo quy định tại khoản 1 Điều này có thay đổi về mục đích
+      sử dụng, chức năng chính, nguồn dữ liệu đầu vào chủ yếu hoặc phạm vi đối tượng áp dụng làm phát
+      sinh rủi ro mới hoặc làm thay đổi mức độ rủi ro của hệ thống, cơ quan, đơn vị triển khai phải thực
+      hiện đánh giá
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-1
+    quote: 'Cơ quan nhà nước thực hiện đánh giá tác động đối với hệ thống trí tuệ nhân tạo thuộc một trong
+      các trường hợp sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-1_diem-a
+    quote: Hệ thống thuộc nhóm hệ thống trí tuệ nhân tạo có rủi ro cao theo quy định của Luật;
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-1_diem-b
+    quote: Hệ thống trí tuệ nhân tạo quy định tại khoản 7 Điều này mà kết quả của hệ thống được sử dụng
+      làm căn cứ trực tiếp để người có thẩm quyền xem xét, quyết định ban hành quyết định hành chính.
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-7
+    quote: 'Hệ thống trí tuệ nhân tạo do cơ quan nhà nước triển khai được xác định là có liên quan đến
+      quyền con người, công bằng xã hội hoặc lợi ích công cộng khi thuộc một trong các trường hợp sau
+      đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-7_diem-a
+    quote: Kết quả của hệ thống được sử dụng làm căn cứ trong quá trình xem xét, quyết định trong hoạt
+      động quản lý nhà nước hoặc cung cấp dịch vụ công;
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-7_diem-b
+    quote: Được sử dụng để phân loại, chấm điểm, đánh giá hoặc xếp hạng tổ chức, cá nhân;
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-7_diem-c
+    quote: Được sử dụng để phân bổ ngân sách, nguồn lực công hoặc xác định mức hưởng, đối tượng thụ hưởng
+      chính sách, chế độ;
+  - chunk_id: 142-2026-ND-CP_dieu-20_khoan-7_diem-d
+    quote: Được sử dụng để phát hiện, lựa chọn, sàng lọc hoặc giám sát tổ chức, cá nhân phục vụ hoạt động
+      quản lý nhà nước.
+  review_status: ai_reviewed
+  applies_when:
+    any:
+    - fact: risk_level
+      op: eq
+      value: cao
+    - fact: public_decision_use
+      op: is_true
+  criteria:
+  - id: c1
+    text: Có quy trình nội bộ bảo đảm khi thay đổi mục đích, chức năng chính, nguồn dữ liệu đầu vào hoặc
+      phạm vi đối tượng làm phát sinh rủi ro mới thì đánh giá tác động bổ sung trước khi tiếp tục sử dụng.
+  review_by: ai
+  kind: nghia_vu
+- id: ob-082
+  group: chuyen_tiep
+  role: nha_cung_cap
+  risk_level: cao
+  condition: Hệ thống thuộc Danh mục kèm Quyết định 33/2026/QĐ-TTg đã hoạt động trước ngày Quyết định
+    có hiệu lực
+  obligation: 'Đối với các hệ thống trí tuệ nhân tạo thuộc Danh mục ban hành kèm theo Quyết định 33/2026/QĐ-TTg
+    đã được đưa vào hoạt động trước ngày Quyết định 33/2026/QĐ-TTg có hiệu lực, nhà cung cấp và bên triển
+    khai có trách nhiệm hoàn thành các nghĩa vụ tuân thủ theo quy định của pháp luật về trí tuệ nhân tạo
+    theo lộ trình sau: Trước ngày 01 tháng 9 năm 2027 đối với các hệ thống trí tuệ nhân tạo trong lĩnh
+    vực y tế, giáo dục và tài chính; Trước ngày 01 tháng 3 năm 2027 đối với các hệ thống trí tuệ nhân
+    tạo thuộc các lĩnh vực còn lại trong Danh mục. Trong thời hạn chuyển tiếp quy định tại khoản 1 Điều
+    4 Quyết định 33/2026/QĐ-TTg, các hệ thống trí tuệ nhân tạo nêu trên được phép tiếp tục hoạt động,
+    trừ trường hợp cơ quan nhà nước có thẩm quyền xác định hệ thống có nguy cơ gây thiệt hại nghiêm trọng
+    và yêu cầu tạm dừng hoặc chấm dứt hoạt động theo quy định tại khoản 2 Điều 35 Luật Trí tuệ nhân tạo.'
+  citations:
+  - chunk_id: 33-2026-QD-TTg_dieu-4_khoan-1
+    quote: 'Đối với các hệ thống trí tuệ nhân tạo thuộc Danh mục ban hành kèm theo Quyết định này đã được
+      đưa vào hoạt động trước ngày Quyết định này có hiệu lực, nhà cung cấp và bên triển khai có trách
+      nhiệm hoàn thành các nghĩa vụ tuân thủ theo quy định của pháp luật về trí tuệ nhân tạo theo lộ trình
+      sau:'
+  - chunk_id: 33-2026-QD-TTg_dieu-4_khoan-1_diem-a
+    quote: Trước ngày 01 tháng 9 năm 2027 đối với các hệ thống trí tuệ nhân tạo trong lĩnh vực y tế, giáo
+      dục và tài chính;
+  - chunk_id: 33-2026-QD-TTg_dieu-4_khoan-1_diem-b
+    quote: Trước ngày 01 tháng 3 năm 2027 đối với các hệ thống trí tuệ nhân tạo thuộc các lĩnh vực còn
+      lại trong Danh mục.
+  - chunk_id: 33-2026-QD-TTg_dieu-4_khoan-2
+    quote: Trong thời hạn chuyển tiếp quy định tại khoản 1 Điều này, các hệ thống trí tuệ nhân tạo nêu
+      trên được phép tiếp tục hoạt động, trừ trường hợp cơ quan nhà nước có thẩm quyền xác định hệ thống
+      có nguy cơ gây thiệt hại nghiêm trọng và yêu cầu tạm dừng hoặc chấm dứt hoạt động theo quy định
+      tại khoản 2
+  review_status: ai_reviewed
+  kind: thong_tin
+  applies_when:
+    fact: operation_start_date
+    op: lt
+    value: qd_33
+  deadline: 01/09/2027 (y tế, giáo dục, tài chính) hoặc 01/03/2027
+  review_by: ai
+- id: ob-083
+  group: chuyen_tiep
+  role: nha_cung_cap
+  risk_level: cao
+  condition: Hệ thống đưa vào hoạt động trong thời gian 06 tháng kể từ ngày Quyết định 33/2026/QĐ-TTg
+    có hiệu lực
+  obligation: Đối với các hệ thống trí tuệ nhân tạo được đưa vào hoạt động trong thời gian 06 tháng kể
+    từ ngày Quyết định 33/2026/QĐ-TTg có hiệu lực, nhà cung cấp và bên triển khai có trách nhiệm hoàn
+    thành các nghĩa vụ tuân thủ theo quy định của pháp luật về trí tuệ nhân tạo trước ngày 01 tháng 3
+    năm 2027.
+  citations:
+  - chunk_id: 33-2026-QD-TTg_dieu-4_khoan-3
+    quote: Đối với các hệ thống trí tuệ nhân tạo được đưa vào hoạt động trong thời gian 06 tháng kể từ
+      ngày Quyết định này có hiệu lực, nhà cung cấp và bên triển khai có trách nhiệm hoàn thành các nghĩa
+      vụ tuân thủ theo quy định của pháp luật về trí tuệ nhân tạo trước ngày 01 tháng 3 năm 2027.
+  review_status: user_reviewed
+  review_note: Quyết định 33/2026/QĐ-TTg ban hành Danh mục hệ thống rủi ro cao; khoản 1 Điều 4 giới hạn
+    ở hệ thống thuộc Danh mục, nên khoản 3 Điều 4 được hiểu cùng phạm vi đó.
+  kind: thong_tin
+  applies_when:
+    all:
+    - fact: operation_start_date
+      op: gte
+      value: qd_33
+    - fact: operation_start_date
+      op: lt
+      value: '2027-02-15'
+  deadline: 01/03/2027
+  review_by: user
+- id: ob-084
+  group: chuyen_tiep
+  role: ben_trien_khai
+  risk_level: cao
+  condition: Hệ thống thuộc Danh mục kèm Quyết định 33/2026/QĐ-TTg đã hoạt động trước ngày Quyết định
+    có hiệu lực
+  obligation: 'Đối với các hệ thống trí tuệ nhân tạo thuộc Danh mục ban hành kèm theo Quyết định 33/2026/QĐ-TTg
+    đã được đưa vào hoạt động trước ngày Quyết định 33/2026/QĐ-TTg có hiệu lực, nhà cung cấp và bên triển
+    khai có trách nhiệm hoàn thành các nghĩa vụ tuân thủ theo quy định của pháp luật về trí tuệ nhân tạo
+    theo lộ trình sau: Trước ngày 01 tháng 9 năm 2027 đối với các hệ thống trí tuệ nhân tạo trong lĩnh
+    vực y tế, giáo dục và tài chính; Trước ngày 01 tháng 3 năm 2027 đối với các hệ thống trí tuệ nhân
+    tạo thuộc các lĩnh vực còn lại trong Danh mục. Trong thời hạn chuyển tiếp quy định tại khoản 1 Điều
+    4 Quyết định 33/2026/QĐ-TTg, các hệ thống trí tuệ nhân tạo nêu trên được phép tiếp tục hoạt động,
+    trừ trường hợp cơ quan nhà nước có thẩm quyền xác định hệ thống có nguy cơ gây thiệt hại nghiêm trọng
+    và yêu cầu tạm dừng hoặc chấm dứt hoạt động theo quy định tại khoản 2 Điều 35 Luật Trí tuệ nhân tạo.'
+  citations:
+  - chunk_id: 33-2026-QD-TTg_dieu-4_khoan-1
+    quote: 'Đối với các hệ thống trí tuệ nhân tạo thuộc Danh mục ban hành kèm theo Quyết định này đã được
+      đưa vào hoạt động trước ngày Quyết định này có hiệu lực, nhà cung cấp và bên triển khai có trách
+      nhiệm hoàn thành các nghĩa vụ tuân thủ theo quy định của pháp luật về trí tuệ nhân tạo theo lộ trình
+      sau:'
+  - chunk_id: 33-2026-QD-TTg_dieu-4_khoan-1_diem-a
+    quote: Trước ngày 01 tháng 9 năm 2027 đối với các hệ thống trí tuệ nhân tạo trong lĩnh vực y tế, giáo
+      dục và tài chính;
+  - chunk_id: 33-2026-QD-TTg_dieu-4_khoan-1_diem-b
+    quote: Trước ngày 01 tháng 3 năm 2027 đối với các hệ thống trí tuệ nhân tạo thuộc các lĩnh vực còn
+      lại trong Danh mục.
+  - chunk_id: 33-2026-QD-TTg_dieu-4_khoan-2
+    quote: Trong thời hạn chuyển tiếp quy định tại khoản 1 Điều này, các hệ thống trí tuệ nhân tạo nêu
+      trên được phép tiếp tục hoạt động, trừ trường hợp cơ quan nhà nước có thẩm quyền xác định hệ thống
+      có nguy cơ gây thiệt hại nghiêm trọng và yêu cầu tạm dừng hoặc chấm dứt hoạt động theo quy định
+      tại khoản 2
+  review_status: ai_reviewed
+  kind: thong_tin
+  applies_when:
+    fact: operation_start_date
+    op: lt
+    value: qd_33
+  deadline: 01/09/2027 (y tế, giáo dục, tài chính) hoặc 01/03/2027
+  review_by: ai
+- id: ob-085
+  group: chuyen_tiep
+  role: ben_trien_khai
+  risk_level: cao
+  condition: Hệ thống đưa vào hoạt động trong thời gian 06 tháng kể từ ngày Quyết định 33/2026/QĐ-TTg
+    có hiệu lực
+  obligation: Đối với các hệ thống trí tuệ nhân tạo được đưa vào hoạt động trong thời gian 06 tháng kể
+    từ ngày Quyết định 33/2026/QĐ-TTg có hiệu lực, nhà cung cấp và bên triển khai có trách nhiệm hoàn
+    thành các nghĩa vụ tuân thủ theo quy định của pháp luật về trí tuệ nhân tạo trước ngày 01 tháng 3
+    năm 2027.
+  citations:
+  - chunk_id: 33-2026-QD-TTg_dieu-4_khoan-3
+    quote: Đối với các hệ thống trí tuệ nhân tạo được đưa vào hoạt động trong thời gian 06 tháng kể từ
+      ngày Quyết định này có hiệu lực, nhà cung cấp và bên triển khai có trách nhiệm hoàn thành các nghĩa
+      vụ tuân thủ theo quy định của pháp luật về trí tuệ nhân tạo trước ngày 01 tháng 3 năm 2027.
+  review_status: user_reviewed
+  review_note: Quyết định 33/2026/QĐ-TTg ban hành Danh mục hệ thống rủi ro cao; khoản 1 Điều 4 giới hạn
+    ở hệ thống thuộc Danh mục, nên khoản 3 Điều 4 được hiểu cùng phạm vi đó.
+  kind: thong_tin
+  applies_when:
+    all:
+    - fact: operation_start_date
+      op: gte
+      value: qd_33
+    - fact: operation_start_date
+      op: lt
+      value: '2027-02-15'
+  deadline: 01/03/2027
+  review_by: user
+- id: ob-086
+  group: phan_loai_thong_bao
+  role: ben_trien_khai
+  risk_level: moi_muc
+  condition: Hệ thống rủi ro trung bình hoặc rủi ro cao
+  obligation: Bên triển khai có trách nhiệm lưu trữ hồ sơ phân loại trong suốt thời gian hệ thống hoạt
+    động (khoản 6 Điều 12 Nghị định 142/2026/NĐ-CP).
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-12_khoan-6
+    quote: Nhà cung cấp, bên triển khai có trách nhiệm lưu trữ hồ sơ phân loại trong suốt thời gian hệ
+      thống hoạt động.
+  review_status: ai_reviewed
+  review_by: ai
+  kind: nghia_vu
+  applies_when:
+    fact: risk_level
+    op: in
+    value:
+    - cao
+    - trung_binh
+  criteria:
+  - id: c1
+    text: Lưu trữ hồ sơ phân loại (của nhà cung cấp hoặc kế thừa) trong suốt thời gian hệ thống hoạt động.
+- group: quan_ly_rui_ro_cao
+  role: ben_trien_khai
+  risk_level: cao
+  condition: Hệ thống trí tuệ nhân tạo có rủi ro cao
+  review_status: ai_reviewed
+  review_by: ai
+  kind: nghia_vu
+  review_note: 'Bổ sung: phát hiện khi soạn đáp án đánh giá, độ phủ mức Điểm.'
+  id: ob-087
+  obligation: Bên triển khai hệ thống trí tuệ nhân tạo có rủi ro cao duy trì việc tuân thủ tiêu chuẩn,
+    quy chuẩn kỹ thuật về trí tuệ nhân tạo trong quá trình vận hành hệ thống.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-2_diem-c
+    quote: Duy trì việc tuân thủ tiêu chuẩn, quy chuẩn kỹ thuật về trí tuệ nhân tạo trong quá trình vận
+      hành hệ thống;
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-2
+    quote: 'Bên triển khai hệ thống trí tuệ nhân tạo có rủi ro cao có trách nhiệm sau đây:'
+  criteria:
+  - id: c1
+    text: Có biện pháp duy trì việc tuân thủ tiêu chuẩn, quy chuẩn kỹ thuật về trí tuệ nhân tạo áp dụng
+      cho hệ thống trong suốt quá trình vận hành.
+- group: quan_ly_rui_ro_cao
+  role: ben_trien_khai
+  risk_level: cao
+  condition: Hệ thống trí tuệ nhân tạo có rủi ro cao
+  review_status: ai_reviewed
+  review_by: ai
+  kind: nghia_vu
+  review_note: 'Bổ sung: phát hiện khi soạn đáp án đánh giá, độ phủ mức Điểm.'
+  id: ob-088
+  obligation: Bên triển khai hệ thống trí tuệ nhân tạo có rủi ro cao thực hiện trách nhiệm giải trình
+    với cơ quan nhà nước có thẩm quyền về việc vận hành hệ thống, biện pháp kiểm soát rủi ro, xử lý sự
+    cố; cung cấp cho người sử dụng và người bị ảnh hưởng thông tin công khai về chức năng, cách thức vận
+    hành và cảnh báo rủi ro.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-2_diem-đ
+    quote: Thực hiện trách nhiệm giải trình đối với cơ quan nhà nước có thẩm quyền về việc vận hành hệ
+      thống, biện pháp kiểm soát rủi ro, xử lý sự cố và các nội dung cần thiết phục vụ công tác thanh
+      tra, kiểm tra; cung cấp cho người sử dụng và người bị ảnh hưởng các thông tin công khai ở mức mô
+      tả chức năng, cách thức vận hành và cảnh báo rủi ro nhằm bảo đảm an toàn trong sử dụng;
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-2
+    quote: 'Bên triển khai hệ thống trí tuệ nhân tạo có rủi ro cao có trách nhiệm sau đây:'
+  criteria:
+  - id: c1
+    text: Có sẵn thông tin để giải trình với cơ quan nhà nước về việc vận hành hệ thống, biện pháp kiểm
+      soát rủi ro và xử lý sự cố.
+  - id: c2
+    text: Cung cấp cho người sử dụng và người bị ảnh hưởng thông tin công khai về chức năng, cách thức
+      vận hành và cảnh báo rủi ro.
+- group: quan_ly_rui_ro_cao
+  role: ben_trien_khai
+  risk_level: cao
+  condition: Hệ thống trí tuệ nhân tạo có rủi ro cao
+  review_status: ai_reviewed
+  review_by: ai
+  kind: nghia_vu
+  review_note: 'Bổ sung: phát hiện khi soạn đáp án đánh giá, độ phủ mức Điểm.'
+  id: ob-089
+  obligation: Bên triển khai hệ thống trí tuệ nhân tạo có rủi ro cao phối hợp với nhà cung cấp và cơ quan
+    nhà nước có thẩm quyền trong kiểm tra, đánh giá, hậu kiểm và khắc phục sự cố; phối hợp với nhà cung
+    cấp rà soát, cập nhật biện pháp quản lý rủi ro khi hệ thống có thay đổi đáng kể hoặc khi phát sinh
+    sự cố.
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-2_diem-e
+    quote: Phối hợp với nhà cung cấp và cơ quan nhà nước có thẩm quyền trong kiểm tra, đánh giá, hậu kiểm
+      và khắc phục sự cố.
+  - chunk_id: 134-2025-QH15_dieu-14_khoan-2
+    quote: 'Bên triển khai hệ thống trí tuệ nhân tạo có rủi ro cao có trách nhiệm sau đây:'
+  - chunk_id: 142-2026-ND-CP_dieu-15_khoan-5_diem-đ
+    quote: Phối hợp với nhà cung cấp trong việc rà soát, cập nhật biện pháp quản lý rủi ro khi hệ thống
+      có thay đổi đáng kể hoặc khi phát sinh sự cố.
+  - chunk_id: 142-2026-ND-CP_dieu-15_khoan-5
+    quote: 'Trong quá trình triển khai và vận hành, bên triển khai thực hiện các biện pháp quản lý rủi
+      ro sau đây:'
+  criteria:
+  - id: c1
+    text: Có quy trình nội bộ bảo đảm phối hợp với nhà cung cấp và cơ quan nhà nước khi kiểm tra, đánh
+      giá, hậu kiểm và khắc phục sự cố.
+  - id: c2
+    text: Có quy trình nội bộ bảo đảm phối hợp với nhà cung cấp rà soát, cập nhật biện pháp quản lý rủi
+      ro khi hệ thống thay đổi đáng kể hoặc có sự cố.
+- group: quan_ly_rui_ro_cao
+  role: ben_trien_khai
+  risk_level: cao
+  condition: Hệ thống trí tuệ nhân tạo có rủi ro cao
+  review_status: ai_reviewed
+  review_by: ai
+  kind: nghia_vu
+  review_note: 'Bổ sung: phát hiện khi soạn đáp án đánh giá, độ phủ mức Điểm.'
+  id: ob-090
+  obligation: Trong quá trình triển khai và vận hành, bên triển khai hệ thống trí tuệ nhân tạo có rủi
+    ro cao tổ chức giám sát hoạt động của hệ thống nhằm phát hiện sai lệch, rủi ro hoặc sự cố có thể phát
+    sinh.
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-15_khoan-5_diem-b
+    quote: Tổ chức giám sát hoạt động của hệ thống nhằm phát hiện sai lệch, rủi ro hoặc sự cố có thể phát
+      sinh;
+  - chunk_id: 142-2026-ND-CP_dieu-15_khoan-5
+    quote: 'Trong quá trình triển khai và vận hành, bên triển khai thực hiện các biện pháp quản lý rủi
+      ro sau đây:'
+  criteria:
+  - id: c1
+    text: Có tổ chức giám sát hoạt động của hệ thống (theo dõi kết quả, chỉ số, cảnh báo) để phát hiện
+      sai lệch, rủi ro hoặc sự cố.
+    not_met:
+    - chỉ xử lý khi người dùng khiếu nại
+    - không có ai theo dõi hoạt động của hệ thống
+- id: ob-091
+  group: minh_bach
+  role: moi_vai_tro
+  risk_level: moi_muc
+  condition: Trong quá trình thanh tra, kiểm tra
+  obligation: Trong quá trình thanh tra, kiểm tra, tổ chức, cá nhân liên quan có nghĩa vụ cung cấp hồ
+    sơ kỹ thuật, nhật ký lưu vết, dữ liệu huấn luyện và thông tin cần thiết khác để xác định nguyên nhân
+    vi phạm, sự cố hoặc phân định trách nhiệm (khoản 3 Điều 28 Luật Trí tuệ nhân tạo số 134/2025/QH15).
+  citations:
+  - chunk_id: 134-2025-QH15_dieu-28_khoan-3
+    quote: Trong quá trình thanh tra, kiểm tra, tổ chức, cá nhân liên quan có nghĩa vụ cung cấp hồ sơ
+      kỹ thuật, nhật ký lưu vết, dữ liệu huấn luyện và thông tin cần thiết khác để xác định nguyên nhân
+      vi phạm, sự cố hoặc phân định trách nhiệm; việc cung cấp thông tin phải tuân thủ quy định của pháp
+      luật về bảo vệ bí mật nhà nước, dữ liệu, bảo vệ dữ liệu cá nhân và sở hữu trí tuệ.
+  review_status: ai_reviewed
+  review_by: ai
+  kind: nghia_vu
+  criteria:
+  - id: c1
+    text: Có lưu giữ hồ sơ kỹ thuật, nhật ký lưu vết và thông tin cần thiết để cung cấp khi cơ quan có
+      thẩm quyền thanh tra, kiểm tra.
+  review_note: 'Bổ sung: G50 trong bộ đáp án, phát hiện khi người dùng soát đáp án.'
+- id: ob-092
+  group: danh_gia_phu_hop
+  role: nha_cung_cap
+  risk_level: cao
+  condition: Hệ thống rủi ro cao đã được đánh giá sự phù hợp
+  obligation: Nhà cung cấp có hệ thống trí tuệ nhân tạo có rủi ro cao đã được đánh giá sự phù hợp phải
+    duy trì sự phù hợp và công khai thông tin về kết quả đánh giá sự phù hợp trên Cổng thông tin điện
+    tử một cửa về trí tuệ nhân tạo (khoản 6 Điều 13 Nghị định 142/2026/NĐ-CP), trước khi đưa vào sử dụng
+    và khi cập nhật kết quả đánh giá lại; khi Cổng chưa vận hành chính thức thì công khai trên cổng hoặc
+    trang thông tin điện tử chính thức (khoản 2 Điều 46 Nghị định 142/2026/NĐ-CP).
+  citations:
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-6
+    quote: Nhà cung cấp có hệ thống trí tuệ nhân tạo có rủi ro cao đã được đánh giá sự phù hợp phải duy
+      trì sự phù hợp và công khai thông tin về kết quả đánh giá sự phù hợp trên Cổng thông tin điện tử
+      một cửa
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-6_diem-a
+    quote: Tên hệ thống trí tuệ nhân tạo, phiên bản hệ thống và mã định danh hệ thống trí tuệ nhân tạo,
+      nếu có;
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-6_diem-b
+    quote: Tên, địa chỉ và thông tin liên hệ của nhà cung cấp;
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-6_diem-c
+    quote: Phương thức đánh giá sự phù hợp đã áp dụng;
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-6_diem-d
+    quote: Tên tổ chức đánh giá sự phù hợp trong trường hợp nhà cung cấp thực hiện đánh giá sự phù hợp
+      thông qua tổ chức đánh giá sự phù hợp;
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-6_diem-đ
+    quote: Kết luận về sự phù hợp của hệ thống trí tuệ nhân tạo;
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-6_diem-e
+    quote: Thời điểm hoàn thành đánh giá sự phù hợp hoặc thời điểm kết quả đánh giá sự phù hợp được thừa
+      nhận;
+  - chunk_id: 142-2026-ND-CP_dieu-13_khoan-6_diem-g
+    quote: Thời điểm cập nhật thông tin gần nhất.
+  - chunk_id: 142-2026-ND-CP_dieu-46_khoan-2
+    quote: Trong thời gian quy định tại khoản 1 Điều này, việc công khai thông tin theo quy định của Nghị
+      định này được thực hiện trên cổng thông tin điện tử hoặc trang thông tin điện tử chính thức của
+      cơ quan, tổ chức, đơn vị có trách nhiệm công khai theo quy định của Nghị định này, trừ trường hợp
+      pháp luật có quy định khác.
+  - chunk_id: 134-2025-QH15_dieu-13_khoan-3
+    quote: Kết quả đánh giá sự phù hợp là điều kiện để hệ thống trí tuệ nhân tạo có rủi ro cao được phép
+      đưa vào sử dụng; tổ chức, cá nhân có hệ thống đã được đánh giá sự phù hợp có trách nhiệm duy trì
+      sự phù hợp và công khai thông tin theo quy định của Chính phủ, là căn cứ để thực hiện kiểm tra,
+      giám sát việc tuân thủ quy định tại Điều 10 của Luật này.
+  review_status: ai_reviewed
+  review_by: ai
+  kind: nghia_vu
+  deadline: trước khi đưa hệ thống vào sử dụng
+  criteria:
+  - id: c1
+    text: Đã công khai thông tin kết quả đánh giá sự phù hợp (tên, phiên bản hệ thống, phương thức đánh
+      giá, kết luận, thời điểm hoàn thành) trên Cổng thông tin điện tử một cửa về trí tuệ nhân tạo hoặc
+      kênh thay thế khi Cổng chưa vận hành.
+    not_met:
+    - chỉ lưu kết quả nội bộ
+    - đã đánh giá nhưng chưa công khai
+  - id: c2
+    text: Có quy trình duy trì sự phù hợp và cập nhật thông tin công khai khi có kết quả đánh giá lại.
+  review_note: 'Người soát chốt: tách từ ob-027, ob-028 để khớp hai việc khác nhau trong luật (đánh
+    giá và công khai).'

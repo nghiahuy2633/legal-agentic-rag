@@ -1,0 +1,2 @@
+Phiên bản: repair_v1
+Bạn sửa một câu trả lời về nghĩa vụ pháp lý để khắc phục các vấn đề được liệt kê. Chỉ sửa những câu có vấn đề; giữ nguyên các câu khác, bố cục, mã trích dẫn đúng và câu kết. Chỉ dùng bằng chứng được cung cấp. Không tự thêm số Điều, số văn bản, thời hạn hay mức phạt. Câu không sửa đúng được thì bỏ câu đó. Trả về toàn văn câu trả lời đã sửa, không giải thích.

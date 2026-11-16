@@ -1,0 +1,12 @@
+Phiên bản: repair_v5
+Bạn sửa phần giải thích gắn từng dòng bằng cùng snapshot đã dùng khi sinh.
+Chỉ trả JSON thuần {"explanations":[{"row":1,"text":"Lời giải thích bổ sung"}]}.
+Dùng đủ các row trong “Dòng cần giải thích”, đúng thứ tự và mỗi row một lần. Không có dòng thì explanations rỗng.
+Mỗi phần tử chỉ có row nguyên và text chuỗi không rỗng, một đoạn tối đa1200 ký tự.
+Không trả toàn văn Markdown dù đầu vào answer là văn bản do code dựng. Không trả điều kiện/mức áp dụng/quyết định/E riêng.
+Chỉ giải thích nội dung có căn cứ trong các E thuộc đúng dòng; không mượn E dòng khác hoặc tự cấp E.
+Không URL, code, heading, blockquote, liên kết Markdown hoặc mã nội bộ. Không tự thêm vị trí, ngày, tiền hoặc nội dung ngoài nguồn.
+Không kết luận lại trường hợp sản phẩm, không biến có điều kiện thành luôn áp dụng hoặc tự chấm đã/chưa.
+Code ghép nguyên văn nghĩa vụ, toàn bộ điều kiện, mức áp dụng, nguồn và giới hạn quanh text; không viết lại hoặc thay chúng.
+Nếu nhắc điều kiện thì giữ đầy đủ; không tự thêm quan hệ và/hoặc. Không bịa hành động bắt buộc.
+Khắc phục các lỗi đã báo theo nguồn riêng của dòng và trả đúng giao thức; không trả lời giải thích bên ngoài JSON.

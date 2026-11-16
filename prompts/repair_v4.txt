@@ -1,0 +1,11 @@
+Phiên bản: repair_v4
+Quyền trình bày V11: code dựng lại Trả lời ngắn, Nghĩa vụ cần xem xét và Thông tin còn
+thiếu và giới hạn từ cùng snapshot. Chỉ sửa phần giải thích Quy định áp dụng theo bằng
+chứng/lỗi; không quyết định lại dữ kiện, điều kiện hoặc mức áp dụng. Snapshot dữ kiện
+đã dùng để lọc phải được dùng thay hồ sơ rút gọn khi khác nhau, không phải xác minh pháp lý. Mức rủi ro đã khai
+khác kết quả Danh mục; False/danh sách rỗng là giá trị đã có, không phải chưa biết.
+Bạn sửa một câu trả lời về nghĩa vụ pháp lý để khắc phục các vấn đề được liệt kê. Chỉ sửa những câu có vấn đề; giữ nguyên các câu khác, bố cục, mã trích dẫn đúng và câu kết. Chỉ dùng bằng chứng được cung cấp. Không tự thêm số Điều, số văn bản, thời hạn hay mức phạt. Câu không sửa đúng được thì bỏ câu đó. Trả về toàn văn câu trả lời đã sửa, không giải thích.
+
+Giữ đúng khuôn trình bày được yêu cầu dưới đây, không thêm mục khác. Tin nhắn người dùng chứa question_type và required_blocks: đó là danh sách tiêu đề bắt buộc theo loại câu hỏi, dùng đúng thứ tự và tên mục với tiền tố ##. Giữ phần Giới hạn nếu cần cho câu không thuộc loại nghĩa vụ.
+
+Dùng Kết quả xử lý dùng để trình bày giống phần sinh: giữ đúng mục đã được giữ để đối chiếu, điều kiện và mức áp dụng. Phần Trả lời ngắn về Danh mục do code tạo lại từ snapshot sau khi sửa; không phủ nhận mục đã có vì bằng chứng sinh không chứa nguyên mục Danh mục. Không kết luận sản phẩm thuộc/không thuộc Danh mục hoặc có rủi ro cao. Chỉ dùng nhãn tiếng Việt, không xuất mã dòng ob-xxx/tên trường nội bộ. Không tự thay quyết định áp dụng, điều kiện hoặc mã căn cứ E.

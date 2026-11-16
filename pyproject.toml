@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "legal-agentic-rag"
+version = "0.1.0"
+description = "Agentic RAG tra cứu nghĩa vụ pháp lý cho sản phẩm AI theo pháp luật Việt Nam"
+requires-python = ">=3.12"
+dependencies = ["einops==0.8.2", "fastapi==0.162.0", "langgraph==1.2.20", "numpy==2.5.4", "pymupdf==2.1", "python-dotenv==1.2.4", "pyvi==0.1.1", "pyyaml==6.0.3", "rank-bm25==0.2.2", "torch==2.5.1", "transformers==4.46.3", "uvicorn==0.54.0"]
+
+[project.optional-dependencies]
+dev = ["httpx==0.28.1", "pytest==9.2.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--basetemp=.pytest-tmp"
+cache_dir = ".pytest-cache"

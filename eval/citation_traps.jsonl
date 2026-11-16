@@ -1,0 +1,33 @@
+{"id": "c01", "kind": "khoan_khong_ton_tai", "answer": "Theo khoản 9 Điều 13 Luật 134 [E1].", "parents": ["134-2025-QH15_dieu-13_khoan-2"], "expect": "bat"}
+{"id": "c02", "kind": "diem_khong_ton_tai", "answer": "Theo điểm z khoản 2 Điều 13 Luật 134 [E1].", "parents": ["134-2025-QH15_dieu-13_khoan-2"], "expect": "bat"}
+{"id": "c03", "kind": "khoan_khac_bang_chung", "answer": "Theo khoản 1 Điều 13 Luật 134, phải đánh giá [E1].", "parents": ["134-2025-QH15_dieu-13_khoan-2"], "expect": "bat"}
+{"id": "c04", "kind": "sai_van_ban", "answer": "Theo Điều 13 Nghị định 142/2026/NĐ-CP [E1].", "parents": ["134-2025-QH15_dieu-13_khoan-2"], "expect": "bat"}
+{"id": "c05", "kind": "sai_van_ban", "answer": "Theo Điều 8 Luật 134/2025/QH15 [E1].", "parents": ["142-2026-ND-CP_dieu-8_khoan-2"], "expect": "bat"}
+{"id": "c06", "kind": "thoi_han_tu_che", "answer": "Mọi doanh nghiệp phải nộp mã nguồn cho Bộ trong 30 ngày [E1].", "parents": ["134-2025-QH15_dieu-13_khoan-2"], "expect": "bat"}
+{"id": "c07", "kind": "ngay_tu_che", "answer": "Phải hoàn thành trước 01/01/2027 [E1].", "parents": ["134-2025-QH15_dieu-13_khoan-2"], "expect": "bat"}
+{"id": "c08", "kind": "ty_le_tu_che", "answer": "Phạt tới 2% doanh thu [E1].", "parents": ["134-2025-QH15_dieu-13_khoan-2"], "expect": "bat"}
+{"id": "c09", "kind": "dieu_khong_co", "answer": "Theo Điều 40 Luật 134 [E1].", "parents": ["134-2025-QH15_dieu-13_khoan-2"], "expect": "bat"}
+{"id": "c10", "kind": "so_hieu_tu_che", "answer": "Theo Nghị định 999 [E1].", "parents": ["134-2025-QH15_dieu-13_khoan-2"], "expect": "bat"}
+{"id": "c11", "kind": "gan_nham_luat_khac", "answer": "Khoản 6 Điều 12 đã bị bãi bỏ theo quy định tại Điều 33 [E1].", "parents": ["134-2025-QH15_dieu-33"], "expect": "bat"}
+{"id": "c12", "kind": "diem_ma_sai", "answer": "Thiết kế bảo đảm giám sát của con người [E1.z].", "parents": ["134-2025-QH15_dieu-14_khoan-1"], "expect": "bat"}
+{"id": "c13", "kind": "ma_tro_sai_noi_dung", "answer": "Hệ thống rủi ro cao phải tự đánh giá sự phù hợp [E1].", "parents": ["142-2026-ND-CP_dieu-8_khoan-2"], "expect": "chua_bat"}
+{"id": "c14", "kind": "sai_chu_the", "answer": "Bên triển khai phải tự đánh giá sự phù hợp [E1].", "parents": ["134-2025-QH15_dieu-13_khoan-2"], "expect": "chua_bat"}
+{"id": "c15", "kind": "khuyen_khich_thanh_nghia_vu", "answer": "Công ty bán hàng bắt buộc phải lồng ghép cân nhắc đạo đức trong vòng đời hệ thống [E1].", "parents": ["05-2026-TT-BKHCN_phu-luc-1_muc-2"], "expect": "chua_bat"}
+{"id": "d01", "kind": "dung", "answer": "Theo khoản 2 Điều 13 Luật 134, việc đánh giá được thực hiện như sau [E1].", "parents": ["134-2025-QH15_dieu-13_khoan-2"], "expect": "dat"}
+{"id": "d02", "kind": "dung", "answer": "Nhà cung cấp tự đánh giá sự phù hợp hoặc thuê tổ chức đánh giá [E1.b].", "parents": ["134-2025-QH15_dieu-13_khoan-2"], "expect": "dat"}
+{"id": "d03", "kind": "dung", "answer": "Điều 33 bãi bỏ khoản 6 Điều 12 của Luật Công nghiệp công nghệ số [E1].", "parents": ["134-2025-QH15_dieu-33"], "expect": "dat"}
+{"id": "d04", "kind": "dung", "answer": "Hoàn thành trước ngày 01 tháng 9 năm 2027 [E1].", "parents": ["33-2026-QD-TTg_dieu-4_khoan-1"], "expect": "dat"}
+{"id": "d05", "kind": "dung", "answer": "Hoàn thành trước 01/09/2027 [E1].", "parents": ["33-2026-QD-TTg_dieu-4_khoan-1"], "expect": "dat"}
+{"id": "d06", "kind": "dung", "answer": "Thực hiện theo Điều 11 và Điều 12 của Luật này [E1.đ].", "parents": ["134-2025-QH15_dieu-14_khoan-1"], "expect": "dat"}
+{"id": "d07", "kind": "dung", "answer": "Hệ thống được xác định theo khoản 2 Điều 8 Nghị định 142 [E1].", "parents": ["142-2026-ND-CP_dieu-8_khoan-2"], "expect": "dat"}
+{"id": "t29-01", "kind": "diem_cung_dong", "answer": "Xác định nhu cầu và mục tiêu sử dụng [E1.a].", "parents": ["05-2026-TT-BKHCN_phu-luc-1_muc-1"], "expect": "dat"}
+{"id": "t29-02", "kind": "diem_ma_sai", "answer": "Nội dung [E1.z].", "parents": ["05-2026-TT-BKHCN_phu-luc-1_muc-1"], "expect": "bat"}
+{"id": "t29-03", "kind": "ngay_khong_nam", "answer": "Hoàn thành trước ngày 01 tháng 5 [E1].", "parents": ["134-2025-QH15_dieu-13_khoan-2"], "expect": "dat"}
+{"id": "t29-04", "kind": "thoi_han_tu_che", "answer": "Hoàn thành trong 01 tháng [E1].", "parents": ["134-2025-QH15_dieu-13_khoan-2"], "expect": "bat"}
+{"id": "t29-05", "kind": "dan_chieu_dieu_nay", "answer": "Tổ chức đánh giá sự phù hợp quy định tại khoản 4 Điều 13 [E1].", "parents": ["142-2026-ND-CP_dieu-13_khoan-2"], "expect": "dat"}
+{"id": "t29-06", "kind": "dan_chieu_sai_khoan", "answer": "Theo khoản 9 Điều 13 [E1].", "parents": ["142-2026-ND-CP_dieu-13_khoan-2"], "expect": "bat"}
+{"id": "t29-07", "kind": "dan_chieu_sai_dieu", "answer": "Theo khoản 4 Điều 14 [E1].", "parents": ["142-2026-ND-CP_dieu-13_khoan-2"], "expect": "bat"}
+{"id": "t29-08", "kind": "nhac_lai_tien_de", "answer": "Không nêu thời hạn 60 ngày [E1].", "parents": ["134-2025-QH15_dieu-13_khoan-2"], "expect": "bat"}
+{"id": "t29-09", "kind": "thoi_han_tu_che", "answer": "Hoàn thành sau 30 ngày [E1].", "parents": ["134-2025-QH15_dieu-13_khoan-2"], "expect": "bat"}
+{"id": "t29-10", "kind": "dan_chieu_sai_van_ban", "answer": "Theo khoản 4 Điều 13 Luật 134 [E1].", "parents": ["142-2026-ND-CP_dieu-13_khoan-2"], "expect": "bat"}
+{"id": "t29-11", "kind": "dan_chieu_sai_ma", "answer": "Theo khoản 4 Điều 13 [E2].", "parents": ["142-2026-ND-CP_dieu-13_khoan-2", "134-2025-QH15_dieu-13_khoan-2"], "expect": "bat"}
