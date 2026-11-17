@@ -11,6 +11,7 @@ MAX_QUERIES = 6
 @dataclass(frozen=True)
 class AgentConfig:
     enable_references: bool = False
+    enable_navigation: bool = True
     reference_budget: int = 1500
     reference_top_units: int = 5
     enable_rewrite: bool = True

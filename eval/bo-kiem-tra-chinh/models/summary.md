@@ -1,6 +1,6 @@
 # So sánh mô hình sinh trên bộ kiểm tra chính
 
-Theo `eval/bo-kiem-tra-chinh/plan-models.md`. Hệ thống sau T62, cấu hình mặc định. Chấm bằng judge B, prompt `judge_v2`. Đủ 24 câu trả lời và 30 câu hành vi cho cả hai mô hình, cả hai bản. Chi tiết từng mô hình ở `results-flash-lite.md` và `results-flash36.md`.
+Theo `eval/bo-kiem-tra-chinh/plan-models.md`. Hệ thống bản nộp, cấu hình mặc định. Chấm bằng judge B, prompt `judge_v2`. Đủ 24 câu trả lời và 30 câu hành vi cho cả hai mô hình, cả hai bản. Chi tiết từng mô hình ở `results-flash-lite.md` và `results-flash36.md`.
 
 ## Ghép cặp full − basic theo từng mô hình (CI95 bootstrap 2000, hạt giống 7)
 

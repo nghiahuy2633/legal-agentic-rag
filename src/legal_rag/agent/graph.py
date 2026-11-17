@@ -10,6 +10,7 @@ from langgraph.checkpoint.memory import InMemorySaver
 from langgraph.graph import END, START, StateGraph
 from langgraph.runtime import Runtime
 
+from legal_rag.agent.navigation import navigate
 from legal_rag.agent.analyze import analyze_turn
 from legal_rag.agent.answer import generate_answer
 from legal_rag.agent.config import MAX_QUERIES, AgentConfig
@@ -103,6 +104,11 @@ def build_graph(deps):
             update["profile"] = {**update["profile"], **state["profile_override"]}
         if result["status"] != "ok":
             update.update(reply=result["reply"], route="input_rejected")
+            return update, {"status": result["status"]}
+        nav = navigate(state["message"]) if deps.config.enable_navigation else None
+        if nav:
+            update.update(reply=nav["reply"], route="navigation", last_parents=[])
+            return update, {"status": "navigation", "kind": nav["kind"], "document_id": nav["document_id"]}
         return update, {"status": result["status"]}
 
     @traced

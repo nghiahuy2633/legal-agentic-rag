@@ -1,6 +1,6 @@
 # Kết quả bộ kiểm tra chính 48 câu (t001–t060)
 
-Theo `eval/bo-kiem-tra-chinh/plan-extension.md`: kết quả chính là bộ gộp 48 câu trả lời và 60 câu hành vi, kèm bảng tách hai nửa. Hệ thống sau T62, cấu hình mặc định, không đổi giữa hai nửa. Chấm bằng judge B, prompt `judge_v2`. Bảng đầy đủ: `results-48-flash-lite.md`, `results-48-flash36.md` (gộp), `results-ext-*.md` (nửa mới), `results-flash-lite.md`, `results-flash36.md` (nửa cũ).
+Theo `eval/bo-kiem-tra-chinh/plan-extension.md`: kết quả chính là bộ gộp 48 câu trả lời và 60 câu hành vi, kèm bảng tách hai nửa. Hệ thống bản nộp, cấu hình mặc định, không đổi giữa hai nửa. Chấm bằng judge B, prompt `judge_v2`. Bảng đầy đủ: `results-48-flash-lite.md`, `results-48-flash36.md` (gộp), `results-ext-*.md` (nửa mới), `results-flash-lite.md`, `results-flash36.md` (nửa cũ).
 
 ## Ghép cặp full − basic, bộ gộp (CI95 bootstrap 2000, hạt giống 7)
 

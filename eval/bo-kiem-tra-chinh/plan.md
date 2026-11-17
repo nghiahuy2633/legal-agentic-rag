@@ -4,7 +4,7 @@ Bộ đề và kế hoạch này được commit trước khi chạy. Sau khi c�
 
 ## Hệ thống đo
 
-- **full:** agent sau T59 (commit `9cbea08`), cấu hình mặc định.
+- **full:** agent, cấu hình mặc định.
 - **basic:** RAG một lượt, cùng bộ truy xuất và cùng ngân sách ngữ cảnh 8000 token.
 - Hai bản đều sinh bằng `gemini-3.5-flash-lite`. Mỗi bản chạy đúng một lần, gồm lớp câu trả lời (24 câu) và lớp hành vi (30 câu).
 

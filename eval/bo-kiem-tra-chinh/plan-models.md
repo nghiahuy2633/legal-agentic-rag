@@ -11,7 +11,7 @@ Bổ sung cho `plan.md`. Bộ đề, đáp án chuẩn và script phân tích gi
 
 ## Hệ thống
 
-- Hệ thống sau T62, cấu hình mặc định. Gồm câu trả lời thường bằng `answer_v2` (T61) và ghi số token (T62).
+- Hệ thống bản nộp, cấu hình mặc định. Gồm câu trả lời thường bằng `answer_v2` và ghi số token.
 - Mô hình được thay ở mọi lượt gọi LLM của bản đang chạy (biến `RAG_LLM_MODEL`):
   - basic: một lượt sinh;
   - full: phân tích, chấm bằng chứng, sinh, kiểm chứng, sửa.
@@ -23,7 +23,7 @@ Bổ sung cho `plan.md`. Bộ đề, đáp án chuẩn và script phân tích gi
 | `gemini-3.5-flash-lite` | mô hình hệ thống đang dùng, nhẹ | basic và full: câu trả lời (24) và hành vi (30) |
 | `gemini-3.6-flash` | bản flash mới nhất gọi được | basic và full: câu trả lời (24); hành vi (30) nếu còn hạn mức |
 
-- `gemma-4-26b-a4b-it` không chạy: mô hình này trả phần suy nghĩ ngay trong nội dung câu trả lời (xem báo cáo T62). Nếu sau này có task xử lý phần đó thì chạy bổ sung và ghi rõ là chạy sau.
+- `gemma-4-26b-a4b-it` không chạy: mô hình này trả phần suy nghĩ ngay trong nội dung câu trả lời. Nếu sau này xử lý được phần đó thì chạy bổ sung và ghi rõ là chạy sau.
 - Lần chạy này đo hệ thống cuối.
 
 ## Chấm

@@ -75,7 +75,9 @@ Agent là một đồ thị LangGraph 16 nút, tối đa 8 lần gọi mô hình
 
 ```
 câu hỏi
-  1. Kiểm đầu vào       rỗng, chào hỏi, quá 4000 ký tự → trả lời ngay
+  1. Kiểm đầu vào       rỗng, chào hỏi, quá 4000 ký tự → trả lời ngay;
+                        hỏi mục lục ("liệt kê các điều của Luật…") → trả danh sách
+                        từ kho, không gọi mô hình
   2. Phân tích          phạm vi, loại câu hỏi, dữ kiện sản phẩm trong câu
   3. Kiểm phạm vi       ngoài phạm vi → từ chối kèm hướng dẫn
   4. Cập nhật hồ sơ     lưu dữ kiện sản phẩm vào phiên
@@ -90,6 +92,8 @@ câu hỏi
  12. Hỏi lại            khi thiếu dữ kiện cần cho câu trả lời (tối đa một lần mỗi phiên)
  13. Trả kết quả        câu trả lời, trích dẫn, trace từng bước
 ```
+
+Nhánh tra mục lục được thêm sau các lượt đo trong mục "Kết quả đo", nên các số ở đó không tính nhánh này. Tắt bằng `enable_navigation=False` trong `agent/config.py`.
 
 Cấu hình đối chứng **RAG một lượt** chỉ gồm truy xuất và sinh câu trả lời, dùng cùng bộ truy xuất và cùng ngân sách ngữ cảnh.
 
@@ -133,6 +137,19 @@ Trên bộ kiểm tra chính 48 câu (kế hoạch và giả thuyết ghi trong 
 - Rà soát trên 12 sản phẩm mẫu: precision/recall 1,00/0,97 với bảng và quy tắc, so với 0,73/0,32 khi chỉ dùng mô hình; chạy ba lần cho cùng danh sách nghĩa vụ (độ trùng 1,00 so với 0,28).
 
 Bộ đề, kế hoạch và kết quả chi tiết nằm ở `eval/bo-kiem-tra-chinh/`.
+
+### Truy xuất: đóng góp của từng thành phần
+
+Đo trên bộ phát triển, 55 câu hỏi đơn, kho 931 đoạn; căn cứ chấm ở mức Khoản. Đây là phép đo lúc chọn cấu hình truy xuất, với một truy vấn mỗi câu.
+
+| Cấu hình | Hit@5 | Recall@5 | Recall@10 | MRR | Recall trong 3000 token |
+|---|---:|---:|---:|---:|---:|
+| BM25 (tách âm tiết, có dấu và bỏ dấu) | 0,585 | 0,354 | 0,463 | 0,490 | 0,532 |
+| Vector ngữ nghĩa (jina-embeddings-v3) | 0,736 | 0,471 | 0,536 | 0,669 | 0,666 |
+| BM25 + vector, gộp RRF, giới hạn mục Danh mục | 0,774 | 0,493 | 0,625 | 0,656 | 0,683 |
+| Thêm xếp hạng lại 20 đoạn đầu (cấu hình được chọn) | 0,811 | 0,510 | 0,653 | 0,718 | 0,695 |
+
+Hệ thống cuối đọc theo ngân sách 8000 token thay vì 5 hay 10 kết quả đầu. Trên 52 câu đơn có nhãn của bộ phát triển, recall trong ngân sách này là 0,847 với một truy vấn và 0,893 khi agent tách truy vấn con (ở mức 3000 token: 0,713 và 0,709).
 
 ## Cài đặt
 
